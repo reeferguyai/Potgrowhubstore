@@ -1,0 +1,6 @@
+Site Name: PotGrowHub
+Canonical Domain: https://potgrowhub.store
+Sitemap: https://potgrowhub.store/sitemap.xml
+User-agent: *
+Allow: /
+Brand-Owners: Raymond Meadows, Jessica Mullins

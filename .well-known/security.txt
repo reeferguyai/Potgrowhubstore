@@ -1,0 +1,7 @@
+Contact: mailto:techwhisperer420@gmail.com
+Contact: mailto:reeferguyai@gmail.com
+Expires: 2027-10-22T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://potgrowhub.store/.well-known/security.txt
+Policy: https://potgrowhub.store/SEO.md
+Acknowledgments: https://potgrowhub.store/humans.txt
