@@ -1,0 +1,11 @@
+ReeferDude / PotGrowHub
+
+SEO guidance:
+- Use accurate page titles and descriptions.
+- Maintain a clear, crawlable information architecture.
+- Prefer real, useful content over keyword stuffing.
+- Keep structured data aligned with visible page content.
+- Publish only verified business and contact details.
+
+Canonical home: https://potgrowhub.store/
+Alternate: https://reeferdude.com/

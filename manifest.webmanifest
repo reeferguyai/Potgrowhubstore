@@ -1,0 +1,35 @@
+{
+  "name": "ReeferDude & PotGrowHub Empire",
+  "short_name": "ReeferDude",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#12261b",
+  "description": "Zero-budget AI budtender, head shop, and cultural discovery platform.",
+  "orientation": "any",
+  "lang": "en-US",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/assets/icon-bud.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "AI Budtender",
+      "short_name": "Budtender",
+      "description": "Open the AI companion",
+      "url": "/#budtender"
+    },
+    {
+      "name": "Grow Room",
+      "short_name": "Grow",
+      "description": "Explore cultivation planning",
+      "url": "/#lab"
+    }
+  ]
+}

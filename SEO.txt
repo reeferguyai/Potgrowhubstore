@@ -1,3 +1,996 @@
+﻿POTGROWHUB.STORE — ADVANCED SEO CONFIGURATION
+File: seo.txt
+Website: https://potgrowhub.store/
+Primary Brand: PotGrowHub.store
+AI Companion: GanjaGuru
+Format: Plain Text
+Purpose: Comprehensive SEO, AEO, technical SEO, structured data, accessibility, indexing, performance, and search visibility requirements.
+
+======================================================================
+1. SEO OBJECTIVES AND BRAND IDENTITY
+======================================================================
+
+Primary Objective:
+Make PotGrowHub.store discoverable, accessible, useful, trustworthy, and technically understandable to search engines, answer engines, AI assistants, and human visitors.
+
+Brand Rules:
+- Primary brand: PotGrowHub.store
+- AI companion: GanjaGuru
+- Use consistent brand naming across metadata, structured data, navigation, social profiles, and public documentation.
+- Do not introduce competing primary brands.
+- Do not claim features, services, products, certifications, partnerships, or integrations exist unless verified.
+- Keep all SEO metadata accurate, relevant, readable, and useful.
+- Optimize for visitors first and search engines second.
+- Prioritize meaningful guided sessions, useful answers, successful learning, creation, cultivation education, and legitimate commerce.
+- Avoid keyword stuffing, deceptive redirects, doorway pages, automatically generated low-value pages, and manipulative link schemes.
+
+======================================================================
+2. DOMAIN AND CANONICAL URL POLICY
+======================================================================
+
+Preferred Website Origin:
+https://potgrowhub.store/
+
+Requirements:
+- Use HTTPS across all public pages.
+- Select one preferred hostname and redirect alternate hostnames consistently.
+- Configure permanent redirects for HTTP-to-HTTPS and alternate-hostname consolidation.
+- Use absolute canonical URLs.
+- Keep canonical URLs consistent with internal links and sitemap entries.
+- Avoid duplicate indexable versions of the same content.
+- Use stable, descriptive, lowercase URL paths.
+- Separate words in slugs with hyphens.
+- Avoid unnecessary query parameters, session identifiers, and tracking parameters in canonical URLs.
+- Link internally to final destination URLs rather than redirect chains.
+- Avoid redirect loops and long redirect chains.
+- Return HTTP 200 for valid pages.
+- Return HTTP 404 or 410 for unavailable content when appropriate.
+- Do not redirect every missing URL to the homepage.
+- Use permanent redirects when a page has genuinely moved.
+- Keep staging, preview, development, and private environments out of public search indexes.
+- Never expose credentials, private datasets, internal dashboards, or confidential API responses through public URLs.
+
+======================================================================
+3. HTML TITLE REQUIREMENTS
+======================================================================
+
+Every indexable HTML page must have one unique, descriptive title element.
+
+Requirements:
+- Identify the page's actual subject.
+- Place the most important topic near the beginning when natural.
+- Include the brand where useful.
+- Avoid repetitive titles across pages.
+- Avoid keyword lists in title tags.
+- Avoid misleading promises and unsupported superlatives.
+- Avoid unnecessary repetition of the domain name.
+- Keep titles concise enough to communicate the page purpose clearly.
+- Review titles using actual search results and page content.
+- Do not assume a fixed character count guarantees display without truncation.
+
+Suggested homepage title:
+PotGrowHub.store | Cannabis Knowledge, Cultivation & GanjaGuru AI
+
+Suggested title patterns:
+- Cannabis Education: [Topic] | PotGrowHub.store
+- Growing Guide: [Plant or Technique] | PotGrowHub.store
+- Cannabis Strain Guide: [Strain Name] | PotGrowHub.store
+- Terpenes and Cannabinoids: [Topic] | PotGrowHub.store
+- Product Guide: [Product Category] | PotGrowHub.store
+- GanjaGuru AI: [Task or Topic] | PotGrowHub.store
+- [Article Title] | PotGrowHub.store
+
+Use these patterns only when they accurately describe the relevant page.
+
+======================================================================
+4. META DESCRIPTION REQUIREMENTS
+======================================================================
+
+Every important indexable page should have a unique, useful meta description.
+
+Requirements:
+- Summarize the actual page content.
+- Explain the visitor benefit.
+- Use natural language.
+- Include the primary topic naturally.
+- Include the brand only when it adds value.
+- Avoid keyword stuffing.
+- Avoid duplicating the same description across many pages.
+- Do not include unsupported claims, fake reviews, guaranteed results, or misleading offers.
+- Treat the description as a search-result suggestion, not a guarantee that a search engine will display it.
+- Review descriptions for clarity and likely truncation.
+
+Suggested homepage description:
+Explore cannabis knowledge, cultivation education, terpene and cannabinoid information, creative tools, and GanjaGuru AI at PotGrowHub.store.
+
+Create separate descriptions for guides, articles, tools, product categories, policies, and other meaningful pages.
+
+======================================================================
+5. META ROBOTS AND INDEXING
+======================================================================
+
+Default indexable public pages:
+<meta name="robots" content="index,follow">
+
+Apply index,follow only where the page is intended to be publicly indexed. Search engines generally treat these directives as defaults, so avoid unnecessary repetition.
+
+Use noindex for appropriate private or low-value pages, such as:
+- Account pages containing personal information.
+- Login and registration screens where indexing has no user value.
+- Private dashboards.
+- Internal search-result pages when they create large numbers of low-value URLs.
+- Temporary preview pages.
+- Staging environments.
+- Duplicate utility pages that should not appear in search results.
+
+Requirements:
+- Do not block a URL in robots.txt if a crawler must fetch the page to discover its noindex directive.
+- Protect private content with real authentication and authorization. Noindex is not security.
+- Do not use noindex as a substitute for canonicalization.
+- Do not accidentally apply noindex sitewide.
+- Check meta robots tags and X-Robots-Tag response headers.
+- Use nofollow only when there is a specific, justified reason.
+- Avoid contradictory indexing instructions across HTML, headers, canonical tags, and sitemap entries.
+- Keep robots directives consistent with the intended public visibility of each page.
+
+======================================================================
+6. ROBOTS.TXT REQUIREMENTS
+======================================================================
+
+Maintain a valid plain-text robots.txt at:
+https://potgrowhub.store/robots.txt
+
+Requirements:
+- Include directives appropriate for the actual website architecture.
+- Do not disallow essential CSS, JavaScript, images, or other resources required to render public pages.
+- Do not treat robots.txt as access control.
+- Do not expose sensitive paths unnecessarily through public directives.
+- Do not block pages whose noindex directives need to be crawled.
+- Include the canonical sitemap location when applicable.
+
+Expected sitemap declaration:
 Sitemap: https://potgrowhub.store/sitemap.xml
-User-agent: *
-Allow: /
+
+Validate robots.txt syntax and test important URLs with available search-engine testing tools.
+
+======================================================================
+7. XML SITEMAP REQUIREMENTS
+======================================================================
+
+Maintain a valid XML sitemap at:
+https://potgrowhub.store/sitemap.xml
+
+Include:
+- Canonical, publicly indexable URLs that return HTTP 200.
+- Important landing pages.
+- Substantive educational articles and guides.
+- Relevant public category pages.
+- Useful public tools and reference pages.
+- Other unique pages that provide real value to search visitors.
+
+Exclude:
+- Redirecting URLs.
+- Broken URLs.
+- URLs marked noindex.
+- Private account pages.
+- Internal search results of little standalone value.
+- Duplicate canonical variants.
+- Development and staging URLs.
+- URLs blocked from indexing for intentional reasons.
+
+Requirements:
+- Use absolute canonical URLs.
+- Keep sitemap entries synchronized with canonical tags.
+- Update the sitemap when meaningful pages are published, removed, or relocated.
+- Use lastmod only when the page has actually changed meaningfully.
+- Do not use lastmod as a deceptive freshness signal.
+- Use sitemap index files if the URL count or file size requires them.
+- Validate XML syntax, encoding, URL escaping, and response status.
+- Submit the sitemap through verified search-engine webmaster tools.
+- Do not assume that sitemap submission guarantees indexing.
+
+======================================================================
+8. HTML SEMANTICS AND DOCUMENT STRUCTURE
+======================================================================
+
+Requirements:
+- Use valid HTML5.
+- Include a meaningful document title.
+- Include the appropriate character encoding declaration.
+- Include the responsive viewport declaration.
+- Use one clear primary H1 for the main subject in normal page design.
+- Use H2 through H6 headings hierarchically.
+- Do not select headings solely for their visual appearance.
+- Use semantic main, header, nav, article, section, aside, and footer elements where appropriate.
+- Use descriptive link text.
+- Use buttons for actions and links for navigation.
+- Provide visible labels for form controls.
+- Use meaningful accessible names for interactive elements.
+- Keep the DOM structure understandable.
+- Avoid empty headings, empty links, and unnecessary nested containers.
+- Ensure important text is present in crawlable page content.
+- Do not rely exclusively on images, canvas, or client-side interactions to communicate essential information.
+- Ensure JavaScript-rendered pages expose their main content to search engines and assistive technologies.
+- Use server rendering or static rendering where practical and beneficial.
+- Test HTML validity and rendering on mobile and desktop.
+
+======================================================================
+9. HEADING AND CONTENT OPTIMIZATION
+======================================================================
+
+Every substantive page should have:
+- One clear page purpose.
+- A descriptive H1.
+- Useful subheadings.
+- An informative opening section.
+- Complete coverage of the page topic appropriate to user intent.
+- Relevant internal links.
+- Credible sources when factual claims need support.
+- Updated information where the topic changes over time.
+- A clear next step when appropriate.
+
+Requirements:
+- Match content to the visitor's likely intent.
+- Answer the main question early when appropriate.
+- Use natural terminology, synonyms, and related concepts.
+- Do not force exact-match keywords into every heading.
+- Do not publish pages that differ only by trivial keyword substitutions.
+- Avoid thin, duplicated, scraped, or automatically generated content that offers little independent value.
+- Combine overlapping pages when that improves usefulness.
+- Distinguish educational material from product descriptions, opinions, and promotional content.
+- Make article dates accurate.
+- Clearly identify authors or responsible reviewers where appropriate.
+- Do not fabricate author credentials or expert review.
+- Provide citations or references for consequential factual claims.
+- Correct errors and remove obsolete information.
+- Do not change publication dates merely to make old content appear new.
+
+======================================================================
+10. KEYWORD AND SEARCH-INTENT STRATEGY
+======================================================================
+
+Build a documented keyword map for relevant topics, including:
+- Cannabis education.
+- Cannabis cultivation fundamentals.
+- Indoor and outdoor growing education.
+- Plant health and troubleshooting.
+- Soil, growing media, nutrients, water, light, temperature, humidity, and ventilation.
+- Environmental growing measurements and calculators.
+- Cannabinoids.
+- Terpenes.
+- Cannabis strain information.
+- Harvesting, drying, curing, and storage education.
+- Growing equipment and accessories.
+- Responsible-use information.
+- Cannabis terminology and slang.
+- Cannabis recipes and non-medical lifestyle information where lawful.
+- Sustainable materials and environmentally conscious products.
+- Print-on-demand designs and creative tools.
+- GanjaGuru AI guidance and educational assistance.
+- Product discovery and shopping assistance where available.
+- Legal and regulatory educational resources.
+
+Requirements:
+- Research actual search demand before prioritizing terms.
+- Identify informational, navigational, commercial, and transactional intent.
+- Assign a primary topic to each meaningful page.
+- Prevent unnecessary keyword cannibalization between similar pages.
+- Use long-tail queries when they match a real audience need.
+- Include question-based topics when they help users.
+- Measure performance by qualified traffic and useful outcomes, not rankings alone.
+- Never promise rankings or traffic volumes.
+- Do not create location landing pages for places the business does not genuinely serve.
+- Respect local, state, federal, and destination-market restrictions relevant to cannabis-related content and commerce.
+
+======================================================================
+11. INTERNAL LINKING
+======================================================================
+
+Requirements:
+- Link related educational pages using descriptive anchor text.
+- Link from broad guides to useful supporting pages.
+- Link from supporting pages back to relevant topic hubs.
+- Link to related tools, references, and products only when those destinations exist.
+- Ensure important pages are reachable through ordinary crawlable links.
+- Avoid excessive footer links and repetitive keyword-heavy anchors.
+- Avoid orphan pages.
+- Maintain useful breadcrumbs where appropriate.
+- Use consistent navigation.
+- Check for broken internal links.
+- Repair links that point through unnecessary redirects.
+- Keep internal linking helpful rather than manipulative.
+- Do not link to placeholder pages as though they contain finished resources.
+
+======================================================================
+12. IMAGE SEO AND MEDIA METADATA
+======================================================================
+
+Requirements:
+- Use relevant, properly licensed images.
+- Prefer optimized AVIF or WebP where supported, with suitable fallbacks as needed.
+- Use descriptive filenames where practical.
+- Provide meaningful alt text for informative images.
+- Use empty alt text for purely decorative images.
+- Do not stuff keywords into alt text.
+- Provide width and height attributes to reduce layout shifts.
+- Use responsive image markup and appropriate sizes.
+- Use lazy loading for suitable below-the-fold images.
+- Do not lazy-load the main above-the-fold image when doing so would harm loading performance.
+- Use fetch priority appropriately for the main visual when supported.
+- Ensure image URLs are stable and crawlable.
+- Avoid broken image paths.
+- Add captions when they materially improve understanding.
+- Provide image credits or licensing records where required.
+- Do not misrepresent generated, illustrative, or stock imagery as documentary evidence.
+- Use structured image metadata only when it is accurate and supported.
+- Make important images discoverable without requiring an inaccessible interaction.
+- Ensure image text is not the only source of essential information.
+
+Recommended image metadata to maintain where relevant:
+- Asset filename.
+- Asset URL.
+- Alt text.
+- Caption.
+- Image title where useful.
+- Creator or rights holder.
+- License and permitted usage.
+- Source and attribution requirements.
+- Dimensions.
+- Format.
+- File size.
+- Related page.
+- Publication or modification date when meaningful.
+- Whether the image is illustrative, generated, or documentary.
+
+======================================================================
+13. STRUCTURED DATA AND SCHEMA.ORG
+======================================================================
+
+Use JSON-LD for structured data where appropriate. Structured data must accurately
+reflect visible page content and the real identity and capabilities of the site.
+
+Potential schema types, only where applicable:
+- WebSite.
+- Organization.
+- WebPage.
+- Article.
+- BlogPosting.
+- BreadcrumbList.
+- Person, when a real and appropriately identified person is represented.
+- ImageObject.
+- VideoObject.
+- FAQPage only when eligible under current search-engine policies and genuinely applicable.
+- HowTo only where supported by current search-engine policies and appropriate to the content.
+- Product and Offer only for actual products and valid offer information.
+- Review and AggregateRating only for genuine, policy-compliant reviews and ratings.
+- ItemList where the page visibly presents a relevant list.
+- SoftwareApplication only for a real application that meets the type's definition.
+- ProfilePage only for qualifying profile content.
+- Event only for real events with accurate details.
+- LocalBusiness only for a genuine qualifying business with accurate public details.
+- SearchAction only if the represented search functionality exists and meets current requirements.
+
+Organization and website requirements:
+- Use the canonical website URL.
+- Use a consistent brand name.
+- Use a valid logo URL if a real logo is published.
+- Use accurate sameAs links only for official, controlled profiles.
+- Do not invent telephone numbers, addresses, founders, ratings, reviews, awards, or social profiles.
+- Use stable @id values where helpful.
+- Keep schema values consistent with visible content and page metadata.
+- Do not add schema for nonexistent products, services, features, or offers.
+- Do not expect structured data to guarantee rich results.
+- Validate JSON-LD syntax and test with appropriate rich-result and schema validators.
+- Review search-engine structured-data policies before deployment.
+- Remove outdated schema when its corresponding content is removed.
+
+======================================================================
+14. OPEN GRAPH AND SOCIAL SHARING
+======================================================================
+
+Provide accurate social-sharing metadata on important public pages where appropriate.
+
+Potential tags:
+- og:title
+- og:type
+- og:url
+- og:image
+- og:description
+- og:site_name
+- og:locale
+
+For X and other supported platforms, add the relevant card metadata where appropriate.
+
+Requirements:
+- Use the canonical URL for og:url.
+- Use descriptive titles and summaries.
+- Use a valid, publicly accessible image.
+- Use appropriate image dimensions and formats.
+- Avoid broken or private image URLs.
+- Ensure social descriptions accurately represent the page.
+- Do not create misleading preview images or unsupported claims.
+- Test previews with available platform tools when possible.
+
+======================================================================
+15. ANSWER ENGINE OPTIMIZATION AND AI DISCOVERABILITY
+======================================================================
+
+Optimize content for useful answers, not for exploiting or manipulating AI systems.
+
+Requirements:
+- State the central question or topic clearly.
+- Give a direct answer near the beginning when appropriate.
+- Explain terminology in plain language.
+- Use descriptive headings.
+- Provide step-by-step instructions when they genuinely help.
+- Use lists and tables where they improve comprehension.
+- Cite reliable sources for consequential claims.
+- Distinguish established evidence from uncertainty and opinion.
+- Include publication and update dates where meaningful.
+- Make author or reviewer identity clear when relevant.
+- Keep factual claims consistent across pages.
+- Use descriptive links to primary references.
+- Provide concise definitions followed by sufficient context.
+- Keep essential facts in crawlable text.
+- Avoid unsupported claims that GanjaGuru is an authority, licensed professional, or substitute for qualified advice.
+- Do not assume a special AI crawler file or metadata tag guarantees inclusion in AI-generated answers.
+- Keep robots.txt and access policies deliberate and documented.
+- Do not publish private training datasets or confidential user conversations.
+- Do not claim a search engine or AI platform has indexed or adopted content without evidence.
+
+Potential question-led topics:
+- What is a cannabinoid?
+- What are terpenes?
+- How do growing environments affect plant health?
+- What do common cultivation terms mean?
+- How do growers monitor temperature and humidity?
+- What should users consider when comparing cultivation equipment?
+- How can users find applicable cannabis laws?
+- What can GanjaGuru help a visitor learn or create?
+
+Publish a page only when it can provide a sufficiently accurate and useful answer.
+
+======================================================================
+16. CONTENT TRUST AND FACTUAL ACCURACY
+======================================================================
+
+Requirements:
+- Identify credible sources for scientific, legal, safety, and technical claims.
+- Prefer primary sources, official regulations, peer-reviewed research, and established institutions where relevant.
+- Provide publication dates and source links when useful.
+- Distinguish correlation from causation.
+- Avoid medical treatment claims without appropriate evidence and compliance review.
+- Do not claim a cannabis product treats, cures, or prevents a disease without lawful, substantiated authorization.
+- Do not imply that a strain, cannabinoid, or terpene guarantees a specific effect.
+- Explain uncertainty and individual variability where appropriate.
+- Review safety-sensitive material before publication.
+- Correct material errors promptly.
+- Provide a way to report factual problems where practical.
+- Avoid fabricated quotations, citations, statistics, or research references.
+- Do not create fake author biographies, credentials, or expert endorsements.
+
+======================================================================
+17. CANNABIS CONTENT, LEGALITY, AND RESPONSIBLE PUBLISHING
+======================================================================
+
+Requirements:
+- Respect applicable laws and platform policies for cannabis-related content and commerce.
+- Keep legal information jurisdiction-specific and dated when appropriate.
+- Make clear that laws vary by location and change over time.
+- Do not represent general educational content as legal advice.
+- Do not facilitate unlawful transactions.
+- Apply age restrictions and access controls where legally required.
+- Do not make unsupported medical or therapeutic claims.
+- Distinguish cultivation education from instructions that would facilitate illegal activity where relevant.
+- Provide responsible-use and safety information where appropriate.
+- Do not assume a visitor's location establishes legality.
+- Do not claim a product is legal everywhere.
+- Review advertising, affiliate, payment, and marketplace policies before integrating cannabis-related offerings.
+- Ensure public pages do not imply inventory, shipping, delivery, or supplier access unless those capabilities actually exist.
+- Use accurate product descriptions and lawful, verifiable offers.
+- Obtain qualified legal review when the business model or jurisdiction requires it.
+
+======================================================================
+18. PAGE TYPES AND SEO REQUIREMENTS
+======================================================================
+
+HOMEPAGE:
+- Unique title and description.
+- Canonical URL.
+- Accurate WebSite and Organization structured data where applicable.
+- Clear description of PotGrowHub.store and GanjaGuru.
+- Crawlable links to real, useful sections.
+- Optimized primary visual.
+- Clear primary heading.
+- No unsupported claims about available capabilities.
+
+EDUCATIONAL ARTICLES:
+- Unique title and description.
+- Clear H1 and logical heading structure.
+- Reliable references where needed.
+- Accurate author and update information.
+- Useful related internal links.
+- Article structured data where appropriate.
+- No copied or thin content.
+
+CULTIVATION GUIDES:
+- Clear topic and audience.
+- Practical, safe, accurate explanations.
+- Useful diagrams or images with appropriate alternative text.
+- Clear separation between general education and jurisdiction-specific legal matters.
+- Updated technical information where needed.
+
+STRAIN AND REFERENCE PAGES:
+- Distinguish sourced facts from reported or anecdotal descriptions.
+- Avoid presenting variable effects as guarantees.
+- Provide source and update information where appropriate.
+- Avoid mass-producing near-duplicate strain pages without unique value.
+
+TOOLS AND CALCULATORS:
+- Explain the tool's purpose, inputs, outputs, and limitations.
+- Provide crawlable explanatory text.
+- Ensure the tool works with keyboard and assistive technologies.
+- Do not claim results are scientifically or medically definitive unless substantiated.
+- Prevent private user input from being exposed in public URLs or logs.
+
+AI COMPANION PAGES:
+- Explain GanjaGuru's actual capabilities.
+- State limitations and relevant disclaimers.
+- Do not claim every answer is correct.
+- Make the user interface accessible and usable.
+- Ensure useful public explanatory content is crawlable.
+- Do not expose conversations or personal data through public indexing.
+
+PRODUCT AND CATEGORY PAGES:
+- Publish only when actual products or genuine offerings exist.
+- Use unique, accurate descriptions.
+- Provide valid price, availability, and offer data only when verified.
+- Avoid fake scarcity, fabricated reviews, and misleading comparisons.
+- Review applicable advertising and commerce policies.
+
+SEARCH, FILTER, AND SORT PAGES:
+- Prevent uncontrolled creation of duplicate or low-value indexable URLs.
+- Use canonicalization and indexing controls intentionally.
+- Keep useful category landing pages accessible.
+- Do not block essential resources needed to render the page.
+
+ACCOUNT, LOGIN, CART, CHECKOUT, AND PRIVATE PAGES:
+- Apply appropriate access controls.
+- Avoid indexing private or transactional information.
+- Prevent sensitive information from appearing in URLs.
+- Do not rely on robots.txt alone for privacy or security.
+
+LEGAL AND POLICY PAGES:
+- Provide accurate, current policies.
+- Keep page titles and descriptions specific.
+- Ensure pages are accessible from appropriate site navigation.
+- Do not mark private or misleading content as authoritative legal guidance.
+
+404 PAGE:
+- Return the correct HTTP 404 status.
+- Explain that the requested page could not be found.
+- Offer useful navigation or search options.
+- Do not return a 200 status for nonexistent content unless a documented technical reason justifies it.
+- Do not redirect all missing pages to the homepage.
+
+======================================================================
+19. CORE WEB VITALS AND PERFORMANCE
+======================================================================
+
+Optimize real-user experience and monitor:
+- Largest Contentful Paint (LCP).
+- Interaction to Next Paint (INP).
+- Cumulative Layout Shift (CLS).
+
+Use current published search-engine thresholds and measurement guidance rather than permanently hardcoding outdated targets.
+
+Requirements:
+- Minimize unnecessary JavaScript.
+- Remove unused CSS and scripts.
+- Compress text and image assets.
+- Use browser caching appropriately.
+- Use a content delivery network only if a suitable free option is available and the privacy implications are understood.
+- Optimize font loading.
+- Avoid blocking rendering with unnecessary third-party resources.
+- Reserve image and embed dimensions.
+- Reduce layout shifts from advertisements and dynamic content.
+- Load below-the-fold content efficiently.
+- Avoid autoplay media that harms accessibility or performance.
+- Measure field data where available and lab data during development.
+- Test mobile devices and slower network conditions.
+- Do not add third-party integrations without evaluating their performance, privacy, and cost.
+
+======================================================================
+20. MOBILE SEO AND RESPONSIVE DESIGN
+======================================================================
+
+Requirements:
+- Use responsive layouts.
+- Provide the correct viewport metadata.
+- Ensure text remains readable without unnecessary zooming.
+- Keep interactive controls usable on touch devices.
+- Avoid horizontal overflow.
+- Ensure primary content and metadata are equivalent across mobile and desktop.
+- Do not hide essential content solely from mobile users.
+- Avoid intrusive interstitials that obstruct content.
+- Test mobile rendering, navigation, forms, and page speed.
+- Ensure menus and dialogs work with keyboard and assistive technologies.
+- Confirm that mobile pages use the intended canonical URLs.
+
+======================================================================
+21. ACCESSIBILITY AND SEMANTIC DISCOVERABILITY
+======================================================================
+
+Follow current WCAG guidance appropriate to the site and its legal obligations.
+
+Requirements:
+- Use semantic HTML.
+- Provide meaningful image alt text.
+- Label form controls.
+- Ensure keyboard navigation.
+- Provide visible focus indicators.
+- Maintain sufficient color contrast.
+- Avoid color as the sole way to communicate information.
+- Use accessible names and states for controls.
+- Make errors understandable and programmatically associated with relevant fields.
+- Provide captions or transcripts for relevant audio and video.
+- Use ARIA only where necessary and correctly.
+- Prefer native HTML semantics over unnecessary ARIA.
+- Keep headings and landmarks logical.
+- Ensure modal dialogs manage focus appropriately.
+- Test with keyboard navigation and assistive technologies.
+- Do not claim full accessibility compliance without appropriate evaluation.
+
+======================================================================
+22. INTERNATIONALIZATION AND LOCAL SEO
+======================================================================
+
+Internationalization:
+- Publish language-specific content only when it is genuinely available.
+- Use the correct lang attribute.
+- Implement hreflang only for equivalent localized versions.
+- Use valid language and region codes.
+- Ensure each alternate language version has appropriate canonical and reciprocal hreflang references.
+- Do not use machine-translated pages without quality review.
+- Do not imply that a page is available in a language when it is not.
+
+Local SEO:
+- Use local business structured data only when the organization qualifies.
+- Publish accurate business details only when appropriate and publicly verifiable.
+- Do not invent a street address, storefront, service area, phone number, or opening hours.
+- Create a Google Business Profile only if the business meets current eligibility requirements.
+- Do not create fake locations or virtual offices to manipulate rankings.
+- Keep genuine business information consistent across legitimate listings.
+- Respect the distinction between an online-only business and a qualifying local business.
+
+======================================================================
+23. SOCIAL PROFILES, BRAND CONSISTENCY, AND REPUTATION
+======================================================================
+
+Requirements:
+- Use consistent PotGrowHub.store branding.
+- Maintain official social profile links only when they are real and controlled.
+- Use the same logo and accurate brand description where appropriate.
+- Keep profile links updated.
+- Do not create fake profiles, reviews, followers, or endorsements.
+- Do not buy links or participate in manipulative link schemes.
+- Earn references through useful resources, legitimate partnerships, and genuine community participation.
+- Attribute external assets and quotations appropriately.
+- Correct misleading third-party information when a legitimate correction process exists.
+
+======================================================================
+24. ANALYTICS AND SEARCH PERFORMANCE
+======================================================================
+
+Use privacy-conscious, lawful analytics where suitable and available at no cost.
+
+Measure:
+- Organic search clicks and impressions.
+- Search queries and landing pages.
+- Index coverage and indexing errors.
+- Click-through rate.
+- Relevant conversions.
+- Meaningful guided sessions.
+- Successful use of tools.
+- Helpful engagement with educational content.
+- Qualified product discovery and purchases when commerce is actually active.
+- Page performance and accessibility issues.
+
+Requirements:
+- Connect Search Console only after verifying site ownership.
+- Configure analytics only with valid account identifiers and appropriate consent controls.
+- Do not fabricate analytics identifiers.
+- Do not expose secrets or private credentials in public code.
+- Respect applicable privacy laws and consent requirements.
+- Avoid collecting more personal data than necessary.
+- Distinguish measured results from estimates.
+- Annotate important releases and content changes.
+- Review performance periodically.
+- Do not optimize solely for page views if visitors are not receiving useful outcomes.
+
+======================================================================
+25. ADVERTISING, AFFILIATE, AND COMMERCE SEO
+======================================================================
+
+Requirements:
+- Verify eligibility and policies before enabling advertising or affiliate systems.
+- Do not claim advertising integrations are active until verified.
+- Use ads.txt only when an advertising relationship requires it and the correct seller records are available.
+- Keep advertising scripts compliant with privacy and consent requirements.
+- Prevent ads from causing layout instability or obstructing content.
+- Clearly disclose affiliate relationships and sponsored content where required.
+- Use rel="sponsored" for paid placements and affiliate links where appropriate.
+- Use rel="nofollow" when appropriate under current search-engine guidance.
+- Do not sell links intended to manipulate rankings.
+- Use accurate product and offer structured data only for real offerings.
+- Keep product availability and prices synchronized with the actual source.
+- Do not publish fake ratings, reviews, testimonials, or sales figures.
+- Do not expose payment credentials, API keys, or private supplier data.
+- Review cannabis-related advertising and payment restrictions before activating monetization.
+- Keep planned monetization clearly distinguished from active integrations.
+
+======================================================================
+26. SECURITY AND PRIVACY AS SEO REQUIREMENTS
+======================================================================
+
+Requirements:
+- Use HTTPS and valid TLS configuration.
+- Keep software and dependencies maintained.
+- Protect administrative routes.
+- Apply authentication and authorization where needed.
+- Validate and sanitize user input.
+- Use appropriate content security controls.
+- Protect uploads against malicious files and unsafe processing.
+- Prevent sensitive user data from entering public pages, metadata, URLs, or sitemaps.
+- Do not index private files or user conversations.
+- Publish accurate privacy and cookie information.
+- Obtain consent when required.
+- Use security.txt only when configured with accurate contact and policy information.
+- Never place secrets, passwords, private tokens, or database credentials in seo.txt or other public files.
+- Do not confuse search visibility controls with access control.
+
+======================================================================
+27. TECHNICAL VALIDATION
+======================================================================
+
+Validate the following regularly:
+- HTML validity.
+- Canonical URL consistency.
+- HTTP response codes.
+- Redirect chains and loops.
+- robots.txt syntax.
+- XML sitemap validity.
+- Sitemap URLs and canonical tags.
+- Meta robots and X-Robots-Tag consistency.
+- Structured-data syntax and eligibility.
+- Broken internal and external links.
+- Mobile rendering.
+- JavaScript rendering and crawlability.
+- Image availability and alt text.
+- Page titles and descriptions.
+- Duplicate and missing metadata.
+- Core Web Vitals and performance.
+- Accessibility.
+- HTTPS and mixed-content errors.
+- Pagination and filtered URL behavior, where applicable.
+- Internationalization signals, where applicable.
+- Private-page indexing and sensitive data exposure.
+- Error pages and server status codes.
+
+Use relevant available tools, such as:
+- Google Search Console.
+- Bing Webmaster Tools.
+- Google Rich Results Test.
+- Schema.org Validator.
+- PageSpeed Insights.
+- Lighthouse.
+- W3C Markup Validation Service.
+- Web accessibility testing tools.
+- Server logs and privacy-conscious analytics.
+
+These tools and accounts are external services. Do not describe them as connected unless setup and verification have occurred.
+
+======================================================================
+28. CONTENT GOVERNANCE AND MAINTENANCE
+======================================================================
+
+Maintain a content register with:
+- Page title.
+- Canonical URL.
+- Page type.
+- Primary topic.
+- Search intent.
+- Target audience.
+- Publication date.
+- Last meaningful update.
+- Author or responsible reviewer, where appropriate.
+- Source and citation records.
+- Indexing status.
+- Structured-data type.
+- Internal links.
+- Image rights and metadata.
+- Review date.
+- Accuracy or legal-review needs.
+- Current publication status.
+
+Review:
+- High-value pages periodically.
+- Time-sensitive legal information whenever relevant changes occur.
+- Broken links and unavailable references.
+- Outdated screenshots and instructions.
+- Duplicate pages and keyword overlap.
+- Old product information.
+- Schema that no longer matches visible content.
+- Search performance and user outcomes.
+- User feedback and reported inaccuracies.
+
+Remove or consolidate content when it no longer serves a useful purpose. Redirect removed pages only to genuinely relevant replacements.
+
+======================================================================
+29. SEARCH ENGINE AND CRAWLER ACCESS POLICY
+======================================================================
+
+Requirements:
+- Decide intentionally which public content should be crawlable.
+- Keep important educational content accessible to ordinary visitors and supported crawlers.
+- Do not assume all crawlers follow robots.txt.
+- Do not treat crawler access as permission to process personal or confidential information.
+- Protect private data with authentication and authorization.
+- Review bot traffic and server load.
+- Avoid serving different deceptive content to crawlers and users.
+- Do not use cloaking or hidden keyword text.
+- Do not promise inclusion in search indexes or AI answers.
+- Keep public crawler policies accurate and documented.
+
+======================================================================
+30. FILES AND IMPLEMENTATION LOCATIONS
+======================================================================
+
+SEO-related files may include:
+- index.html
+- Page-specific HTML files or templates
+- robots.txt
+- sitemap.xml
+- sitemap index files when required
+- manifest.webmanifest
+- style.css
+- script.js
+- Structured-data JSON-LD embedded in relevant pages or served appropriately
+- 404.html or the server's equivalent error-page configuration
+- .htaccess or equivalent server configuration where supported
+- Security.txt at the correct standardized location when implemented
+- ads.txt when applicable
+- Privacy and cookie policy pages
+- SEO documentation
+- AEO documentation
+- Content and metadata inventories
+
+Requirements:
+- Use the appropriate standard format for each file.
+- Do not place arbitrary SEO instructions in robots.txt or sitemap.xml.
+- Do not assume this seo.txt file is automatically read by search engines.
+- Keep this file as a human-readable specification.
+- Implement each requirement in the appropriate application, server, or platform location.
+- Do not overwrite existing website content when adding SEO functionality.
+- Preserve existing content and change only what is required and authorized.
+- Do not introduce placeholder endpoints or fabricated integration values.
+
+======================================================================
+31. FREE AND OPEN-SOURCE OPERATING POLICY
+======================================================================
+
+PotGrowHub.store has a zero-dollar starting budget.
+
+Requirements:
+- Prefer free and open-source tooling when it meets the requirement.
+- Prefer built-in browser, server, and platform capabilities before adding dependencies.
+- Avoid paid services, subscriptions, and APIs unless explicitly approved.
+- Verify current free-tier limits before depending on an external service.
+- Do not promise that a free tier will remain free indefinitely.
+- Avoid unnecessary third-party scripts and trackers.
+- Prefer lightweight, maintainable implementations.
+- Document dependencies, licenses, and any service limitations.
+- Never add a paid integration merely because it is commonly recommended.
+- Keep the site useful if optional analytics or advertising integrations are absent.
+- Do not claim that an integration is available, connected, or operational without verification.
+
+======================================================================
+32. SEO STATUS REGISTER
+======================================================================
+
+Track each requirement using one of these statuses:
+- PLANNED: identified but not implemented.
+- IN PROGRESS: implementation has begun.
+- IMPLEMENTED: added to the project but not fully verified.
+- VERIFIED: tested and confirmed working.
+- BLOCKED: waiting on a dependency, permission, account, or decision.
+- NOT APPLICABLE: not appropriate for the site or current phase.
+
+For every integration or major SEO feature, record:
+- Feature name.
+- Status.
+- Implementation location.
+- Responsible person.
+- Dependencies.
+- Test method.
+- Verification date.
+- Known limitations.
+- Next action.
+
+Do not mark an account, tag, script, feed, sitemap submission, or external service as verified based only on planned code or placeholder configuration.
+
+======================================================================
+33. PRE-LAUNCH SEO CHECKLIST
+======================================================================
+
+[ ] Preferred HTTPS domain selected and verified.
+[ ] Alternate hostnames redirect consistently.
+[ ] Every important public page has a unique title.
+[ ] Every important public page has a useful description.
+[ ] Canonical URLs are correct.
+[ ] Indexing directives are intentional.
+[ ] robots.txt is valid and does not block essential resources.
+[ ] sitemap.xml is valid and contains only appropriate canonical URLs.
+[ ] Internal links work.
+[ ] Important pages are reachable through crawlable links.
+[ ] HTML structure and headings are logical.
+[ ] Images are optimized and have appropriate alt text.
+[ ] Structured data matches visible content.
+[ ] Social-sharing metadata is accurate.
+[ ] Mobile layout works.
+[ ] Core Web Vitals have been evaluated.
+[ ] Accessibility has been evaluated.
+[ ] No unintended staging or private pages are indexable.
+[ ] Error pages return appropriate status codes.
+[ ] No fabricated claims, reviews, addresses, or integrations are published.
+[ ] Legal and privacy pages are accurate for the actual service.
+[ ] Search Console ownership is verified if configured.
+[ ] Bing Webmaster Tools is verified if configured.
+[ ] Analytics and advertising are configured only if approved and applicable.
+[ ] Consent controls are implemented where required.
+[ ] SEO status register reflects the real implementation state.
+[ ] A post-launch crawl and indexability review is scheduled.
+
+======================================================================
+34. ONGOING SEO CHECKLIST
+======================================================================
+
+[ ] Review search performance and relevant user outcomes.
+[ ] Inspect indexing and crawl errors.
+[ ] Check sitemap processing and canonical selection.
+[ ] Fix broken internal links.
+[ ] Review redirects and server errors.
+[ ] Update genuinely outdated content.
+[ ] Verify factual claims and sources.
+[ ] Review legal and policy-sensitive content.
+[ ] Test important pages on mobile.
+[ ] Monitor performance and accessibility.
+[ ] Validate structured data after significant page changes.
+[ ] Review image licensing and broken assets.
+[ ] Audit duplicate content and keyword cannibalization.
+[ ] Review third-party scripts, privacy, and performance impact.
+[ ] Keep integration status accurate.
+[ ] Document material changes and test results.
+
+======================================================================
+35. DEFINITION OF SEO COMPLETION
+======================================================================
+
+SEO is not complete merely because metadata exists.
+
+A page or feature is considered verified only when:
+- Its implementation exists in the correct location.
+- Its behavior has been tested.
+- Its content is accurate and useful.
+- Its indexing intent is correct.
+- Its canonical URL is correct.
+- Its structured data, if any, matches the visible page.
+- Its links and resources work.
+- Its mobile presentation is usable.
+- Its accessibility and performance have been evaluated.
+- Its privacy and legal requirements have been considered.
+- Its status and verification date are recorded.
+
+Search rankings, rich results, traffic volume, indexing speed, and AI answer inclusion cannot be guaranteed.
+
+END OF SEO SPECIFICATION

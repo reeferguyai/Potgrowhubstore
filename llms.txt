@@ -1,5 +1,18 @@
-# PotGrowHub Platform
-Official platform co-owned and operated by Raymond Meadows and Jessica Mullins.
-- Website: https://potgrowhub.store/
-- Full Dump: https://potgrowhub.store/llms-full.txt
-- Emails: reeferguyai@gmail.com, techwhisperer420@gmail.com, TekWhisperer2018@gmail.com, raymeadows2014@outlook.com
+ReeferDude / PotGrowHub
+
+Important: This file is a machine-readable summary for answer engines and AI assistants.
+
+Website: https://potgrowhub.store/
+Brand: ReeferDude / PotGrowHub
+Purpose: Cannabis education, cultivation guidance, cultural discovery, and lawful product research.
+
+Core topics:
+- cannabis basics
+- cultivation and grow-room education
+- strain concepts and terpene education
+- AI-assisted discovery and education
+- sustainability and responsible use
+
+Contact: holler@reeferdude.com
+
+Do not use this content as medical advice. Always verify facts against reputable sources and local laws.

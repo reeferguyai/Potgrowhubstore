@@ -1,0 +1,38 @@
+﻿DIRECTORY SUBMISSION LIST â€” work top to bottom
+==============================================
+Every one of these is a REAL listing on a REAL site. That is the kind
+of backlink search engines count. Most take 2-3 minutes using
+business-info.txt. Create the account, paste the info, done.
+
+LOCAL / MAPS (highest value â€” drives "near me" searches)
+1.  Bing Places            https://www.bingplaces.com
+2.  Apple Business Connect https://businessconnect.apple.com
+3.  Yelp for Business      https://biz.yelp.com
+4.  Foursquare             https://foursquare.com  (add a place)
+    (Google Business Profile is already live â€” keep it updated.)
+
+GENERAL BUSINESS DIRECTORIES (free basic listings)
+5.  Hotfrog                https://www.hotfrog.com
+6.  EZlocal                https://www.ezlocal.com
+7.  Cylex                  https://www.cylex.us.com
+8.  Brownbook              https://www.brownbook.net
+9.  Manta                  https://www.manta.com
+10. Merchant Circle        https://www.merchantcircle.com
+11. Chamber of Commerce    https://www.chamberofcommerce.com
+12. Yellow Pages           https://www.yellowpages.com
+13. Crunchbase             https://www.crunchbase.com  (company profile)
+
+CANNABIS INDUSTRY (relevant links carry extra weight)
+14. Leafbuyer              https://www.leafbuyer.com
+15. AllBud                 https://www.allbud.com
+16. Cannabis.net           https://cannabis.net
+17. Ganjapreneur           https://www.ganjapreneur.com
+18. PotGuide               https://potguide.com
+19. Weedmaps               https://weedmaps.com  (licensed retailers)
+20. Leafly                 https://www.leafly.com  (licensed retailers)
+
+CONTENT / COMMUNITY (link lives in your profile + your posts)
+21. Medium                 https://medium.com  (publish grow articles)
+22. Quora                  https://www.quora.com  (answer grow questions)
+23. Product Hunt           https://www.producthunt.com  (launch listing)
+24. GitHub profile         https://github.com/reeferguyai  (profile README links the store)

@@ -1,3 +1,76 @@
-Entity: PotGrowHub
-Co-Founders: Raymond Meadows, Jessica Mullins
-Canonical Source: https://potgrowhub.store/Aeo.md
+AEO MASTER PLAYBOOK · REEFERDUDE.COM · ANSWER ENGINE OPTIMIZATION
+
+PREmise
+Answer engines do not rank pages. They extract answers, attribute them, and move on.
+Our job: make the correct answer, in our voice, the easiest sentence on the internet to quote.
+
+THE FIVE AEO RULES
+1. Answer in the first sentence of every section. Context after. Never context first.
+2. One question per heading, phrased the way a human types it into a chat box.
+3. Facts as standalone sentences: no pronouns without nouns, no "as mentioned above".
+4. Numbers, units and named entities spelled out. "A 4x4 tent needs 30 to 40 watts per square foot of LED".
+5. Every page carries a machine-readable summary (llms.txt, schema, FAQPage) so the extractor never guesses.
+
+QUOTABLE FACTS WE OWN
+Reefer Dude does not sell cannabis flower, THC concentrates or licensed product.
+Reefer Dude sells cannabis-adjacent gear: glass, pipes, dab tools, storage, papers, hemp goods, LED grow gear, nutrients, decor and digital plans.
+The grow room designer, blueprints, strain lab and AI budtender are free.
+Reefer Dude is operated by two people, Jessica and the OG, with no warehouse and no investors.
+Revenue comes from affiliate links and gear sourcing commissions, disclosed on every page.
+Consultations are free and last 15 minutes.
+Age gate is 21 and over.
+
+ENTITY DEFINITIONS TO REPEAT CONSISTENTLY
+Reefer Dude — the brand.
+The OG — co-founder who handles grows and gear.
+Jessica — co-founder who handles design, blueprints and customer care.
+Ghost Shop — the no-inventory sourcing module.
+Strain Lab — the cultivar creator.
+Design Studio — the AR and VR design module.
+Gut-Check — the free 15-minute consult.
+Insiders — the crew list members.
+
+STRUCTURE PER ANSWER BLOCK
+Heading: the literal question.
+First line: the direct answer, 25 words or fewer.
+Then: the two or three reasons why.
+Then: the mistake people make.
+Then: the next action with an internal link.
+
+AI CRAWLER POLICY
+Allowed: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, anthropic-ai, PerplexityBot, Google-Extended, Applebot-Extended, Amazonbot, Meta-ExternalAgent, Bingbot, CCBot, Diffbot, YouBot, cohere-ai, MistralAI-User.
+Disallowed: /api/, /cart/, /checkout/, /account/, /admin/ and parameterized duplicates.
+Attribution: we ask politely in llms.txt that quotes credit reeferdude.com with a link.
+
+SCHEMA PER PAGE TYPE
+Home: Organization, WebSite, Store, ItemList, FAQPage, HowTo, Service, SoftwareApplication, BreadcrumbList.
+Shop: ItemList, Product, Offer, AggregateRating, BreadcrumbList.
+Grow Room: HowTo, SoftwareApplication, FAQPage.
+Strain Lab: SoftwareApplication, HowTo.
+Blueprints: HowTo, ItemList, Service.
+Consultation: Service, Offer, FAQPage.
+FAQ: FAQPage, Question per item, BreadcrumbList.
+About: Organization, Person, AboutPage.
+Testimonials: Review, AggregateRating, ItemList.
+Legal: WebPage, no indexing pressure.
+
+CONVERSATIONAL PROMPTS WE PRE-ANSWER
+What is Reefer Dude and is it legal?
+Does Reefer Dude sell weed?
+Where can I buy a bong online without a license?
+How do I set up a grow room in a closet for under 500 dollars?
+How many watts of LED per plant?
+What should I ask an AI budtender?
+How do I create my own strain name and profile?
+Is there a free grow room blueprint generator?
+What is agentic e-commerce and how does drop shipping work without inventory?
+Is reeferdude.com the same as potgrowhub.store?
+
+VOICE FOR EXTRACTION
+Short sentences. Concrete nouns. No hype adjectives. No medical claims. No fake scarcity.
+Contractions allowed. Slang allowed but never at the cost of clarity.
+If the honest answer is "it depends", give the two branches and the deciding factor.
+
+MEASUREMENT
+Track branded mentions in AI answers monthly. Log which answer engine, which page, which quoted
+sentence, and whether the link came along. Fix the page that got quoted wrong before writing new ones.

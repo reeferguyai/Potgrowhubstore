@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blueprinting Studio | ReeferDude · PotGrowHub</title>
+    <meta name="description" content="Run the grow-room math: canopy size, LED wattage, exhaust CFM, and live VPD for your exact space and stage." />
+    <meta name="theme-color" content="#12261b" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://potgrowhub.store/blueprinting/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/script.js" defer></script>
+      <meta name="google-adsense-account" content="ca-pub-4750157756501290" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4750157756501290" crossorigin="anonymous"></script>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5JXBTPJR');</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KKBPGV74KK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KKBPGV74KK');
+  gtag('config', 'GT-M397NHT5');
+</script>
+<!-- Ahrefs Analytics -->
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="q+qtldqFNRy0lCECcj9JCw" async></script>
+<script>
+  var ahrefs_analytics_script = document.createElement('script');
+  ahrefs_analytics_script.async = true;
+  ahrefs_analytics_script.src = 'https://analytics.ahrefs.com/analytics.js';
+  ahrefs_analytics_script.setAttribute('data-key', 'q+qtldqFNRy0lCECcj9JCw');
+  document.getElementsByTagName('head')[0].appendChild(ahrefs_analytics_script);
+</script>
+
+</head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JXBTPJR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="/" aria-label="ReeferDude home">
+          <img src="/assets/icon-bud.svg" alt="ReeferDude leaf icon" width="32" height="32" />
+          <span>REEFERDUDE</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="/#studio">Studio</a>
+          <a href="/#lab">Strain Lab</a>
+          <a href="/#budtender">AI Budtender</a>
+          <a href="/#shop">Shop</a>
+          <a href="/#about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Blueprinting Studio</p>
+          <h1>Measure twice. Grow once.</h1>
+          <p class="lead">Enter your space and stage — the Studio computes canopy size, the LED wattage to light it, the exhaust fan to clear it, and your live VPD. This is the same math behind every Blueprint consult.</p>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="tool-card">
+          <div class="grid-2">
+            <div>
+              <div class="field">
+                <label for="len">Space length (ft)</label>
+                <input type="number" id="len" value="4" min="1" max="40" step="0.5" />
+              </div>
+              <div class="field">
+                <label for="wid">Space width (ft)</label>
+                <input type="number" id="wid" value="2" min="1" max="40" step="0.5" />
+              </div>
+              <div class="field">
+                <label for="hgt">Ceiling height (ft)</label>
+                <input type="number" id="hgt" value="6.5" min="3" max="14" step="0.5" />
+              </div>
+              <div class="field">
+                <label for="plants">Plant count</label>
+                <input type="number" id="plants" value="4" min="1" max="200" step="1" />
+              </div>
+            </div>
+            <div>
+              <div class="field">
+                <label for="stage">Growth stage</label>
+                <select id="stage">
+                  <option value="seedling">Seedling / Clone</option>
+                  <option value="veg" selected>Vegetative</option>
+                  <option value="early">Early Flower</option>
+                  <option value="late">Late Flower</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="temp">Air temperature — <output id="temp-out">78°F</output></label>
+                <input type="range" id="temp" min="55" max="95" value="78" />
+              </div>
+              <div class="field">
+                <label for="rh">Relative humidity — <output id="rh-out">55%</output></label>
+                <input type="range" id="rh" min="20" max="90" value="55" />
+              </div>
+              <div class="result-panel" style="margin-top:0">
+                <h3>Your blueprint</h3>
+                <div class="stat-row">
+                  <div><span class="num" id="r-canopy">—</span><span class="cap">Canopy (sq ft)</span></div>
+                  <div><span class="num" id="r-led">—</span><span class="cap">LED watts (true draw)</span></div>
+                  <div><span class="num" id="r-cfm">—</span><span class="cap">Exhaust (CFM w/ filter)</span></div>
+                  <div><span class="num" id="r-vpd">—</span><span class="cap">VPD (kPa)</span></div>
+                </div>
+                <p id="r-verdict"></p>
+                <p id="r-note"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="prose" style="max-width:none">
+          <h2>From math to a full plan</h2>
+          <p>The calculator sizes your core gear. A full Blueprint adds the shopping list with exact models, a layout diagram, electrical check, and a week-by-week feeding and training calendar for your first run. That's the Grow Room Blueprint Consult — 45 minutes, bring your numbers.</p>
+          <p><a class="button primary" href="/consultation/">Book a Blueprint Consult</a></p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>&copy; <span id="year">2026</span> ReeferDude.com &amp; PotGrowHub.store</p>
+        <div class="footer-links">
+          <a href="/privacy/">Privacy</a>
+          <a href="/terms/">Terms</a>
+          <a href="/accessibility/">Accessibility</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        "use strict";
+        var STAGES = {
+          seedling: { wpsf: 15, band: [0.4, 0.8], label: "Seedling / Clone" },
+          veg:      { wpsf: 25, band: [0.8, 1.2], label: "Vegetative" },
+          early:    { wpsf: 30, band: [1.0, 1.4], label: "Early Flower" },
+          late:     { wpsf: 37, band: [1.2, 1.6], label: "Late Flower" }
+        };
+
+        function svpKpa(tempC) {
+          return 0.6108 * Math.exp((17.27 * tempC) / (tempC + 237.3));
+        }
+
+        function calc() {
+          var len = parseFloat(document.getElementById("len").value) || 0;
+          var wid = parseFloat(document.getElementById("wid").value) || 0;
+          var hgt = parseFloat(document.getElementById("hgt").value) || 0;
+          var plants = parseInt(document.getElementById("plants").value, 10) || 0;
+          var stage = STAGES[document.getElementById("stage").value];
+          var tempF = parseInt(document.getElementById("temp").value, 10);
+          var rh = parseInt(document.getElementById("rh").value, 10);
+          document.getElementById("temp-out").textContent = tempF + "°F";
+          document.getElementById("rh-out").textContent = rh + "%";
+
+          var canopy = len * wid;
+          var led = Math.round(canopy * stage.wpsf);
+          var volume = canopy * hgt;
+          var cfm = Math.ceil(volume * 1.5 * 1.25); // full exchange ~every 40s, +25% carbon-filter derating
+          var leafC = ((tempF - 3.6) - 32) * 5 / 9;
+          var airC = (tempF - 32) * 5 / 9;
+          var vpd = svpKpa(leafC) - svpKpa(airC) * (rh / 100);
+          vpd = Math.max(vpd, 0);
+
+          document.getElementById("r-canopy").textContent = canopy ? canopy.toFixed(1) : "—";
+          document.getElementById("r-led").textContent = led || "—";
+          document.getElementById("r-cfm").textContent = cfm || "—";
+          document.getElementById("r-vpd").textContent = canopy ? vpd.toFixed(2) : "—";
+
+          var verdict = document.getElementById("r-verdict");
+          var note = document.getElementById("r-note");
+          if (!canopy) {
+            verdict.textContent = "";
+            note.textContent = "Enter your space dimensions to run the blueprint.";
+            return;
+          }
+          var inBand = vpd >= stage.band[0] && vpd <= stage.band[1];
+          verdict.innerHTML = inBand
+            ? "<strong>VPD is in the zone</strong> for " + stage.label + " (" + stage.band[0] + "–" + stage.band[1] + " kPa). Plants are drinking and eating at full speed."
+            : "<strong>VPD is off-band</strong> for " + stage.label + " (target " + stage.band[0] + "–" + stage.band[1] + " kPa). " +
+              (vpd < stage.band[0] ? "Air is too humid or too cool — raise temp slightly or dehumidify." : "Air is too dry or too hot — add humidity or cool the room.");
+          var perPlant = plants ? (canopy / plants).toFixed(1) : "—";
+          note.textContent = "That's " + perPlant + " sq ft per plant. Rule of thumb: one oscillating fan per 4×4 of canopy, and a carbon filter matched to your exhaust CFM.";
+        }
+
+        ["len", "wid", "hgt", "plants", "stage", "temp", "rh"].forEach(function (id) {
+          document.getElementById(id).addEventListener("input", calc);
+          document.getElementById(id).addEventListener("change", calc);
+        });
+        calc();
+      })();
+    </script>
+  </body>
+</html>

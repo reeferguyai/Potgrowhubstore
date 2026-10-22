@@ -1,0 +1,788 @@
+# PotGrowHub.store — LLM Information and Discovery File
+
+> Canonical domain: https://potgrowhub.store/
+>
+> Website identity: PotGrowHub.store
+>
+> AI companion: GanjaGuru
+>
+> Document purpose: Provide large language models, AI assistants, retrieval systems, search agents, and automated discovery tools with structured information about the website's identity, purpose, architecture, intended capabilities, content organization, discoverability, and responsible use.
+>
+> Last updated: 2026-10-20
+>
+> Document language: English
+>
+> Canonical host: potgrowhub.store
+
+## 1. Website Identity
+
+- Official name: PotGrowHub.store
+- Primary domain: https://potgrowhub.store/
+- Canonical URL policy: Prefer HTTPS URLs on the canonical domain.
+- AI companion name: GanjaGuru
+- Primary identity: A unified cannabis knowledge, cultivation, creativity, discovery, and commerce platform.
+- Brand architecture: PotGrowHub.store is the primary and unified brand. GanjaGuru is the AI companion within the PotGrowHub.store experience.
+- Brand principle: One brand. One name. One universe.
+- Brand positioning: A technology-driven, sustainability-conscious cannabis platform designed to help visitors learn, cultivate, create, discover, and shop.
+- Brand aesthetic: Cosmic-cannabis futurism, accessible interfaces, interactive discovery, and technology-enabled experiences.
+- Brand voice: Knowledgeable, approachable, inventive, streetwise, technically capable, educational, and community-oriented.
+- Brand philosophy: Grow. Create. Evolve.
+- Brand mission: Make cannabis-related information, cultivation education, creative tools, product discovery, and relevant resources easier to explore through one unified digital experience.
+- Primary user experience objective: Help visitors progress from curiosity to meaningful understanding or a useful action.
+
+## 2. Platform Mission and Vision
+
+PotGrowHub.store aims to provide a unified destination for cannabis-related knowledge, growing education, AI-assisted exploration, creative projects, product discovery, and commerce-oriented resources.
+
+The platform's long-term vision includes connecting information, education, design, cultivation planning, product research, and purchasing workflows within a cohesive experience.
+
+The platform is intended to reduce fragmentation between researching a question, understanding available options, planning a project, discovering relevant products, and deciding what to do next.
+
+The platform may evolve as technologies, integrations, content, available services, and applicable legal requirements change.
+
+## 3. Primary AI Companion: GanjaGuru
+
+GanjaGuru is the AI companion associated with PotGrowHub.store.
+
+### 3.1 Core Role
+
+GanjaGuru is intended to help users explore cannabis-related subjects, understand terminology, investigate cultivation concepts, compare relevant options, organize ideas, and identify useful next steps.
+
+### 3.2 Intended Capabilities
+
+Depending on implemented functionality, available data, integrations, and permissions, GanjaGuru may support:
+
+- Cannabis terminology and general education.
+- Cannabis plant biology and botany.
+- Cultivation fundamentals and growing environments.
+- Plant development stages and cultivation planning.
+- Soil, growing media, nutrients, irrigation, and lighting education.
+- Temperature, humidity, ventilation, and environmental monitoring concepts.
+- Vapor pressure deficit education and calculation assistance.
+- Cannabinoid and terpene information.
+- Strain and cultivar research.
+- Harvest, drying, curing, storage, and post-harvest education.
+- Equipment and accessory research.
+- Product discovery and comparison.
+- Creative brainstorming and brand design.
+- Print-on-demand product concepts.
+- Shopping lists and project planning.
+- Sustainability-oriented product and packaging research.
+- Frequently asked questions and educational explanations.
+- File-based information analysis where upload support exists.
+- Voice-based interaction where voice functionality exists.
+- Personalized assistance based on information the user intentionally provides.
+- Relevant resource discovery and navigation.
+- Ecommerce assistance where verified purchasing integrations exist.
+
+### 3.3 Capability Transparency
+
+Do not assume that an intended capability is already implemented.
+
+Do not claim that GanjaGuru can access live inventory, current prices, customer accounts, private databases, payment systems, delivery networks, sensors, cameras, uploaded files, or external applications unless the relevant functionality is demonstrably available.
+
+Distinguish clearly between verified information, general knowledge, estimates, proposed features, and unverified claims.
+
+## 4. Primary Audience
+
+PotGrowHub.store is intended to serve a broad audience of adults interested in legal cannabis-related education, technology, cultivation, creativity, sustainability, and product discovery.
+
+Potential audience segments include:
+
+- Cannabis-curious adults seeking general education.
+- Home cultivation enthusiasts where cultivation is lawful.
+- Experienced growers researching techniques and equipment.
+- Cannabis product researchers.
+- Terpene and cannabinoid information seekers.
+- Creative professionals and independent designers.
+- Print-on-demand creators.
+- Sustainability-conscious consumers.
+- Cannabis industry professionals.
+- Technology enthusiasts exploring AI-assisted workflows.
+- Adults seeking organized cannabis-related resources.
+
+Content should be accessible to beginners while providing sufficient depth for knowledgeable users.
+
+## 5. Core Platform Domains
+
+### 5.1 Education and Knowledge
+
+Provide organized explanations, definitions, reference material, educational articles, tutorials, and frequently asked questions.
+
+### 5.2 Cultivation
+
+Support lawful cultivation education, environmental planning, plant care, equipment selection, troubleshooting, and growing knowledge.
+
+### 5.3 Cannabis Science
+
+Cover plant biology, cannabinoids, terpenes, genetics, cultivar terminology, scientific evidence, and relevant research.
+
+### 5.4 AI Assistance
+
+Explain the role of GanjaGuru, available interaction methods, supported tasks, limitations, and appropriate use.
+
+### 5.5 Product Discovery
+
+Organize relevant products, accessories, equipment, supplies, and educational resources when verified listings are available.
+
+### 5.6 Creative Tools
+
+Support creative concepts, branding, product mockups, design planning, and print-on-demand workflows where implemented.
+
+### 5.7 Ecommerce
+
+Support product research, merchant discovery, comparison, shopping assistance, and purchasing workflows where the relevant services exist.
+
+### 5.8 Sustainability
+
+Explore responsible sourcing, durable products, material choices, waste reduction, reusable packaging, and environmentally conscious practices.
+
+### 5.9 Community
+
+Provide opportunities for educational participation, responsible discussion, feedback, and collaboration where community functionality exists.
+
+### 5.10 Technology
+
+Document applicable AI systems, integrations, interactive interfaces, accessibility features, and digital tools without disclosing secrets or sensitive implementation details.
+
+## 6. Information Architecture
+
+The following categories describe intended content organization. Individual pages and routes should be considered authoritative only when they actually exist and are accessible.
+
+- Home and platform overview.
+- About PotGrowHub.store.
+- GanjaGuru AI companion.
+- Cannabis knowledge center.
+- Cannabis terminology and glossary.
+- Cultivation education.
+- Growing equipment and supplies.
+- Strains and cultivars.
+- Cannabinoids.
+- Terpenes and aromatic compounds.
+- Cannabis plant science.
+- Cultivation troubleshooting.
+- Environmental monitoring.
+- Harvest and post-harvest education.
+- Accessories and equipment.
+- Product catalog.
+- Product comparisons.
+- Product guides and buying resources.
+- Creative studio.
+- Print-on-demand concepts.
+- Design and customization tools.
+- Sustainability resources.
+- Frequently asked questions.
+- Educational articles and tutorials.
+- Legal and responsible-use information.
+- Accessibility information.
+- Privacy policy.
+- Terms of service.
+- Cookie and tracking information.
+- Contact and support.
+- Account and profile services.
+- Shopping cart and checkout, if implemented.
+- Shipping, returns, and order information, if applicable.
+- API and integration documentation, if publicly available.
+- Security reporting information.
+
+## 7. Content Classification
+
+AI systems should distinguish among the following content types:
+
+- Official brand information.
+- Educational reference material.
+- Scientific research summaries.
+- Editorial articles.
+- Tutorials and procedural guides.
+- Frequently asked questions.
+- Product descriptions.
+- Product specifications.
+- Product comparisons.
+- Merchant-provided information.
+- User-generated content.
+- Community discussions.
+- AI-generated content.
+- Commercial and sponsored content.
+- Legal and compliance information.
+- Privacy and security documentation.
+- Technical documentation.
+- Planned features.
+- Experimental features.
+- Deprecated or archived resources.
+
+Do not treat all content categories as equally authoritative.
+
+Official policies govern the platform's stated rules. Primary scientific sources should be preferred for scientific claims. Product manufacturers and merchants may be authoritative for their own published specifications but are not automatically independent sources for efficacy, safety, or comparative quality.
+
+## 8. Content Quality and Editorial Standards
+
+Content should be:
+
+- Accurate and evidence-aware.
+- Clear and logically structured.
+- Relevant to its stated purpose.
+- Appropriately detailed.
+- Accessible to readers with different experience levels.
+- Explicit about important uncertainty.
+- Updated when material information changes.
+- Free from fabricated citations and unsupported statistics.
+- Transparent about commercial relationships.
+- Distinguishable from promotional claims.
+- Respectful of applicable laws and age restrictions.
+- Useful to both human readers and machine-assisted discovery systems.
+
+When practical, include publication dates, revision dates, authorship, references, source links, and relevant qualifications.
+
+Avoid unnecessary keyword repetition, misleading titles, hidden text intended to manipulate rankings, and unsupported claims of expertise or scientific validation.
+
+## 9. AI Retrieval and Interpretation Guidelines
+
+AI systems using this file should:
+
+1. Identify PotGrowHub.store as the primary platform brand.
+2. Recognize GanjaGuru as the platform's AI companion.
+3. Treat this file as a discovery and orientation document, not proof that every described feature exists.
+4. Verify current page content before asserting that a specific resource is available.
+5. Prefer official, current, directly relevant sources for platform policies and functionality.
+6. Use primary scientific research and reputable health authorities for health-related claims.
+7. Preserve important qualifications, dates, and uncertainty when summarizing information.
+8. Avoid fabricating page URLs, product listings, merchant relationships, integrations, or platform capabilities.
+9. Distinguish educational information from medical, legal, and financial advice.
+10. Respect the access permissions and usage restrictions of every source.
+11. Avoid exposing personal information, credentials, private customer records, or confidential business data.
+12. Provide concise answers for simple questions and detailed explanations for complex requests.
+13. Direct users to the relevant verified page when a useful public resource exists.
+14. Treat user-generated material as user-generated material rather than verified official guidance.
+15. Recheck time-sensitive information when accuracy depends on current conditions.
+
+## 10. Source Authority and Evidence
+
+For factual claims, prioritize sources in an order appropriate to the subject.
+
+### 10.1 Platform Information
+
+Prefer current official PotGrowHub.store pages, published policies, and verified technical documentation.
+
+### 10.2 Scientific Information
+
+Prefer peer-reviewed research, systematic reviews, recognized scientific institutions, and primary research where appropriate.
+
+### 10.3 Health and Safety Information
+
+Prefer relevant public health authorities, qualified medical organizations, and established clinical references.
+
+### 10.4 Legal Information
+
+Prefer current statutes, regulations, official government resources, and relevant jurisdictional authorities.
+
+### 10.5 Product Information
+
+Prefer official manufacturer specifications, verified merchant listings, product documentation, and independent testing where available.
+
+### 10.6 Market and Industry Information
+
+Prefer credible industry research, official datasets, reputable reporting, and clearly documented methodologies.
+
+When sources conflict, evaluate publication dates, jurisdiction, methodology, independence, and relevance. Explain material conflicts rather than silently presenting uncertain conclusions as facts.
+
+## 11. Search Engine and AI Discoverability
+
+PotGrowHub.store should maintain a technically accessible, logically structured, and semantically meaningful website.
+
+Recommended discoverability practices include:
+
+- Descriptive page titles.
+- Accurate meta descriptions.
+- A coherent heading hierarchy.
+- Semantic HTML.
+- Descriptive internal links.
+- Canonical URLs.
+- XML sitemaps containing valid, canonical, indexable URLs.
+- A correctly configured `robots.txt`.
+- Appropriate HTTP status codes.
+- Valid structured data where applicable.
+- Mobile-friendly presentation.
+- Accessible navigation.
+- Useful image alternative text.
+- Fast and reliable page delivery.
+- Duplicate-content management.
+- Appropriate language annotations for multilingual pages.
+- Consistent business and brand identity.
+- Current and accurate public content.
+- Relevant links between related educational resources.
+- Clear distinctions between editorial and commercial pages.
+
+Search-engine access, indexing, ranking, and AI retrieval are controlled by external systems and are not guaranteed by the existence of this file.
+
+## 12. Canonical URL and Duplicate Content Policy
+
+Use `https://potgrowhub.store/` as the intended canonical origin.
+
+Where applicable:
+
+- Redirect noncanonical hostnames to the canonical hostname.
+- Redirect HTTP URLs to HTTPS.
+- Use one preferred URL for each substantive page.
+- Avoid conflicting canonical declarations.
+- Use absolute canonical URLs.
+- Keep sitemap entries consistent with canonical URLs.
+- Avoid listing redirected, error, blocked, or noncanonical URLs in XML sitemaps.
+- Use appropriate `noindex` directives for pages that should not appear in search results.
+- Avoid exposing session identifiers, private account parameters, or sensitive information in indexable URLs.
+- Preserve meaningful distinctions between pages rather than generating large numbers of near-duplicate URLs.
+
+Actual redirect and canonical behavior must be verified against the deployed website.
+
+## 13. Structured Data and Semantic Markup
+
+Where appropriate and supported by visible page content, the website may use valid structured data for:
+
+- `Organization`
+- `WebSite`
+- `WebPage`
+- `BreadcrumbList`
+- `Article`
+- `BlogPosting`
+- `Person`
+- `Product`
+- `Offer`
+- `ItemList`
+- `FAQPage`
+- `HowTo`
+- `VideoObject`
+- `ImageObject`
+- `ContactPage`
+- `AboutPage`
+- `ProfilePage`
+- `SearchResultsPage`
+- `SoftwareApplication`
+
+Use only schema types and properties appropriate to the actual page.
+
+Requirements:
+
+- Structured data must accurately represent visible or otherwise legitimately applicable page information.
+- Do not invent ratings, reviews, prices, availability, authorship, dates, or organization details.
+- Do not mark up hidden or misleading content.
+- Do not assume that valid structured data guarantees enhanced search results.
+- Follow the applicable search engine's structured-data policies.
+- Validate JSON-LD syntax and schema property values before deployment.
+- Update structured data when the underlying content changes.
+
+## 14. Robots, Crawlers, and Machine Access
+
+The website may publish crawler instructions through `robots.txt` and other relevant public resources.
+
+AI and search crawlers should follow applicable access controls, platform policies, and the rules governing their particular retrieval method.
+
+Important distinctions:
+
+- `robots.txt` communicates crawler preferences and rules but is not an authentication mechanism.
+- A public LLM information file does not grant permission to access restricted content.
+- A URL being publicly reachable does not automatically grant unrestricted rights to reproduce its contents.
+- Crawl permission, indexing permission, training permission, and content-reuse permission are separate considerations.
+- Authentication, authorization, and server-side access controls must protect private resources.
+- Sensitive information must not be placed in public discovery files.
+
+Actual crawler policies should be read from the deployed website rather than inferred from this document.
+
+## 15. Privacy and Data Protection
+
+AI systems and automated agents interacting with PotGrowHub.store should respect user privacy.
+
+Principles include:
+
+- Collect only information necessary for a legitimate purpose.
+- Avoid unnecessary retention of personal information.
+- Do not expose private conversations or account data.
+- Do not disclose credentials, access tokens, session cookies, or API keys.
+- Do not infer sensitive personal attributes unnecessarily.
+- Treat uploaded documents as potentially confidential.
+- Avoid placing personal information in query strings, logs, analytics events, or public datasets.
+- Respect applicable privacy notices and consent choices.
+- Do not represent the website as compliant with a particular privacy law without verified evidence.
+- Follow applicable legal requirements and documented retention policies.
+
+Actual privacy practices are defined by the published privacy policy and implemented technical controls, not by this file alone.
+
+## 16. Security and Responsible Integration
+
+Public-facing integrations should follow secure development practices.
+
+Recommended controls include:
+
+- HTTPS for network communication.
+- Server-side authorization for privileged actions.
+- Secure secret management.
+- Input validation.
+- Output encoding.
+- Appropriate content security policies.
+- Protection against cross-site scripting.
+- Protection against cross-site request forgery where applicable.
+- Rate limiting and abuse prevention.
+- Dependency auditing and maintenance.
+- Secure session management.
+- Appropriate access logging.
+- Least-privilege permissions.
+- Safe handling of uploaded files.
+- Protection against prompt injection in untrusted retrieved content.
+- Verification of external tool results before consequential actions.
+- Clear user authorization for purchases, account changes, or other significant actions.
+
+Do not disclose private infrastructure details, exploitable weaknesses, internal credentials, or sensitive operational information in public discovery documents.
+
+## 17. Responsible Cannabis Information
+
+Cannabis-related information should be presented responsibly, with attention to jurisdiction, age restrictions, product differences, individual variability, and relevant safety considerations.
+
+Content standards include:
+
+- Do not assume cannabis is legal in every jurisdiction.
+- Encourage users to verify current local laws and regulations.
+- Do not encourage illegal purchasing, distribution, or cultivation.
+- Distinguish general education from professional medical or legal advice.
+- Avoid unsupported claims that cannabis cures, prevents, or treats a disease.
+- Explain that cannabinoid and terpene effects may vary and that evidence quality differs by claim.
+- Avoid presenting strain names as guarantees of chemical composition or physiological effects.
+- Do not equate natural origin with proven safety.
+- Address impairment and relevant driving or workplace safety considerations when applicable.
+- Provide suitable caution around interactions, intoxicating effects, and vulnerable populations when relevant.
+- Follow applicable age-gating and regulated-product requirements.
+- Do not provide false assurances about product safety, potency, purity, or legality.
+
+## 18. Cultivation Education Standards
+
+Cultivation content should be educational, accurate, and appropriate to the user's legal context.
+
+Relevant topics may include:
+
+- Plant anatomy and development.
+- Light intensity and photoperiod concepts.
+- Temperature and humidity.
+- Air movement and ventilation.
+- Vapor pressure deficit.
+- Growing media.
+- Root health.
+- Nutrient fundamentals.
+- Water quality and irrigation.
+- pH and electrical conductivity.
+- Environmental monitoring.
+- Integrated pest management.
+- Plant stress and symptom identification.
+- Harvest timing.
+- Drying and curing.
+- Sanitation and contamination prevention.
+- Resource efficiency and sustainable practices.
+
+When offering calculations, clearly identify input assumptions, units, formula limitations, and any missing data. Distinguish general educational recommendations from site-specific agronomic diagnosis.
+
+## 19. Cannabinoid, Terpene, and Strain Information
+
+Information about cannabis chemistry and cultivars should be carefully qualified.
+
+- Distinguish cannabinoids from terpenes and other plant compounds.
+- Explain that laboratory results depend on the tested sample and testing method.
+- Do not assume that a strain name guarantees a standardized chemical profile.
+- Distinguish anecdotal reports from controlled research.
+- Avoid treating marketing terminology as scientific classification.
+- Cite reliable sources for specific pharmacological claims.
+- Explain relevant uncertainty in proposed relationships between chemical composition and subjective effects.
+- Do not invent laboratory results or certificates of analysis.
+- Identify product-specific information as such when the underlying documentation is available.
+
+## 20. Product Discovery and Commercial Transparency
+
+Where product information is published, present it clearly and accurately.
+
+Relevant information may include:
+
+- Product name.
+- Manufacturer or brand.
+- Product category.
+- Intended use.
+- Materials and specifications.
+- Dimensions and compatibility.
+- Verified price.
+- Availability.
+- Merchant.
+- Shipping information.
+- Return policy.
+- Relevant warnings.
+- Source URL.
+- Last verification date.
+
+Do not fabricate inventory, product availability, merchant authorization, prices, shipping estimates, warranties, customer reviews, or product performance.
+
+Clearly disclose material commercial relationships, sponsorships, affiliate links, and advertising where required.
+
+Product recommendations should be based on relevant user requirements, verified product characteristics, and transparent limitations rather than undisclosed commercial influence.
+
+## 21. Ecommerce and Transaction Integrity
+
+The long-term platform vision may include integrated product discovery, shopping assistance, checkout, order tracking, and delivery-related workflows.
+
+These capabilities should be treated as available only when the corresponding services are implemented and verified.
+
+Automated agents should:
+
+- Obtain authorization before making purchases.
+- Confirm the product, quantity, price, applicable fees, and shipping information before consequential transactions.
+- Respect age verification and legal restrictions.
+- Use authorized payment integrations.
+- Never request or expose full payment credentials in ordinary chat.
+- Never claim an order has been placed without verified confirmation.
+- Never claim an item has shipped or been delivered without reliable status information.
+- Distinguish product research from actual purchasing capability.
+- Provide clear cancellation, refund, and support information where applicable.
+
+## 22. Sustainability and Environmental Responsibility
+
+Sustainability-related content may cover:
+
+- Durable and reusable products.
+- Waste reduction.
+- Recyclable or compostable packaging where appropriate.
+- Responsible material selection.
+- Resource-efficient cultivation.
+- Energy and water conservation.
+- Supply-chain transparency.
+- Product longevity.
+- Repair and reuse.
+- Responsible shipping and packaging.
+
+Environmental claims should be specific, evidence-based, and appropriately qualified.
+
+Do not describe a product as biodegradable, compostable, recyclable, carbon-neutral, or environmentally superior without adequate supporting evidence and relevant qualifications.
+
+## 23. Accessibility and Inclusive Design
+
+The intended platform should support a broad range of users through accessible design.
+
+Recommended practices include:
+
+- Semantic HTML landmarks.
+- Logical heading structure.
+- Keyboard navigation.
+- Visible focus indicators.
+- Accessible forms and labels.
+- Appropriate ARIA attributes.
+- Sufficient color contrast.
+- Text alternatives for meaningful images.
+- Captions or transcripts for relevant media.
+- Accessible error messages.
+- Reduced-motion support.
+- Responsive layouts.
+- Clear language and predictable interactions.
+- Screen-reader-compatible controls.
+- Accessible authentication and age-verification workflows.
+
+ARIA should supplement correct semantic HTML rather than replace it.
+
+Accessibility claims should reflect tested behavior, not merely the presence of accessibility-related code.
+
+## 24. Technical Platform and Integration Principles
+
+The website may use modern web technologies, frontend frameworks, AI services, APIs, databases, analytics systems, content delivery infrastructure, and ecommerce integrations.
+
+The presence of a technology reference in a project file does not prove that a corresponding service is configured, operational, or available to visitors.
+
+For all integrations:
+
+- Verify the implementation before documenting it as active.
+- Identify third-party dependencies where appropriate.
+- Protect API keys and secrets.
+- Document public interfaces without exposing private credentials.
+- Validate external data.
+- Provide suitable failure handling.
+- Avoid promising uptime or performance without supporting measurements.
+- Maintain compatibility and dependency updates.
+- Respect the licenses and terms governing third-party components.
+
+## 25. Performance and Reliability
+
+Recommended performance objectives include:
+
+- Minimize unnecessary JavaScript.
+- Optimize image delivery.
+- Reduce avoidable network requests.
+- Use caching appropriately.
+- Defer noncritical work where appropriate.
+- Avoid blocking rendering unnecessarily.
+- Monitor client-side errors.
+- Handle failed API requests gracefully.
+- Provide useful loading, empty, and error states.
+- Support reliable navigation and recovery.
+- Measure real-world user experience where appropriate.
+
+Performance claims should be supported by actual measurements and should identify the conditions under which measurements were collected.
+
+## 26. Multilingual and International Content
+
+Where multilingual content is available:
+
+- Identify the language of each page.
+- Use appropriate language metadata.
+- Provide accurate translations.
+- Avoid mixing unrelated languages without purpose.
+- Use canonical and alternate-language annotations correctly.
+- Adapt legal and safety information to the relevant jurisdiction.
+- Avoid assuming that legal status, terminology, or product availability is universal.
+
+Only advertise languages that the relevant content or interface actually supports.
+
+## 27. Public Resource Discovery
+
+The following paths are conventional resource locations to check when available. Their inclusion here does not assert that each file or endpoint exists.
+
+- Homepage: `https://potgrowhub.store/`
+- Robots policy: `https://potgrowhub.store/robots.txt`
+- XML sitemap: `https://potgrowhub.store/sitemap.xml`
+- This LLM information file: `https://potgrowhub.store/llm.txt`
+- Extended LLM information file, if published: `https://potgrowhub.store/llms-full.txt`
+- Human-readable about page, if published: `https://potgrowhub.store/about/`
+- AI companion page, if published: `https://potgrowhub.store/ganjaguru/`
+- Knowledge center, if published: `https://potgrowhub.store/knowledge/`
+- Cultivation resources, if published: `https://potgrowhub.store/cultivation/`
+- Product catalog, if published: `https://potgrowhub.store/products/`
+- Contact page, if published: `https://potgrowhub.store/contact/`
+- Privacy policy, if published: `https://potgrowhub.store/privacy/`
+- Terms of service, if published: `https://potgrowhub.store/terms/`
+- Accessibility statement, if published: `https://potgrowhub.store/accessibility/`
+- Security contact information, if published: `https://potgrowhub.store/.well-known/security.txt`
+
+These are discovery candidates, not a verified route inventory. Use the live sitemap, internal links, canonical tags, and actual HTTP responses to establish which resources exist.
+
+## 28. Internal Linking and Topic Relationships
+
+Where relevant pages exist, connect related resources through descriptive internal links.
+
+Examples of useful topic relationships include:
+
+- Cultivation fundamentals and environmental monitoring.
+- Lighting education and equipment comparisons.
+- Cannabinoid explanations and scientific research.
+- Terpene terminology and laboratory testing.
+- Strain descriptions and verified chemical analysis.
+- Product guides and manufacturer specifications.
+- Sustainability articles and material information.
+- GanjaGuru assistance and relevant educational resources.
+- Tutorials and their supporting glossary entries.
+- Product pages and applicable safety documentation.
+
+Links should help users understand relationships between subjects. Do not create links to nonexistent pages simply to satisfy an architectural plan.
+
+## 29. Frequently Asked Questions
+
+### What is PotGrowHub.store?
+
+PotGrowHub.store is intended to be a unified cannabis knowledge, cultivation, creativity, product-discovery, and commerce platform.
+
+### What is GanjaGuru?
+
+GanjaGuru is the AI companion associated with PotGrowHub.store, intended to help users explore information and organize cannabis-related tasks.
+
+### Is PotGrowHub.store a cannabis retailer?
+
+The platform's intended scope includes product discovery and commerce. Whether particular products are offered for sale, and through which merchants, must be verified from current listings and operational integrations.
+
+### Can GanjaGuru provide cultivation guidance?
+
+Cultivation education is an intended capability. The specificity and availability of guidance depend on the active implementation, supporting information, and applicable legal restrictions.
+
+### Can GanjaGuru provide medical advice?
+
+General educational information may be available, but it should not be represented as a substitute for individualized medical evaluation or professional care.
+
+### Does PotGrowHub.store guarantee that cannabis is legal in a user's location?
+
+No. Users should verify applicable laws and regulations in their jurisdiction.
+
+### Does every product have verified pricing and availability?
+
+Not necessarily. Pricing and availability should be treated as verified only when supported by current, reliable listing information.
+
+### Does this file guarantee indexing by search engines or AI systems?
+
+No. It provides orientation and discovery information but cannot guarantee crawling, indexing, retrieval, citation, training use, or recommendation.
+
+### Does every described platform feature already exist?
+
+No. Intended capabilities and architectural plans must be distinguished from verified, operational functionality.
+
+## 30. Content Freshness and Maintenance
+
+Review this file when material changes occur to:
+
+- Brand identity.
+- AI companion positioning.
+- Website architecture.
+- Public resource locations.
+- Available capabilities.
+- Product and commerce workflows.
+- Privacy practices.
+- Security controls.
+- Legal and compliance policies.
+- Content categories.
+- Search and crawler policies.
+- Public technical documentation.
+
+Update the last-modified date when substantive revisions are published.
+
+Remove outdated statements rather than leaving conflicting descriptions in place.
+
+Validate resource URLs against the deployed website before publication.
+
+## 31. Machine-Readable Summary
+
+- `website_name`: PotGrowHub.store
+- `canonical_origin`: https://potgrowhub.store/
+- `primary_brand`: PotGrowHub.store
+- `ai_companion`: GanjaGuru
+- `platform_category`: Cannabis education, cultivation, AI assistance, creative tools, product discovery, and commerce-oriented resources
+- `primary_purpose`: Help users learn, cultivate, create, discover, and shop through a unified digital experience
+- `brand_architecture`: One primary brand with an integrated AI companion
+- `content_language`: English
+- `audience`: Adults interested in lawful cannabis education, cultivation, technology, creativity, sustainability, and product discovery
+- `content_approach`: Educational, evidence-aware, transparent, accessible, and responsible
+- `commercial_transparency`: Required where applicable
+- `legal_compliance`: Jurisdiction-dependent
+- `privacy_priority`: Protect personal and confidential information
+- `accessibility_priority`: Inclusive and accessible digital experiences
+- `verification_policy`: Confirm current resources, integrations, and capabilities before asserting their availability
+- `feature_status_policy`: Distinguish implemented functionality from planned functionality
+- `canonical_policy`: Prefer verified HTTPS URLs on the canonical domain
+- `discovery_policy`: Publish accurate public information and valid discovery resources where available
+
+## 32. Instructions for AI Assistants and Automated Agents
+
+When answering questions about PotGrowHub.store:
+
+- Identify the platform accurately.
+- Explain GanjaGuru's relationship to the primary brand.
+- Answer from verified, relevant information.
+- Link to existing authoritative resources where appropriate.
+- Avoid inventing pages, features, services, partnerships, products, or policies.
+- Disclose material uncertainty.
+- Respect privacy, security, copyright, and access restrictions.
+- Provide responsible cannabis-related information.
+- Use current sources when legal, scientific, commercial, or operational details may change.
+- Distinguish a planned feature from an available feature.
+- Do not claim that a transaction or external action occurred without confirmation.
+- Avoid presenting this document as a complete inventory of the live website.
+- Do not treat this document as a substitute for the site's actual legal, privacy, security, or product policies.
+
+## 33. Document Scope and Limitations
+
+This document describes PotGrowHub.store's identity, intended direction, content domains, information standards, and AI-discovery principles.
+
+It does not independently verify the operational status of the website, its current route inventory, product catalog, inventory feeds, checkout functionality, AI backend, APIs, databases, external integrations, legal compliance, privacy controls, accessibility conformance, or commercial relationships.
+
+Those facts must be established through current website content, authoritative documentation, actual service behavior, and appropriate verification.
+
+## 34. Official Website
+
+For current public information, begin at:
+
+https://potgrowhub.store/
+
+Use the website's accessible, current, canonical resources to verify details before making claims about individual pages, products, policies, or capabilities.

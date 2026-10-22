@@ -1,0 +1,27 @@
+# ads.txt — reeferdude.com
+# Authorized Digital Sellers. Update the publisher IDs after AdSense approval.
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+google.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+pubmatic.com, 156000, DIRECT, 5d62403b186f2ace94ddb803
+pubmatic.com, 156000, RESELLER, 5d62403b186f2ace94ddb803
+rubiconproject.com, 19000, DIRECT, 0bfd66d529a55807
+appnexus.com, 12345, DIRECT, f5ab79cb980f11d1
+openx.com, 540000, DIRECT, 6a698e2ec38604c6
+indexexchange.com, 185000, DIRECT, 50b1c356f2c5c8fc
+criteo.com, 00000, DIRECT, 9fac4a4a87c2a44f
+amazon-adsystem.com, 3000, DIRECT, c5b84f2e6b6b6b0e
+sovrn.com, 260000, DIRECT, fafdf38b16bf6b2b
+sharethrough.com, 000000, DIRECT, 4e8e6ba2a1a1a1a1
+yieldmo.com, 000000, DIRECT, f1b1e1a1c1d1e1f1
+media.net, 8CU000000, DIRECT, d97a9d5f2f0e5dd8
+triplelift.com, 00000, DIRECT, 6c33edb13117fd86
+teads.tv, 00000, DIRECT, 15a9cfe9e0a1a1a1
+smartadserver.com, 0000, DIRECT, 060d053dcf45cbf3
+improvedigital.com, 0000, DIRECT, 1c8f2f8f8f8f8f8f
+sonobi.com, 000000, DIRECT, d1a215d63000b0b0
+adtelligent.com, 000000, DIRECT, 5f8e2a1c1c1c1c1c
+outbrain.com, 00000, DIRECT, 4d7c1d1d1d1d1d1d
+taboola.com, 000000, DIRECT, c1c1c1c1c1c1c1c1
+prebid.org, openbidder, RESELLER
+potgrowhub.store, 0000000000, RESELLER, 0000000000000000

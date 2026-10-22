@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strain Creation Lab | ReeferDude · PotGrowHub</title>
+    <meta name="description" content="Design your own cannabis cultivar concept: pick the lineage, effects, and flavors, and the Lab builds your strain profile." />
+    <meta name="theme-color" content="#12261b" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://potgrowhub.store/strain-builder/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/script.js" defer></script>
+      <meta name="google-adsense-account" content="ca-pub-4750157756501290" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4750157756501290" crossorigin="anonymous"></script>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5JXBTPJR');</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KKBPGV74KK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KKBPGV74KK');
+  gtag('config', 'GT-M397NHT5');
+</script>
+<!-- Ahrefs Analytics -->
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="q+qtldqFNRy0lCECcj9JCw" async></script>
+<script>
+  var ahrefs_analytics_script = document.createElement('script');
+  ahrefs_analytics_script.async = true;
+  ahrefs_analytics_script.src = 'https://analytics.ahrefs.com/analytics.js';
+  ahrefs_analytics_script.setAttribute('data-key', 'q+qtldqFNRy0lCECcj9JCw');
+  document.getElementsByTagName('head')[0].appendChild(ahrefs_analytics_script);
+</script>
+
+</head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JXBTPJR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="/" aria-label="ReeferDude home">
+          <img src="/assets/icon-bud.svg" alt="ReeferDude leaf icon" width="32" height="32" />
+          <span>REEFERDUDE</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="/#studio">Studio</a>
+          <a href="/#lab">Strain Lab</a>
+          <a href="/#budtender">AI Budtender</a>
+          <a href="/#shop">Shop</a>
+          <a href="/#about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Strain Creation Lab</p>
+          <h1>Build your own strain.</h1>
+          <p class="lead">Pick the parents, dial in the effects and flavors, and the Lab crosses them into a full cultivar concept — name, profile, and grow notes included.</p>
+        </div>
+      </section>
+
+      <div class="container">
+        <form class="tool-card" id="strain-form">
+          <div class="grid-2">
+            <div>
+              <div class="field">
+                <label for="parent-a">Parent A</label>
+                <select id="parent-a">
+                  <option>OG Kush</option><option>Blue Dream</option><option>Gelato</option>
+                  <option>Sour Diesel</option><option>Granddaddy Purple</option><option>Jack Herer</option>
+                  <option>Northern Lights</option><option>Girl Scout Cookies</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="parent-b">Parent B</label>
+                <select id="parent-b">
+                  <option>Blue Dream</option><option>OG Kush</option><option>Zkittlez</option>
+                  <option>White Widow</option><option>Wedding Cake</option><option>Durban Poison</option>
+                  <option>Harlequin</option><option>GG4</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="type">Type</label>
+                <select id="type">
+                  <option value="Hybrid">Hybrid</option>
+                  <option value="Indica">Indica</option>
+                  <option value="Sativa">Sativa</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="thc">Target THC — <output id="thc-out">22%</output></label>
+                <input type="range" id="thc" min="10" max="35" value="22" />
+              </div>
+              <div class="field">
+                <label for="cbd">Target CBD — <output id="cbd-out">1%</output></label>
+                <input type="range" id="cbd" min="0" max="20" value="1" />
+              </div>
+            </div>
+            <div>
+              <div class="field">
+                <label>Effects (pick up to 3)</label>
+                <div class="check-grid" id="effects">
+                  <label><input type="checkbox" value="Relaxed" />Relaxed</label>
+                  <label><input type="checkbox" value="Euphoric" />Euphoric</label>
+                  <label><input type="checkbox" value="Creative" />Creative</label>
+                  <label><input type="checkbox" value="Focused" />Focused</label>
+                  <label><input type="checkbox" value="Sleepy" />Sleepy</label>
+                  <label><input type="checkbox" value="Hungry" />Hungry</label>
+                  <label><input type="checkbox" value="Uplifted" />Uplifted</label>
+                  <label><input type="checkbox" value="Calm" />Calm</label>
+                </div>
+              </div>
+              <div class="field">
+                <label>Flavors (pick up to 3)</label>
+                <div class="check-grid" id="flavors">
+                  <label><input type="checkbox" value="Citrus" />Citrus</label>
+                  <label><input type="checkbox" value="Berry" />Berry</label>
+                  <label><input type="checkbox" value="Pine" />Pine</label>
+                  <label><input type="checkbox" value="Diesel" />Diesel</label>
+                  <label><input type="checkbox" value="Sweet" />Sweet</label>
+                  <label><input type="checkbox" value="Earthy" />Earthy</label>
+                  <label><input type="checkbox" value="Floral" />Floral</label>
+                  <label><input type="checkbox" value="Spicy" />Spicy</label>
+                </div>
+              </div>
+              <button class="button primary" type="submit">Create My Strain</button>
+              <div class="result-panel" id="result" hidden></div>
+            </div>
+          </div>
+        </form>
+
+        <section class="prose" style="max-width:none">
+          <h2>Your saved creations</h2>
+          <p>Saved on this device only. <button class="chip" id="clear-saved" type="button">Clear saved strains</button></p>
+          <div class="product-grid" id="saved-grid"></div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>&copy; <span id="year">2026</span> ReeferDude.com &amp; PotGrowHub.store</p>
+        <div class="footer-links">
+          <a href="/privacy/">Privacy</a>
+          <a href="/terms/">Terms</a>
+          <a href="/accessibility/">Accessibility</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        "use strict";
+        var flavorPrefix = { Citrus: "Lemon", Berry: "Berry", Pine: "Pinewood", Diesel: "Diesel", Sweet: "Sugar", Earthy: "Terra", Floral: "Lavender", Spicy: "Pepper" };
+        var effectSuffix = { Relaxed: "Chill", Euphoric: "Bliss", Creative: "Muse", Focused: "Focus", Sleepy: "Dream", Hungry: "Feast", Uplifted: "Rocket", Calm: "Zen" };
+        var tails = ["Kush", "Haze", "Cake", "Gas", "Runner", "Royale"];
+        var KEY = "pgh-my-strains";
+
+        function checked(boxId, max) {
+          var vals = Array.prototype.map.call(
+            document.querySelectorAll("#" + boxId + " input:checked"),
+            function (i) { return i.value; }
+          );
+          return vals.slice(0, max);
+        }
+
+        function bindOut(rangeId, outId) {
+          var r = document.getElementById(rangeId), o = document.getElementById(outId);
+          r.addEventListener("input", function () { o.textContent = r.value + "%"; });
+        }
+        bindOut("thc", "thc-out");
+        bindOut("cbd", "cbd-out");
+
+        function renderSaved() {
+          var grid = document.getElementById("saved-grid");
+          var saved = [];
+          try { saved = JSON.parse(localStorage.getItem(KEY) || "[]"); } catch (e) { saved = []; }
+          grid.innerHTML = saved.length
+            ? saved.map(function (s) {
+                return '<article class="product-card"><h3>' + s.name + '</h3>' +
+                  '<p>' + s.type + ' · THC ' + s.thc + '% · CBD ' + s.cbd + '%</p>' +
+                  '<p>' + s.lineage + '</p></article>';
+              }).join("")
+            : '<p style="color:var(--muted)">Nothing saved yet — create your first strain above.</p>';
+        }
+
+        document.getElementById("strain-form").addEventListener("submit", function (ev) {
+          ev.preventDefault();
+          var pa = document.getElementById("parent-a").value;
+          var pb = document.getElementById("parent-b").value;
+          var type = document.getElementById("type").value;
+          var thc = parseInt(document.getElementById("thc").value, 10);
+          var cbd = parseInt(document.getElementById("cbd").value, 10);
+          var effects = checked("effects", 3);
+          var flavors = checked("flavors", 3);
+          if (!effects.length) effects = ["Relaxed"];
+          if (!flavors.length) flavors = ["Earthy"];
+          var name = flavorPrefix[flavors[0]] + " " + effectSuffix[effects[0]] + " " + tails[Math.floor(Math.random() * tails.length)];
+          var flower = type === "Indica" ? "7–9 weeks" : type === "Sativa" ? "10–12 weeks" : "8–10 weeks";
+          var difficulty = thc > 28 ? "Advanced" : thc > 20 ? "Intermediate" : "Beginner friendly";
+          var strain = { name: name, type: type, thc: thc, cbd: cbd, lineage: pa + " × " + pb };
+          var box = document.getElementById("result");
+          box.hidden = false;
+          box.innerHTML =
+            "<h3>" + name + "</h3>" +
+            "<p><strong>Lineage:</strong> " + strain.lineage + "</p>" +
+            "<p><strong>Type:</strong> " + type + " &nbsp; <strong>Effects:</strong> " + effects.join(", ") + "</p>" +
+            "<p><strong>Flavors:</strong> " + flavors.join(", ") + "</p>" +
+            '<div class="stat-row">' +
+            "<div><span class=\"num\">" + thc + "%</span><span class=\"cap\">THC target</span></div>" +
+            "<div><span class=\"num\">" + cbd + "%</span><span class=\"cap\">CBD target</span></div>" +
+            "<div><span class=\"num\">" + flower + "</span><span class=\"cap\">Flowering</span></div>" +
+            "<div><span class=\"num\">" + difficulty + "</span><span class=\"cap\">Grow level</span></div>" +
+            "</div>" +
+            "<p>A concept cultivar bred on paper: " + flavors[0].toLowerCase() + " up front, a " +
+            effects[0].toLowerCase() + " ride, and " + pa + " bones under " + pb + " skin. " +
+            "Take it to the <a href=\"/blueprinting/\">Blueprinting Studio</a> to plan its room.</p>";
+          var saved = [];
+          try { saved = JSON.parse(localStorage.getItem(KEY) || "[]"); } catch (e) { saved = []; }
+          saved.unshift(strain);
+          localStorage.setItem(KEY, JSON.stringify(saved.slice(0, 12)));
+          renderSaved();
+        });
+
+        document.getElementById("clear-saved").addEventListener("click", function () {
+          localStorage.removeItem(KEY);
+          renderSaved();
+        });
+
+        renderSaved();
+      })();
+    </script>
+  </body>
+</html>

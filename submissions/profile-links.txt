@@ -1,0 +1,16 @@
+﻿PROFILE LINK CHECKLIST â€” every bio should point to the store
+=============================================================
+Set the website field on each of these to:  https://potgrowhub.store
+
+[ ] Facebook page / profile
+[ ] Instagram bio
+[ ] Threads bio
+[ ] TikTok bio
+[ ] YouTube channel (About + links)
+[ ] X (Twitter) bio
+[ ] Pinterest profile
+[ ] LinkedIn company page
+[ ] Reddit profile (go easy â€” Reddit punishes pure self-promo;
+    be helpful in grow subs first, link second)
+
+Every one of these is a backlink AND a traffic source.

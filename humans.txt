@@ -1,6 +1,7 @@
-/* TEAM */
-  Co-Founder: Raymond Meadows (techwhisperer420@gmail.com)
-  Co-Founder: Jessica Mullins (reeferguyai@gmail.com)
-/* SITE */
-  Site Name: PotGrowHub
-  Domain: potgrowhub.store
+ReeferDude / PotGrowHub
+
+Project: cannabis culture, education, cultivation knowledge, and lawful product discovery.
+
+Contact: holler@reeferdude.com
+
+This project is a public, education-first website. No passwords, no internal dashboards, and no private data are intentionally published here.

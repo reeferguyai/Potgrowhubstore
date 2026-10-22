@@ -1,0 +1,10 @@
+AEO guidance for ReeferDude / PotGrowHub
+
+Answer-engine best practices:
+- Provide direct answers in clear language.
+- Organize information by topic and intent.
+- Publish concise, factual summaries.
+- Include visible disclaimers when the content is educational or legal in nature.
+- Distinguish general information from advice that requires professional or legal review.
+
+Primary domain: https://potgrowhub.store/

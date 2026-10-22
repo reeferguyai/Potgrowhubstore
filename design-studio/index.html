@@ -1,0 +1,2449 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Studio | ReeferDude · PotGrowHub</title>
+    <meta name="description" content="Design custom glass, apparel, and gear in the studio — pick your piece, your colors, your add-ons, and watch the price build live." />
+    <meta name="theme-color" content="#241811" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://potgrowhub.store/design-studio/" />
+    <meta property="og:title" content="Design Studio | ReeferDude · PotGrowHub" />
+    <meta property="og:description" content="Design custom glass, apparel, and gear — 15 pieces, 10 colorways, 5 finishes, live pricing, saved designs." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://potgrowhub.store/design-studio/" />
+    <meta property="og:image" content="https://potgrowhub.store/assets/social-preview.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Design Studio | ReeferDude · PotGrowHub" />
+    <meta name="twitter:description" content="Design custom glass, apparel, and gear — priced live as you build." />
+    <meta name="twitter:image" content="https://potgrowhub.store/assets/social-preview.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Caveat:wght@600&display=swap" rel="stylesheet" />
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"WebPage","name":"Design Studio","url":"https://potgrowhub.store/design-studio/","description":"Design custom glass, apparel, and gear with live pricing.","isPartOf":{"@type":"WebSite","name":"PotGrowHub","url":"https://potgrowhub.store/"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://potgrowhub.store/"},{"@type":"ListItem","position":2,"name":"Design Studio","item":"https://potgrowhub.store/design-studio/"}]}}
+    </script>
+    <link rel="icon" href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%0A%20%20%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%2312261b%22%2F%3E%0A%20%20%3Cg%20fill%3D%22%233ddc84%22%3E%0A%20%20%20%20%3Cellipse%20cx%3D%2232%22%20cy%3D%2221%22%20rx%3D%224.6%22%20ry%3D%2215%22%2F%3E%0A%20%20%20%20%3Cellipse%20cx%3D%2232%22%20cy%3D%2221%22%20rx%3D%224.6%22%20ry%3D%2215%22%20transform%3D%22rotate%2828%2032%2038%29%22%2F%3E%0A%20%20%20%20%3Cellipse%20cx%3D%2232%22%20cy%3D%2221%22%20rx%3D%224.6%22%20ry%3D%2215%22%20transform%3D%22rotate%28-28%2032%2038%29%22%2F%3E%0A%20%20%20%20%3Cellipse%20cx%3D%2232%22%20cy%3D%2221%22%20rx%3D%224.6%22%20ry%3D%2215%22%20transform%3D%22rotate%2856%2032%2038%29%22%2F%3E%0A%20%20%20%20%3Cellipse%20cx%3D%2232%22%20cy%3D%2221%22%20rx%3D%224.6%22%20ry%3D%2215%22%20transform%3D%22rotate%28-56%2032%2038%29%22%2F%3E%0A%20%20%20%20%3Cellipse%20cx%3D%2232%22%20cy%3D%2221%22%20rx%3D%224.6%22%20ry%3D%2215%22%20transform%3D%22rotate%2882%2032%2038%29%22%2F%3E%0A%20%20%20%20%3Cellipse%20cx%3D%2232%22%20cy%3D%2221%22%20rx%3D%224.6%22%20ry%3D%2215%22%20transform%3D%22rotate%28-82%2032%2038%29%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cpath%20d%3D%22M32%2038%20L32%2056%22%20stroke%3D%22%233ddc84%22%20stroke-width%3D%223.4%22%20stroke-linecap%3D%22round%22%2F%3E%0A%3C%2Fsvg%3E%0A" type="image/svg+xml" />
+    <style>
+:root {
+  --bg: #17100b;
+  --bg-raise: #241811;
+  --bg-card: #16301f;
+  --line: #234433;
+  --text: #e9f5ec;
+  --muted: #a7c4ae;
+  --accent: #3ddc84;
+  --accent-2: #9b5de5;
+  --accent-ink: #06280f;
+  --radius: 14px;
+  --max: 1120px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a { color: var(--accent); }
+
+.container {
+  width: min(var(--max), 100% - 2.5rem);
+  margin-inline: auto;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--accent);
+  color: var(--accent-ink);
+  padding: 0.6rem 1rem;
+  font-weight: 700;
+  z-index: 100;
+  border-radius: 0 0 var(--radius) 0;
+}
+.skip-link:focus { left: 0; }
+
+/* Header */
+.site-header {
+  position: sticky;
+  top: 0;
+  background: rgba(12, 26, 18, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+  z-index: 50;
+}
+.site-header.scrolled { box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45); }
+
+.nav-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  flex-wrap: wrap;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+}
+.brand img { display: block; }
+
+.main-nav {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+.main-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 600;
+}
+.main-nav a:hover,
+.main-nav a:focus-visible,
+.main-nav a.active { color: var(--accent); }
+
+/* Hero */
+.hero {
+  background:
+    radial-gradient(900px 480px at 85% -10%, rgba(155, 93, 229, 0.25), transparent 60%),
+    radial-gradient(800px 500px at 10% 0%, rgba(61, 220, 132, 0.18), transparent 55%),
+    var(--bg-raise);
+  border-bottom: 1px solid var(--line);
+  padding: 4.5rem 0 3.5rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.hero-copy { min-width: 0; }
+
+.eyebrow {
+  color: var(--accent);
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin: 0 0 0.75rem;
+}
+
+h1 {
+  font-size: clamp(2.2rem, 5.5vw, 3.6rem);
+  line-height: 1.05;
+  margin: 0 0 1rem;
+  letter-spacing: 0.01em;
+}
+
+h2 { font-size: clamp(1.5rem, 3vw, 2.1rem); margin: 0 0 0.75rem; }
+h3 { margin: 0 0 0.5rem; }
+
+.lead { color: var(--muted); font-size: 1.12rem; max-width: 34rem; }
+
+.cta-row {
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+  margin-top: 1.6rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.8rem 1.4rem;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+  border: 2px solid var(--accent);
+}
+.button.primary { background: var(--accent); color: var(--accent-ink); }
+.button.primary:hover { background: transparent; color: var(--accent); }
+.button.secondary { color: var(--accent); background: transparent; }
+.button.secondary:hover { background: var(--accent); color: var(--accent-ink); }
+
+.hero-card {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+}
+
+.status-pill {
+  display: inline-block;
+  background: rgba(61, 220, 132, 0.14);
+  color: var(--accent);
+  border: 1px solid var(--line);
+  padding: 0.25rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.card-stack { display: grid; gap: 0.8rem; }
+
+.mini-card {
+  background: var(--bg-raise);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.9rem 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+.mini-card .label { color: var(--muted); font-size: 0.9rem; }
+
+/* Features */
+.features { padding: 3.5rem 0; }
+
+.section-heading { margin-bottom: 1.8rem; }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.1rem;
+}
+
+.feature-card {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+  scroll-margin-top: 90px;
+}
+.feature-card p { color: var(--muted); margin: 0; }
+.feature-card:target { border-color: var(--accent); }
+
+/* Info band */
+.info-band {
+  background: var(--bg-raise);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 3rem 0;
+}
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 2rem;
+  align-items: start;
+}
+.info-grid p { color: var(--muted); margin: 0; }
+
+/* Subpages */
+.page-hero {
+  background: var(--bg-raise);
+  border-bottom: 1px solid var(--line);
+  padding: 3rem 0 2rem;
+}
+.prose { padding: 2.5rem 0 3.5rem; max-width: 46rem; }
+.prose h2 { margin-top: 2rem; }
+.prose p, .prose li { color: var(--muted); }
+.prose a { color: var(--accent); }
+.contact-list { list-style: none; padding: 0; display: grid; gap: 0.8rem; }
+.contact-list li {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1rem 1.2rem;
+}
+
+/* Footer */
+.site-footer {
+  padding: 2rem 0;
+  color: var(--muted);
+}
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.footer-wrap p { margin: 0; }
+.footer-links { display: flex; gap: 1.2rem; }
+.footer-links a { color: var(--muted); text-decoration: none; }
+.footer-links a:hover { color: var(--accent); }
+
+/* Reveal on scroll (JS adds .in) */
+.reveal { opacity: 0; transform: translateY(14px); transition: opacity 0.5s ease, transform 0.5s ease; }
+.reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
+
+@media (max-width: 760px) {
+  .hero-grid, .info-grid { grid-template-columns: 1fr; }
+  .hero { padding: 3rem 0 2.5rem; }
+  .main-nav { gap: 0.9rem; }
+}
+
+/* Page link cards (homepage ecosystem grid) */
+a.feature-card { display: block; text-decoration: none; color: var(--text); }
+a.feature-card:hover { border-color: var(--accent); }
+a.feature-card p { color: var(--muted); }
+
+/* Tools, forms, results */
+.tool-card, .form-card {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; align-items: start; }
+@media (max-width: 760px) { .grid-2 { grid-template-columns: 1fr; } }
+
+.field { margin-bottom: 1rem; }
+.field label { display: block; font-weight: 700; margin-bottom: 0.35rem; }
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="number"],
+.field input[type="date"],
+.field select,
+.field textarea {
+  width: 100%;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.65rem 0.8rem;
+  font: inherit;
+}
+.field textarea { min-height: 110px; resize: vertical; }
+.field input[type="range"] { width: 100%; accent-color: var(--accent); }
+.check-grid { display: flex; flex-wrap: wrap; gap: 0.55rem; }
+.check-grid label {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.35rem 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.check-grid input { accent-color: var(--accent); margin-right: 0.35rem; }
+.slider-row { display: flex; align-items: center; gap: 1rem; }
+.slider-row output { font-weight: 800; min-width: 4.5rem; text-align: right; }
+
+button.button, .form-card .button { cursor: pointer; font: inherit; }
+.result-panel {
+  background: var(--bg);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 1.2rem 1.4rem;
+  margin-top: 1.2rem;
+}
+.result-panel h3 { color: var(--accent); }
+.result-panel p { color: var(--muted); margin: 0.3rem 0; }
+.result-panel strong { color: var(--text); }
+.stat-row { display: flex; flex-wrap: wrap; gap: 1.2rem; margin-top: 0.8rem; }
+.stat-row div { min-width: 7rem; }
+.stat-row .num { display: block; font-size: 1.35rem; font-weight: 900; color: var(--text); }
+.stat-row .cap { color: var(--muted); font-size: 0.85rem; }
+
+/* Design studio swatches */
+.swatch-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.swatch {
+  width: 42px; height: 42px; border-radius: 50%;
+  border: 3px solid var(--line); cursor: pointer; padding: 0;
+}
+.swatch.selected { border-color: var(--accent); }
+.paint { transition: fill 0.25s ease; }
+.preview-stage {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  display: grid; place-items: center;
+  padding: 2rem 1rem;
+}
+
+/* Budtender chat */
+.chat-wrap {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  margin: 2rem 0;
+  overflow: hidden;
+}
+.chat-log {
+  height: 380px; overflow-y: auto;
+  padding: 1.2rem; display: flex; flex-direction: column; gap: 0.7rem;
+  background: var(--bg);
+}
+.msg {
+  max-width: 82%; padding: 0.65rem 1rem; border-radius: 14px;
+  white-space: pre-wrap; line-height: 1.5;
+}
+.msg.bot { background: var(--bg-card); border: 1px solid var(--line); align-self: flex-start; border-bottom-left-radius: 4px; }
+.msg.user { background: var(--accent); color: var(--accent-ink); align-self: flex-end; border-bottom-right-radius: 4px; font-weight: 600; }
+.chat-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0.8rem 1.2rem 0; }
+.chip {
+  background: var(--bg); color: var(--muted);
+  border: 1px solid var(--line); border-radius: 999px;
+  padding: 0.35rem 0.85rem; font: inherit; font-size: 0.9rem; cursor: pointer;
+}
+.chip:hover { color: var(--accent); border-color: var(--accent); }
+.chat-input { display: flex; gap: 0.6rem; padding: 1rem 1.2rem 1.2rem; }
+.chat-input input[type="text"] {
+  flex: 1; background: var(--bg); color: var(--text);
+  border: 1px solid var(--line); border-radius: 999px; padding: 0.7rem 1.1rem; font: inherit;
+}
+.chat-input button { border-radius: 999px; }
+
+/* FAQ */
+details.faq {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1rem 1.3rem;
+  margin-bottom: 0.8rem;
+}
+details.faq summary { cursor: pointer; font-weight: 800; }
+details.faq p { color: var(--muted); margin: 0.6rem 0 0.2rem; }
+
+/* Marketplace products */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.1rem;
+  margin: 1.5rem 0 2.5rem;
+}
+.product-card {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.3rem;
+}
+.product-card p { color: var(--muted); margin: 0.3rem 0 0.8rem; }
+.price { font-size: 1.2rem; font-weight: 900; }
+.badge {
+  display: inline-block; font-size: 0.78rem; font-weight: 800;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--accent-2); border: 1px solid var(--accent-2);
+  padding: 0.15rem 0.6rem; border-radius: 999px; margin-bottom: 0.6rem;
+}
+.filter-row { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+
+/* Design Studio Pro */
+.subnav { position: sticky; top: 64px; z-index: 40; background: rgba(12,26,18,.94); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+.subnav .container { display: flex; gap: 1.1rem; flex-wrap: wrap; padding: .6rem 0; }
+.subnav a { color: var(--muted); text-decoration: none; font-weight: 700; font-size: .95rem; }
+.subnav a:hover { color: var(--accent); }
+.section-pad { padding: 3rem 0 1rem; }
+.breakdown { list-style: none; margin: .8rem 0; padding: 0; }
+.breakdown li { display: flex; justify-content: space-between; gap: 1rem; padding: .3rem 0; border-bottom: 1px dashed var(--line); color: var(--muted); }
+.breakdown li strong { color: var(--text); }
+.breakdown li.discount strong { color: var(--accent); }
+.design-actions { display: flex; gap: .6rem; flex-wrap: wrap; margin-top: 1rem; }
+.spec-table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+.spec-table th, .spec-table td { text-align: left; padding: .55rem .8rem; border: 1px solid var(--line); }
+.spec-table th { background: var(--bg-card); color: var(--text); }
+.spec-table td { color: var(--muted); }
+.saved-item { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.etch-note { color: var(--muted); margin: .35rem 0 0; font-size: .92rem; }
+.kicker-stat { display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 1.2rem; }
+.kicker-stat div .num { display: block; font-size: 1.5rem; font-weight: 900; }
+.kicker-stat div .cap { color: var(--muted); font-size: .88rem; }
+
+/* Design Studio Pro round 3 */
+.chip.selected { border-color: var(--accent); color: var(--accent); }
+.meters { margin-top: 1rem; }
+.meter-row { display: flex; align-items: center; gap: .7rem; margin: .35rem 0; }
+.meter-row span { width: 6.8rem; color: var(--muted); font-size: .9rem; }
+.meter { flex: 1; height: 10px; background: var(--bg); border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+.meter i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--accent-2), var(--accent)); transition: width .4s ease; }
+.meter-row strong { min-width: 2rem; text-align: right; }
+.build-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; background: rgba(12,26,18,.97); border-top: 1px solid var(--accent); padding: .55rem 1rem; display: flex; justify-content: center; align-items: center; gap: 1.6rem; flex-wrap: wrap; }
+.build-bar .button { padding: .45rem 1.1rem; }
+body { padding-bottom: 58px; }
+
+
+/* ============ STUDIO THEME — depth, glass, light ============ */
+:root {
+  --shadow-lg: 0 24px 48px rgba(0,0,0,.5), 0 4px 12px rgba(0,0,0,.4);
+  --shadow-md: 0 12px 28px rgba(0,0,0,.42);
+  --glow-green: 0 0 0 1px rgba(61,220,132,.45), 0 8px 28px rgba(61,220,132,.22);
+  --panel-grad: linear-gradient(165deg, #1a3823 0%, #132a1a 55%, #0f2314 100%);
+  --panel-grad-2: linear-gradient(165deg, #16301f 0%, #10231a 60%, #0d1f13 100%);
+}
+body {
+  background:
+    radial-gradient(1100px 520px at 85% -5%, rgba(155,93,229,.14), transparent 60%),
+    radial-gradient(900px 600px at 8% 12%, rgba(61,220,132,.10), transparent 55%),
+    radial-gradient(700px 500px at 50% 115%, rgba(61,220,132,.07), transparent 60%),
+    repeating-linear-gradient(0deg, rgba(255,255,255,.014) 0 1px, transparent 1px 72px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.014) 0 1px, transparent 1px 72px),
+    var(--bg);
+}
+::selection { background: rgba(61,220,132,.35); }
+* { scrollbar-width: thin; scrollbar-color: #2b5540 var(--bg); }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #2b5540; border-radius: 8px; border: 2px solid var(--bg); }
+::-webkit-scrollbar-track { background: var(--bg); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+
+.site-header { background: rgba(10,22,14,.86); box-shadow: 0 1px 0 rgba(61,220,132,.25), 0 10px 30px rgba(0,0,0,.35); }
+.brand span { background: linear-gradient(90deg, #e9f5ec, #3ddc84); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.main-nav a { padding: .3rem .1rem; border-bottom: 2px solid transparent; transition: color .2s ease, border-color .2s ease; }
+.main-nav a:hover { border-bottom-color: var(--accent); }
+
+.page-hero { position: relative; overflow: hidden; background:
+  radial-gradient(800px 340px at 50% -60px, rgba(61,220,132,.20), transparent 65%),
+  radial-gradient(600px 300px at 88% 0%, rgba(155,93,229,.20), transparent 60%),
+  linear-gradient(180deg, #14291b, #0e2013); padding: 4.2rem 0 3rem; }
+.page-hero h1 { background: linear-gradient(92deg, #f2fbf4 10%, #3ddc84 55%, #9b5de5 105%); -webkit-background-clip: text; background-clip: text; color: transparent; text-shadow: none; letter-spacing: .005em; }
+.page-hero .lead { color: #c3dccd; font-size: 1.16rem; }
+.eyebrow { display: inline-flex; align-items: center; gap: .7rem; }
+.eyebrow::before, .eyebrow::after { content: ""; height: 1px; width: 26px; background: linear-gradient(90deg, transparent, var(--accent)); }
+.eyebrow::after { background: linear-gradient(90deg, var(--accent), transparent); }
+.hero-art { margin-top: 2.2rem; border-radius: 18px; border: 1px solid rgba(61,220,132,.28); background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(0,0,0,.25)); box-shadow: var(--shadow-lg), inset 0 1px 0 rgba(255,255,255,.06); overflow: hidden; }
+.hero-art svg { display: block; width: 100%; height: auto; }
+.float-slow { animation: floaty 7s ease-in-out infinite; }
+.float-slower { animation: floaty 10s ease-in-out infinite reverse; }
+@keyframes floaty { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+
+.section-heading h2 { position: relative; padding-bottom: .45rem; }
+.section-heading h2::after { content: ""; position: absolute; left: 0; bottom: 0; width: 64px; height: 3px; border-radius: 3px; background: linear-gradient(90deg, var(--accent), var(--accent-2)); box-shadow: 0 2px 10px rgba(61,220,132,.5); }
+.section-pad { border-top: 1px solid rgba(61,220,132,.10); }
+
+.tool-card, .form-card { background: var(--panel-grad); border: 1px solid #2b5540; border-radius: 18px; box-shadow: var(--shadow-lg), inset 0 1px 0 rgba(255,255,255,.06); }
+.feature-card, .product-card { position: relative; background: var(--panel-grad-2); border: 1px solid #26503a; border-radius: 16px; box-shadow: var(--shadow-md), inset 0 1px 0 rgba(255,255,255,.05); overflow: hidden; transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
+.feature-card::before, .product-card::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--accent), transparent 55%, var(--accent-2)); opacity: .55; }
+.feature-card:hover, .product-card:hover { transform: translateY(-4px); border-color: rgba(61,220,132,.55); box-shadow: var(--shadow-lg), var(--glow-green); }
+a.feature-card:hover { border-color: rgba(61,220,132,.55); }
+.badge { background: rgba(155,93,229,.12); box-shadow: inset 0 0 0 1px rgba(155,93,229,.35); }
+.mini-card, .hero-card { background: var(--panel-grad-2); box-shadow: var(--shadow-md), inset 0 1px 0 rgba(255,255,255,.05); }
+
+.button { transition: transform .18s ease, box-shadow .18s ease, background .18s ease, color .18s ease; }
+.button.primary { background: linear-gradient(135deg, #4be38c, #25b562); box-shadow: 0 10px 24px rgba(61,220,132,.35), inset 0 1px 0 rgba(255,255,255,.35); border-color: #4be38c; }
+.button.primary:hover { transform: translateY(-2px); box-shadow: 0 16px 32px rgba(61,220,132,.45), inset 0 1px 0 rgba(255,255,255,.35); background: linear-gradient(135deg, #4be38c, #25b562); color: var(--accent-ink); }
+.button.secondary { background: rgba(61,220,132,.06); box-shadow: inset 0 1px 0 rgba(255,255,255,.06); }
+.button.secondary:hover { transform: translateY(-2px); box-shadow: var(--glow-green); }
+.chip { background: rgba(255,255,255,.03); box-shadow: inset 0 1px 0 rgba(255,255,255,.06); transition: all .18s ease; }
+.chip:hover { transform: translateY(-1px); box-shadow: var(--glow-green); }
+.chip.selected { background: rgba(61,220,132,.14); box-shadow: var(--glow-green); }
+
+.field input[type="text"], .field input[type="email"], .field input[type="number"], .field input[type="date"], .field select, .field textarea {
+  background: linear-gradient(180deg, #0a1810, #17100b); box-shadow: inset 0 2px 6px rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.03); border-color: #2b5540; transition: border-color .18s ease, box-shadow .18s ease; }
+.field input:focus, .field select:focus, .field textarea:focus { border-color: var(--accent); box-shadow: inset 0 2px 6px rgba(0,0,0,.5), 0 0 0 3px rgba(61,220,132,.22); outline: none; }
+.field label { letter-spacing: .02em; }
+.check-grid label { background: linear-gradient(180deg, #10241a, #17100b); box-shadow: inset 0 1px 0 rgba(255,255,255,.05), 0 3px 8px rgba(0,0,0,.3); transition: all .15s ease; }
+.check-grid label:hover { border-color: rgba(61,220,132,.5); }
+input[type="range"] { cursor: pointer; }
+
+.swatch { width: 46px; height: 46px; box-shadow: inset 0 -6px 10px rgba(0,0,0,.35), inset 0 4px 6px rgba(255,255,255,.25), 0 4px 10px rgba(0,0,0,.4); transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease; }
+.swatch:hover { transform: scale(1.1); }
+.swatch.selected { border-color: #eafff2; box-shadow: 0 0 0 3px rgba(61,220,132,.55), 0 0 18px rgba(61,220,132,.5), inset 0 -6px 10px rgba(0,0,0,.3); transform: scale(1.08); }
+
+.preview-stage { position: relative; background:
+  radial-gradient(420px 190px at 50% 0%, rgba(255,255,220,.10), transparent 60%),
+  radial-gradient(340px 90px at 50% 88%, rgba(0,0,0,.55), transparent 70%),
+  radial-gradient(600px 300px at 50% -40px, rgba(61,220,132,.12), transparent 60%),
+  linear-gradient(180deg, #132a1a, #0a1710);
+  border: 1px solid #2b5540; box-shadow: inset 0 0 0 1px rgba(255,255,255,.03), inset 0 -30px 50px rgba(0,0,0,.45), var(--shadow-md); min-height: 340px; }
+.preview-stage::after { content: ""; position: absolute; left: 50%; bottom: 34px; transform: translateX(-50%); width: 190px; height: 26px; border-radius: 50%; background: radial-gradient(closest-side, rgba(0,0,0,.6), transparent); pointer-events: none; }
+.preview-stage svg { filter: drop-shadow(0 16px 18px rgba(0,0,0,.5)); position: relative; z-index: 1; }
+#gl-wrap { border: 1px solid #2b5540; box-shadow: inset 0 0 60px rgba(0,0,0,.5), var(--shadow-md); }
+model-viewer { box-shadow: var(--shadow-md); border: 1px solid #2b5540; }
+
+.result-panel { background: linear-gradient(170deg, #0e2416, #0a1a10); border: 1px solid rgba(61,220,132,.6); box-shadow: 0 0 0 1px rgba(61,220,132,.12), 0 14px 34px rgba(0,0,0,.45), 0 0 34px rgba(61,220,132,.10), inset 0 1px 0 rgba(255,255,255,.06); }
+.result-panel .num { background: linear-gradient(90deg, #eafff2, #3ddc84); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.breakdown li { border-bottom-style: solid; border-bottom-color: rgba(61,220,132,.12); }
+.meter { box-shadow: inset 0 2px 5px rgba(0,0,0,.6); background: #08130c; }
+.meter i { box-shadow: 0 0 10px rgba(61,220,132,.65); }
+
+.spec-table { box-shadow: var(--shadow-md); border-radius: 12px; overflow: hidden; border-collapse: separate; border-spacing: 0; }
+.spec-table th { background: linear-gradient(180deg, #1d3d29, #16301f); }
+.spec-table tr:nth-child(even) td { background: rgba(255,255,255,.025); }
+.spec-table td, .spec-table th { border-color: #234433; }
+details.faq { background: var(--panel-grad-2); box-shadow: var(--shadow-md), inset 0 1px 0 rgba(255,255,255,.05); transition: border-color .2s ease; }
+details.faq[open] { border-color: rgba(61,220,132,.55); }
+details.faq summary:hover { color: var(--accent); }
+.subnav { background: rgba(10,22,14,.88); box-shadow: 0 10px 24px rgba(0,0,0,.3); }
+.subnav a { padding: .28rem .7rem; border-radius: 999px; transition: all .15s ease; }
+.subnav a:hover { background: rgba(61,220,132,.12); color: var(--accent); }
+.build-bar { background: rgba(10,22,14,.9); backdrop-filter: blur(10px); box-shadow: 0 -1px 0 rgba(61,220,132,.5), 0 -12px 30px rgba(0,0,0,.4); }
+.status-pill { box-shadow: inset 0 0 0 1px rgba(61,220,132,.3), 0 4px 12px rgba(0,0,0,.3); }
+#design-qr { box-shadow: var(--shadow-md); }
+.chat-wrap, .product-grid .product-card { border-radius: 16px; }
+.kicker-stat .num { background: linear-gradient(90deg, #eafff2, #3ddc84); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.info-band { background: linear-gradient(180deg, #241811, #0e2013); }
+.site-footer { background: linear-gradient(180deg, transparent, rgba(0,0,0,.35)); }
+@media (prefers-reduced-motion: reduce) { .float-slow, .float-slower { animation: none; } .feature-card:hover, .product-card:hover, .button:hover { transform: none; } }
+
+
+/* ============ WORKSHOP THEME — wood, brass, torchlight ============ */
+:root {
+  --bg: #17100b;
+  --bg-raise: #241811;
+  --bg-card: #2a1c10;
+  --line: #5a3d20;
+  --text: #f3e7d3;
+  --muted: #c9ab84;
+  --accent: #ff9e45;
+  --accent-2: #ff6b35;
+  --accent-ink: #2a1503;
+  --glow-green: 0 0 0 1px rgba(255,158,69,.45), 0 8px 28px rgba(255,158,69,.22);
+  --panel-grad: linear-gradient(165deg, #2e2013 0%, #241811 55%, #1d130b 100%);
+  --panel-grad-2: linear-gradient(165deg, #2a1c10 0%, #21150c 60%, #1a110a 100%);
+}
+body {
+  background:
+    radial-gradient(1100px 520px at 85% -5%, rgba(255,107,53,.13), transparent 60%),
+    radial-gradient(900px 600px at 8% 12%, rgba(255,158,69,.10), transparent 55%),
+    radial-gradient(700px 500px at 50% 115%, rgba(255,158,69,.06), transparent 60%),
+    repeating-linear-gradient(0deg, rgba(255,190,110,.016) 0 1px, transparent 1px 72px),
+    repeating-linear-gradient(90deg, rgba(255,190,110,.016) 0 1px, transparent 1px 72px),
+    var(--bg);
+}
+h1, h2, h3, .brand { font-family: "Fraunces", Georgia, "Times New Roman", serif; }
+::selection { background: rgba(255,158,69,.38); }
+* { scrollbar-color: #6b4423 var(--bg); }
+::-webkit-scrollbar-thumb { background: #6b4423; border-color: var(--bg); }
+.site-header { background: rgba(23,16,11,.9); box-shadow: 0 1px 0 rgba(255,158,69,.3), 0 10px 30px rgba(0,0,0,.4); }
+.brand span { background: linear-gradient(90deg, #f7ead2, #ff9e45); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.main-nav a:hover { border-bottom-color: var(--accent); }
+
+.page-hero { background:
+  radial-gradient(800px 340px at 50% -60px, rgba(255,179,92,.22), transparent 65%),
+  radial-gradient(600px 300px at 88% 0%, rgba(255,107,53,.18), transparent 60%),
+  linear-gradient(180deg, #2a1a0e, #1d130b); }
+.page-hero h1 { background: linear-gradient(92deg, #faf0dc 8%, #ffb35c 52%, #ff6b35 105%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.page-hero .lead { color: #e2cba6; }
+.hero-art { border-color: rgba(255,158,69,.35); }
+.section-pad { border-top-color: rgba(255,158,69,.12); }
+.section-heading h2::after { background: linear-gradient(90deg, var(--accent), var(--accent-2)); box-shadow: 0 2px 10px rgba(255,158,69,.5); }
+
+.tool-card, .form-card { background: var(--panel-grad); border-color: #6b4423; }
+.feature-card, .product-card { background: var(--panel-grad-2); border-color: #5f3f22; }
+.feature-card::before, .product-card::before { background: repeating-linear-gradient(90deg, #a9713a 0 46px, #8a5a2b 46px 92px, #9c6a33 92px 138px, #7c5226 138px 184px); opacity: .85; }
+.feature-card:hover, .product-card:hover, a.feature-card:hover { border-color: rgba(255,158,69,.6); }
+.mini-card, .hero-card { background: var(--panel-grad-2); }
+.badge { background: rgba(255,107,53,.12); box-shadow: inset 0 0 0 1px rgba(255,107,53,.4); color: #ffb35c; border-color: rgba(255,107,53,.5); }
+
+.button.primary { background: linear-gradient(135deg, #ffb35c, #f07f2e); border-color: #ffb35c; box-shadow: 0 10px 24px rgba(255,140,50,.35), inset 0 1px 0 rgba(255,255,255,.4); }
+.button.primary:hover { background: linear-gradient(135deg, #ffb35c, #f07f2e); color: var(--accent-ink); box-shadow: 0 16px 32px rgba(255,140,50,.45), inset 0 1px 0 rgba(255,255,255,.4); }
+.button.secondary { background: rgba(255,158,69,.06); }
+.chip.selected { background: rgba(255,158,69,.15); }
+.field input[type="text"], .field input[type="email"], .field input[type="number"], .field input[type="date"], .field select, .field textarea {
+  background: linear-gradient(180deg, #150e08, #17100b); border-color: #5a3d20; }
+.field input:focus, .field select:focus, .field textarea:focus { border-color: var(--accent); box-shadow: inset 0 2px 6px rgba(0,0,0,.5), 0 0 0 3px rgba(255,158,69,.22); }
+.check-grid label { background: linear-gradient(180deg, #2a1c10, #1d130b); }
+.check-grid label:hover { border-color: rgba(255,158,69,.55); }
+.swatch.selected { border-color: #fff3df; box-shadow: 0 0 0 3px rgba(255,158,69,.6), 0 0 18px rgba(255,158,69,.55), inset 0 -6px 10px rgba(0,0,0,.3); }
+
+.preview-stage { background:
+  radial-gradient(420px 190px at 50% 0%, rgba(255,214,150,.13), transparent 60%),
+  radial-gradient(340px 90px at 50% 88%, rgba(0,0,0,.55), transparent 70%),
+  radial-gradient(600px 300px at 50% -40px, rgba(255,158,69,.14), transparent 60%),
+  linear-gradient(180deg, #2e2013, #17100b);
+  border-color: #6b4423; }
+#gl-wrap { border-color: #6b4423; }
+model-viewer { border-color: #6b4423; }
+.result-panel { border-color: rgba(255,158,69,.65); box-shadow: 0 0 0 1px rgba(255,158,69,.12), 0 14px 34px rgba(0,0,0,.45), 0 0 34px rgba(255,140,50,.12), inset 0 1px 0 rgba(255,255,255,.06); background: linear-gradient(170deg, #2a1a0c, #1d1208); }
+.result-panel .num, .kicker-stat .num { background: linear-gradient(90deg, #faf0dc, #ffb35c); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.breakdown li { border-bottom-color: rgba(255,158,69,.14); }
+.meter i { background: linear-gradient(90deg, var(--accent-2), var(--accent)); box-shadow: 0 0 10px rgba(255,140,50,.65); }
+.spec-table th { background: linear-gradient(180deg, #3d2712, #2a1a0e); }
+details.faq { background: var(--panel-grad-2); }
+details.faq[open] { border-color: rgba(255,158,69,.6); }
+.subnav { background: rgba(23,16,11,.9); }
+.subnav a:hover { background: rgba(255,158,69,.14); }
+.build-bar { background: rgba(23,16,11,.93); box-shadow: 0 -1px 0 rgba(255,158,69,.55), 0 -12px 30px rgba(0,0,0,.45); }
+.status-pill { box-shadow: inset 0 0 0 1px rgba(255,158,69,.35), 0 4px 12px rgba(0,0,0,.3); }
+.info-band { background: linear-gradient(180deg, #241811, #1d130b); }
+.flame { transform-origin: 50% 100%; transform-box: fill-box; animation: flick .9s ease-in-out infinite; }
+@keyframes flick { 0%,100% { transform: scale(1,1); } 25% { transform: scale(.94,1.13); } 50% { transform: scale(1.05,.92); } 75% { transform: scale(.97,1.07); } }
+@media (prefers-reduced-motion: reduce) { .flame { animation: none; } }
+
+
+/* Interactive bench */
+.stage-toggle { position: absolute; top: 10px; left: 10px; z-index: 3; display: flex; gap: .45rem; }
+#bench3d { position: relative; z-index: 1; width: 100%; }
+#bench-gl { height: 320px; border-radius: 10px; overflow: hidden; cursor: grab; touch-action: none; }
+#bench-gl:active { cursor: grabbing; }
+.bench-ui { padding: .8rem .2rem 0; }
+.bench-hint { color: var(--muted); margin: 0 0 .4rem; font-size: .95rem; }
+
+</style>
+    
+      <meta name="google-adsense-account" content="ca-pub-4750157756501290" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4750157756501290" crossorigin="anonymous"></script>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5JXBTPJR');</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KKBPGV74KK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KKBPGV74KK');
+  gtag('config', 'GT-M397NHT5');
+</script>
+<!-- Ahrefs Analytics -->
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="q+qtldqFNRy0lCECcj9JCw" async></script>
+<script>
+  var ahrefs_analytics_script = document.createElement('script');
+  ahrefs_analytics_script.async = true;
+  ahrefs_analytics_script.src = 'https://analytics.ahrefs.com/analytics.js';
+  ahrefs_analytics_script.setAttribute('data-key', 'q+qtldqFNRy0lCECcj9JCw');
+  document.getElementsByTagName('head')[0].appendChild(ahrefs_analytics_script);
+</script>
+
+</head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JXBTPJR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="/" aria-label="ReeferDude home">
+          <svg width="32" height="32" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#241811"/>
+  <g fill="#3ddc84">
+    <ellipse cx="32" cy="21" rx="4.6" ry="15"/>
+    <ellipse cx="32" cy="21" rx="4.6" ry="15" transform="rotate(28 32 38)"/>
+    <ellipse cx="32" cy="21" rx="4.6" ry="15" transform="rotate(-28 32 38)"/>
+    <ellipse cx="32" cy="21" rx="4.6" ry="15" transform="rotate(56 32 38)"/>
+    <ellipse cx="32" cy="21" rx="4.6" ry="15" transform="rotate(-56 32 38)"/>
+    <ellipse cx="32" cy="21" rx="4.6" ry="15" transform="rotate(82 32 38)"/>
+    <ellipse cx="32" cy="21" rx="4.6" ry="15" transform="rotate(-82 32 38)"/>
+  </g>
+  <circle cx="32" cy="34" r="5" fill="#9b5de5"/>
+  <path d="M32 38 L32 56" stroke="#3ddc84" stroke-width="3.4" stroke-linecap="round"/>
+</svg>
+
+          <span>REEFERDUDE</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="/#studio">Studio</a>
+          <a href="/#lab">Strain Lab</a>
+          <a href="/#budtender">AI Budtender</a>
+          <a href="/#shop">Shop</a>
+          <a href="/#about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Design Studio</p>
+          <h1>Your piece. Your colors. Your call.</h1>
+          <p class="lead">A working design demo: choose a piece, paint it, stack the add-ons, and see the build price update live. Ordering opens through the Marketplace at launch.</p>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 1120 230" role="presentation" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <radialGradient id="spot" cx="0.5" cy="0" r="1">
+                <stop offset="0" stop-color="#ffb35c" stop-opacity="0.22"/><stop offset="1" stop-color="#ffb35c" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="flameGlow" cx="0.5" cy="0.5" r="0.5">
+                <stop offset="0" stop-color="#ffcf8a" stop-opacity="0.85"/><stop offset="0.55" stop-color="#ff8a3c" stop-opacity="0.35"/><stop offset="1" stop-color="#ff8a3c" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="flameGrad" x1="0" y1="1" x2="0" y2="0">
+                <stop offset="0" stop-color="#ff6b35"/><stop offset="0.55" stop-color="#ffb35c"/><stop offset="1" stop-color="#ffe9b8"/>
+              </linearGradient>
+              <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#7c5226"/><stop offset="0.5" stop-color="#5f3f22"/><stop offset="1" stop-color="#3a2413"/>
+              </linearGradient>
+              <linearGradient id="rim2" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#ffcf8a"/><stop offset="1" stop-color="#ff8a3c"/>
+              </linearGradient>
+            </defs>
+            <polygon points="170,0 290,0 370,180 90,180" fill="url(#spot)"/>
+            <polygon points="830,0 950,0 1030,180 750,180" fill="url(#spot)"/>
+            <circle cx="230" cy="13" r="15" fill="#ffcf8a" opacity="0.18"/>
+            <circle cx="230" cy="13" r="5" fill="#ffe9b8"/>
+            <circle cx="890" cy="13" r="15" fill="#ffcf8a" opacity="0.18"/>
+            <circle cx="890" cy="13" r="5" fill="#ffe9b8"/>
+            <g fill="none" stroke="url(#rim2)" stroke-width="2.5" opacity="0.95">
+              <g class="float-slow">
+                <path d="M215 60 h44 v44 l14 22 a10 10 0 0 1 2 6 v40 a12 12 0 0 1 -12 12 h-52 a12 12 0 0 1 -12 -12 v-40 a10 10 0 0 1 2 -6 l14 -22z"/>
+                <rect x="209" y="50" width="56" height="11" rx="5"/>
+              </g>
+              <g class="float-slower">
+                <rect x="516" y="102" width="88" height="80" rx="12"/>
+                <rect x="512" y="88" width="96" height="16" rx="7"/>
+              </g>
+              <g class="float-slow">
+                <path d="M838 106 a52 40 0 0 1 104 0 l20 3 q8 1 5 8 q-2 5 -10 5 h-134 q-8 0 -10 -5 q-3 -7 5 -8z"/>
+              </g>
+            </g>
+            <g stroke="#ffd9a0" stroke-width="2" opacity="0.55">
+              <line x1="640" y1="150" x2="700" y2="118"/>
+              <line x1="646" y1="160" x2="706" y2="140"/>
+              <line x1="330" y1="150" x2="392" y2="128"/>
+              <line x1="330" y1="160" x2="388" y2="150"/>
+            </g>
+            <circle cx="972" cy="88" r="34" fill="url(#flameGlow)"/>
+            <rect x="1016" y="118" width="7" height="64" fill="#3a2413"/>
+            <path d="M1019 118 L982 100" stroke="#8a5a2b" stroke-width="6" stroke-linecap="round"/>
+            <path class="flame" d="M972 116 C 957 94, 965 74, 972 56 C 979 74, 987 94, 972 116 Z" fill="url(#flameGrad)"/>
+            <g fill="#ffb35c">
+              <circle cx="140" cy="66" r="2.6" opacity="0.7"/><circle cx="430" cy="40" r="2.2" opacity="0.5"/>
+              <circle cx="690" cy="58" r="2.6" opacity="0.6"/><circle cx="345" cy="120" r="2" opacity="0.45"/>
+              <circle cx="800" cy="128" r="2" opacity="0.45"/><circle cx="600" cy="30" r="2" opacity="0.5"/>
+            </g>
+            <g fill="#ff6b35">
+              <circle cx="255" cy="34" r="2" opacity="0.6"/><circle cx="905" cy="86" r="2.4" opacity="0.55"/>
+              <circle cx="480" cy="146" r="1.8" opacity="0.4"/><circle cx="1050" cy="130" r="2" opacity="0.45"/>
+            </g>
+            <rect x="40" y="182" width="1040" height="10" rx="4" fill="url(#wood)"/>
+            <rect x="40" y="192" width="1040" height="34" fill="#2a1a0e"/>
+            <g stroke="rgba(0,0,0,0.4)" stroke-width="2">
+              <line x1="180" y1="192" x2="180" y2="226"/><line x1="320" y1="192" x2="320" y2="226"/>
+              <line x1="460" y1="192" x2="460" y2="226"/><line x1="600" y1="192" x2="600" y2="226"/>
+              <line x1="740" y1="192" x2="740" y2="226"/><line x1="880" y1="192" x2="880" y2="226"/>
+              <line x1="1020" y1="192" x2="1020" y2="226"/>
+            </g>
+          </svg>
+        </div>
+        </div>
+      </section>
+
+      <nav class="subnav" aria-label="Design Studio sections">
+        <div class="container">
+          <a href="#configurator">Configurator</a>
+          <a href="#categories">Categories</a>
+          <a href="#presets">Presets</a>
+          <a href="#my-designs">My Designs</a>
+          <a href="#materials">Materials &amp; Craft</a>
+          <a href="#process">How It Works</a>
+          <a href="#studio-faq">Studio FAQ</a>
+          <a href="#viewer3d">3D Viewer</a>
+          <a href="#ar-vr">AR / VR</a>
+          <a href="#print-lab">Print Lab</a>
+          <a href="#inventory">No-Inventory Engine</a>
+          <a href="#pipeline">Ghost Pipeline</a>
+          <a href="#size-guide">Size Guide</a>
+          <a href="#compatibility">Compatibility</a>
+        </div>
+      </nav>
+
+      <div class="container">
+        <section class="section-pad" id="categories">
+          <div class="section-heading">
+            <p class="eyebrow">Categories</p>
+            <h2>Five labs. Thirty-three pieces.</h2>
+          </div>
+          <div class="card-grid">
+            <article class="feature-card">
+              <h3>Glass Lab</h3>
+              <p>Bongs, dab rigs, bubblers, and hand pipes in borosilicate — thickness, percolator, and joint size all dialed by you.</p>
+              <p><button class="chip" type="button" data-set-piece="bong">Start with a Bong</button> <button class="chip" type="button" data-set-piece="rig">Start with a Rig</button></p>
+            </article>
+            <article class="feature-card">
+              <h3>Apparel Lab</h3>
+              <p>Tees, hoodies, tanks, and caps printed on demand — your colorway, your placement, your artwork.</p>
+              <p><button class="chip" type="button" data-set-piece="tee">Start with a Tee</button> <button class="chip" type="button" data-set-piece="hoodie">Start with a Hoodie</button></p>
+            </article>
+            <article class="feature-card">
+              <h3>Gear Lab</h3>
+              <p>Grinders, rolling trays, stash jars, and paper kits — the everyday-carry end of the bench.</p>
+              <p><button class="chip" type="button" data-set-piece="grinder">Start with a Grinder</button> <button class="chip" type="button" data-set-piece="jar">Start with a Jar</button></p>
+            </article>
+            <article class="feature-card">
+              <h3>Print Lab</h3>
+              <p>Posters, canvas prints, tapestries, and sticker packs — your colorway and artwork, printed per order, zero stock on shelves.</p>
+              <p><button class="chip" type="button" data-set-piece="canvas">Start with Canvas</button> <button class="chip" type="button" data-set-piece="poster">Start with a Poster</button></p>
+            </article>
+            <article class="feature-card">
+              <h3>Grow Lab</h3>
+              <p>Tent kits, LED panels, carbon filtration, and nutrient starters — the hardware end of the PotGrowHub bench, specced your way.</p>
+              <p><button class="chip" type="button" data-set-piece="tent">Start with a Tent</button> <button class="chip" type="button" data-set-piece="led">Start with an LED</button></p>
+            </article>
+          </div>
+          <div class="kicker-stat">
+            <div><span class="num">33</span><span class="cap">Pieces</span></div>
+            <div><span class="num">10</span><span class="cap">Colorways</span></div>
+            <div><span class="num">10</span><span class="cap">Add-ons</span></div>
+            <div><span class="num">0</span><span class="cap">Inventory held</span></div>
+          </div>
+        </section>
+
+        <div class="tool-card" id="configurator">
+          <div class="grid-2">
+            <div>
+              <div class="field">
+                <label for="piece">Piece</label>
+                <select id="piece">
+                  <optgroup label="Glass Lab">
+                    <option value="bong" data-base="60">Glass Bong — base $60</option>
+                    <option value="rig" data-base="85">Dab Rig — base $85</option>
+                    <option value="bubbler" data-base="45">Bubbler — base $45</option>
+                    <option value="gravity" data-base="65">Gravity Bong — base $65</option>
+                    <option value="pipe" data-base="25">Hand Pipe — base $25</option>
+                    <option value="steamroller" data-base="19">Steamroller — base $19</option>
+                    <option value="chillum" data-base="12">Chillum — base $12</option>
+                  </optgroup>
+                  <optgroup label="Apparel Lab">
+                    <option value="tee" data-base="28">T-Shirt — base $28</option>
+                    <option value="hoodie" data-base="48">Hoodie — base $48</option>
+                    <option value="crewneck" data-base="42">Crewneck Sweatshirt — base $42</option>
+                    <option value="longsleeve" data-base="32">Long Sleeve Tee — base $32</option>
+                    <option value="tank" data-base="24">Tank Top — base $24</option>
+                    <option value="cap" data-base="26">Snapback Cap — base $26</option>
+                    <option value="beanie" data-base="22">Beanie — base $22</option>
+                    <option value="tote" data-base="20">Tote Bag — base $20</option>
+                    <option value="socks" data-base="12">Crew Socks — base $12</option>
+                  </optgroup>
+                  <optgroup label="Gear Lab">
+                    <option value="grinder" data-base="22">Grinder — base $22</option>
+                    <option value="tray" data-base="18">Rolling Tray — base $18</option>
+                    <option value="jar" data-base="16">Stash Jar — base $16</option>
+                    <option value="dugout" data-base="18">Dugout One-Hitter — base $18</option>
+                    <option value="scale" data-base="24">Precision Scale — base $24</option>
+                    <option value="rolling-machine" data-base="15">Rolling Machine — base $15</option>
+                    <option value="ashtray" data-base="14">Ashtray — base $14</option>
+                    <option value="papers" data-base="12">Rolling Papers Kit — base $12</option>
+                    <option value="wick" data-base="6">Hemp Wick Pack — base $6</option>
+                  </optgroup>
+                  <optgroup label="Print Lab">
+                    <option value="poster" data-base="14">Poster Print — base $14</option>
+                    <option value="canvas" data-base="32">Canvas Print — base $32</option>
+                    <option value="tapestry" data-base="28">Tapestry — base $28</option>
+                    <option value="stickers" data-base="8">Sticker Pack — base $8</option>
+                  </optgroup>
+                  <optgroup label="Grow Lab">
+                    <option value="tent" data-base="120">Grow Tent Kit — base $120</option>
+                    <option value="led" data-base="95">LED Grow Panel — base $95</option>
+                    <option value="filter" data-base="54">Carbon Filter Kit — base $54</option>
+                    <option value="nutrients" data-base="38">Nutrient Starter Kit — base $38</option>
+                  </optgroup>
+                </select>
+              </div>
+              <div class="field">
+                <label>Colorway</label>
+                <div class="swatch-row" id="swatches">
+                  <button type="button" class="swatch selected" data-color="#3ddc84" data-name="Emerald" style="background:#3ddc84" aria-label="Emerald"></button>
+                  <button type="button" class="swatch" data-color="#9b5de5" data-name="Purple Haze" style="background:#9b5de5" aria-label="Purple Haze"></button>
+                  <button type="button" class="swatch" data-color="#1d3557" data-name="Midnight" style="background:#1d3557" aria-label="Midnight"></button>
+                  <button type="button" class="swatch" data-color="#f4a261" data-name="Amber" style="background:#f4a261" aria-label="Amber"></button>
+                  <button type="button" class="swatch" data-color="#e0fbfc" data-name="Frost" style="background:#e0fbfc" aria-label="Frost"></button>
+                  <button type="button" class="swatch" data-color="#e63946" data-name="Crimson" style="background:#e63946" aria-label="Crimson"></button>
+                  <button type="button" class="swatch" data-color="#ff8c42" data-name="Sunset" style="background:#ff8c42" aria-label="Sunset"></button>
+                  <button type="button" class="swatch" data-color="#6a994e" data-name="Camo" style="background:#6a994e" aria-label="Camo"></button>
+                  <button type="button" class="swatch" data-color="#3a3d5c" data-name="Carbon" style="background:#3a3d5c" aria-label="Carbon"></button>
+                  <button type="button" class="swatch" data-color="#4361ee" data-name="Royal" style="background:#4361ee" aria-label="Royal"></button>
+                </div>
+                <p style="color:var(--muted);margin:.5rem 0 0">Colorway: <strong id="color-name" style="color:var(--text)">Emerald</strong></p>
+              </div>
+              <div class="field">
+                <label>Finish</label>
+                <div class="check-grid" id="finishes">
+                  <button type="button" class="chip finish-chip selected" data-finish="Gloss" data-price="0">Gloss +$0</button>
+                  <button type="button" class="chip finish-chip" data-finish="Matte" data-price="0">Matte +$0</button>
+                  <button type="button" class="chip finish-chip" data-finish="Frosted" data-price="8">Frosted +$8</button>
+                  <button type="button" class="chip finish-chip" data-finish="Glow" data-price="14">Glow-in-dark +$14</button>
+                  <button type="button" class="chip finish-chip" data-finish="Color-Shift" data-price="18">Color-Shift +$18</button>
+                </div>
+              </div>
+              <div class="field">
+                <label>Accent color (mouthpiece, print ring, lid)</label>
+                <div class="swatch-row" id="accent-swatches">
+                  <button type="button" class="swatch selected" data-color="#e9f5ec" data-name="Bone" style="background:#e9f5ec" aria-label="Bone"></button>
+                  <button type="button" class="swatch" data-color="#f4c542" data-name="Gold" style="background:#f4c542" aria-label="Gold"></button>
+                  <button type="button" class="swatch" data-color="#cfd8dc" data-name="Silver" style="background:#cfd8dc" aria-label="Silver"></button>
+                  <button type="button" class="swatch" data-color="#9b5de5" data-name="Violet" style="background:#9b5de5" aria-label="Violet"></button>
+                  <button type="button" class="swatch" data-color="#141414" data-name="Onyx" style="background:#141414" aria-label="Onyx"></button>
+                  <button type="button" class="swatch" data-color="#ff7bac" data-name="Bubblegum" style="background:#ff7bac" aria-label="Bubblegum"></button>
+                </div>
+                <p style="color:var(--muted);margin:.5rem 0 0">Accent: <strong id="accent-name" style="color:var(--text)">Bone</strong></p>
+              </div>
+              <div class="field">
+                <label for="scene">Preview backdrop</label>
+                <select id="scene">
+                  <option value="garden">Workshop Bench</option>
+                  <option value="neon">Kiln Glow</option>
+                  <option value="sunset">Torch Light</option>
+                  <option value="clean">Clean Bench</option>
+                </select>
+              </div>
+              <div class="field" id="size-field">
+                <label for="size">Bong height — <output id="size-out">30 cm</output></label>
+                <input type="range" id="size" min="20" max="50" value="30" />
+                <p style="color:var(--muted);margin:.35rem 0 0">Glass is priced at $0.50 per cm over 30 cm.</p>
+              </div>
+              <div class="field">
+                <label>Add-ons</label>
+                <div class="check-grid" id="addons">
+                  <label><input type="checkbox" value="12" data-name="Ice catcher" />Ice catcher +$12</label>
+                  <label><input type="checkbox" value="25" data-name="Extra percolator" />Extra percolator +$25</label>
+                  <label><input type="checkbox" value="15" data-name="Custom name etch" />Custom name etch +$15</label>
+                  <label><input type="checkbox" value="6" data-name="Gift wrap" />Gift wrap +$6</label>
+                  <label><input type="checkbox" value="18" data-name="Ash catcher" />Ash catcher +$18</label>
+                  <label><input type="checkbox" value="22" data-name="Quartz banger" />Quartz banger +$22</label>
+                  <label><input type="checkbox" value="9" data-name="Bowl upgrade" />Bowl upgrade +$9</label>
+                  <label><input type="checkbox" value="16" data-name="Carry case" />Carry case +$16</label>
+                  <label><input type="checkbox" value="11" data-name="Cleaning kit" />Cleaning kit +$11</label>
+                  <label><input type="checkbox" value="20" data-name="LED glow base" />LED glow base +$20</label>
+                </div>
+              </div>
+              <div id="glass-fields">
+                <div class="field">
+                  <label for="glass-style">Glass style</label>
+                  <select id="glass-style">
+                    <option value="Solid" data-price="0">Solid color (+$0)</option>
+                    <option value="Transparent tint" data-price="0">Transparent tint (+$0)</option>
+                    <option value="Fumed (color-changing)" data-price="16">Fumed — color-changing (+$16)</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="thickness">Glass thickness</label>
+                  <select id="thickness">
+                    <option value="5mm" data-price="0">5mm — standard (+$0)</option>
+                    <option value="7mm" data-price="10">7mm — heavy duty (+$10)</option>
+                    <option value="9mm" data-price="20">9mm — tank grade (+$20)</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="perc">Built-in percolator</label>
+                  <select id="perc">
+                    <option value="None" data-price="0">None (+$0)</option>
+                    <option value="Tree perc" data-price="18">Tree perc (+$18)</option>
+                    <option value="Showerhead perc" data-price="22">Showerhead perc (+$22)</option>
+                    <option value="Honeycomb perc" data-price="16">Honeycomb perc (+$16)</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="joint">Joint size</label>
+                  <select id="joint">
+                    <option value="14mm">14mm</option>
+                    <option value="18mm">18mm</option>
+                  </select>
+                </div>
+              </div>
+              <div id="apparel-fields" hidden>
+                <div class="field">
+                  <label for="fabric">Fabric</label>
+                  <select id="fabric">
+                    <option value="Standard cotton" data-price="0">Standard cotton (+$0)</option>
+                    <option value="Heavyweight" data-price="6">Heavyweight (+$6)</option>
+                    <option value="Organic hemp blend" data-price="9">Organic hemp blend (+$9)</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="cloth-size">Clothing size</label>
+                  <select id="cloth-size">
+                    <option value="S" data-price="0">S (+$0)</option>
+                    <option value="M" data-price="0" selected>M (+$0)</option>
+                    <option value="L" data-price="0">L (+$0)</option>
+                    <option value="XL" data-price="0">XL (+$0)</option>
+                    <option value="2XL" data-price="4">2XL (+$4)</option>
+                    <option value="3XL" data-price="4">3XL (+$4)</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="print-place">Print placement</label>
+                  <select id="print-place">
+                    <option value="Front" data-price="0">Front (+$0)</option>
+                    <option value="Back" data-price="0">Back (+$0)</option>
+                    <option value="Front + Back" data-price="6">Front + Back (+$6)</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="artwork">Artwork</label>
+                  <select id="artwork">
+                    <option value="Leaf Mark">Leaf Mark</option>
+                    <option value="REEFERDUDE Wordmark">REEFERDUDE Wordmark</option>
+                    <option value="GanjaGoddess">GanjaGoddess</option>
+                    <option value="Hustle Hard">Hustle Hard</option>
+                  </select>
+                </div>
+              </div>
+              <div id="gear-fields" hidden>
+                <div class="field">
+                  <label for="gear-size">Size</label>
+                  <select id="gear-size">
+                    <option value="Compact" data-price="0" selected>Compact (+$0)</option>
+                    <option value="Standard" data-price="4">Standard (+$4)</option>
+                    <option value="XL" data-price="10">XL (+$10)</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="material">Material / stock / grade</label>
+                  <select id="material">
+                    <option value="Standard" data-price="0">Standard (+$0)</option>
+                    <option value="Anodized / Hardwood" data-price="6">Anodized / Hardwood (+$6)</option>
+                    <option value="Premium" data-price="12">Premium (+$12)</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <label for="etch">Custom etch / print text</label>
+                <input type="text" id="etch" maxlength="14" placeholder="e.g. RAY DUDE" autocomplete="off" />
+                <label for="etch-font" style="margin-top:.6rem">Etch font</label>
+                <select id="etch-font">
+                  <option value="Block">Block</option>
+                  <option value="Stencil">Stencil</option>
+                  <option value="Script">Script</option>
+                </select>
+                <p class="etch-note">Shows live on the preview. Uses the Custom name etch add-on (+$15) — it checks itself when you type.</p>
+              </div>
+              <div class="field" id="gift-note-field" style="display:none">
+                <label for="gift-note">Gift note</label>
+                <textarea id="gift-note" maxlength="240" placeholder="A note for the lucky human..."></textarea>
+                <p class="etch-note">Hand-written on a card in the box. Free with Gift wrap.</p>
+              </div>
+              <div class="field">
+                <label for="qty">Quantity</label>
+                <input type="number" id="qty" min="1" max="10" value="1" />
+                <p class="etch-note">Studio discount: 2 pieces = 10% off, 3 or more = 15% off the whole build.</p>
+              </div>
+            </div>
+            <div>
+              <div class="preview-stage">
+                <div class="stage-toggle" role="group" aria-label="Preview mode">
+                  <button class="chip selected" type="button" id="mode-3d">3D Bench</button>
+                  <button class="chip" type="button" id="mode-flat">Flat Sketch</button>
+                </div>
+                <div id="bench3d">
+                  <div id="bench-gl" aria-label="Interactive 3D product bench"></div>
+                  <div class="bench-ui">
+                    <p class="bench-hint" id="bench-status">Your piece, live on the bench. Drag it to spin, scroll to zoom — and tap the body or the trim to repaint it.</p>
+                    <div class="design-actions" style="margin-top:.2rem">
+                      <button class="chip" type="button" id="bench-paint-body">Repaint Body</button>
+                      <button class="chip" type="button" id="bench-paint-trim">Repaint Trim</button>
+                      <button class="chip" type="button" id="bench-spin">Spin: On</button>
+                      <button class="chip" type="button" id="bench-reset">Reset View</button>
+                    </div>
+                    <div class="design-actions" style="margin-top:.45rem">
+                      <span style="color:var(--muted)">Jump to controls:</span>
+                      <button class="chip bench-flash" type="button" data-flash="piece">Piece</button>
+                      <button class="chip bench-flash" type="button" data-flash="swatches">Colorway</button>
+                      <button class="chip bench-flash" type="button" data-flash="thickness">Glass</button>
+                      <button class="chip bench-flash" type="button" data-flash="etch">Etch</button>
+                      <button class="chip bench-flash" type="button" data-flash="finishes">Finish</button>
+                    </div>
+                  </div>
+                </div>
+                <div id="flat-previews" hidden>
+                <svg id="preview-bong" width="170" height="260" viewBox="0 0 170 260" role="img" aria-label="Bong preview">
+                  <path class="paint" d="M70 20 h30 v70 l22 34 a14 14 0 0 1 4 10 v86 a20 20 0 0 1 -20 20 H64 a20 20 0 0 1 -20 -20 v-86 a14 14 0 0 1 4 -10 l22 -34 z" fill="#3ddc84" opacity="0.9"/>
+                  <rect class="paint2" x="62" y="8" width="46" height="14" rx="6" fill="#e9f5ec"/>
+                  <path class="paint2" d="M126 120 l30 -18 a8 8 0 0 1 10 12 l-24 22 z" fill="#e9f5ec" opacity="0.75"/>
+                  <text id="etch-bong" x="85" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="2" fill="#ffffff" opacity="0.9"></text>
+                </svg>
+                <svg id="preview-tee" width="220" height="220" viewBox="0 0 220 220" role="img" aria-label="T-shirt preview" hidden>
+                  <path class="paint" d="M70 30 L30 60 L52 100 L70 88 V195 a8 8 0 0 0 8 8 h64 a8 8 0 0 0 8 -8 V88 l18 12 L190 60 L150 30 a30 30 0 0 1 -80 0z" fill="#3ddc84" opacity="0.9"/>
+                  <circle cx="110" cy="125" r="17" fill="#241811"/>
+                  <circle class="paint2" cx="110" cy="125" r="11" fill="#e9f5ec"/>
+                  <text id="etch-tee" x="110" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="2" fill="#ffffff" opacity="0.9"></text>
+                </svg>
+                <svg id="preview-flat" width="220" height="160" viewBox="0 0 220 160" role="img" aria-label="Gear preview" hidden>
+                  <rect class="paint" x="15" y="25" width="190" height="110" rx="16" fill="#3ddc84" opacity="0.9"/>
+                  <rect x="30" y="40" width="160" height="80" rx="10" fill="none" stroke="#241811" stroke-width="4"/>
+                  <circle class="paint2" cx="110" cy="80" r="15" fill="#241811"/>
+                </svg>
+                <svg id="preview-pipe" width="230" height="150" viewBox="0 0 230 150" role="img" aria-label="Hand pipe preview" hidden>
+                  <path class="paint" d="M18 96 q60 26 118 10 l44 -30 a16 16 0 0 1 22 6 l6 12 a16 16 0 0 1 -10 22 l-52 14 q-70 18 -128 -12 a14 14 0 0 1 -6 -18 l6 -4z" fill="#3ddc84" opacity="0.9"/>
+                  <ellipse class="paint2" cx="182" cy="72" rx="20" ry="9" fill="#241811"/>
+                  <circle cx="52" cy="98" r="5" fill="#241811"/>
+                </svg>
+                <svg id="preview-cap" width="230" height="150" viewBox="0 0 230 150" role="img" aria-label="Cap preview" hidden>
+                  <path class="paint" d="M45 92 a70 52 0 0 1 140 0 l26 4 q10 2 6 10 q-2 6 -12 6 H25 q-10 0 -12 -6 q-4 -8 6 -10z" fill="#3ddc84" opacity="0.9"/>
+                  <rect class="paint2" x="104" y="34" width="22" height="10" rx="5" fill="#e9f5ec"/>
+                  <path d="M115 44 v48 M72 52 q10 20 12 40 M158 52 q-10 20 -12 40" stroke="#241811" stroke-width="3" fill="none" opacity="0.5"/>
+                </svg>
+                <svg id="preview-jar" width="170" height="200" viewBox="0 0 170 200" role="img" aria-label="Stash jar preview" hidden>
+                  <rect class="paint2" x="35" y="18" width="100" height="24" rx="8" fill="#e9f5ec"/>
+                  <path class="paint" d="M42 48 h86 a10 10 0 0 1 10 10 v104 a20 20 0 0 1 -20 20 H52 a20 20 0 0 1 -20 -20 V58 a10 10 0 0 1 10 -10z" fill="#3ddc84" opacity="0.9"/>
+                  <circle cx="85" cy="112" r="17" fill="#241811"/>
+                  <circle class="paint2" cx="85" cy="112" r="10" fill="#e9f5ec"/>
+                </svg>
+                </div>
+              </div>
+              <div class="result-panel" aria-live="polite">
+                <h3>Build summary</h3>
+                <p><strong id="sum-piece">Glass Bong</strong> · <span id="sum-color">Emerald</span><span id="sum-size"> · 30 cm</span></p>
+                <p id="sum-addons">No add-ons</p>
+                <ul class="breakdown" id="breakdown"></ul>
+                <p>Design code: <strong id="design-code">—</strong></p>
+                <div class="meters" aria-label="Build ratings">
+                  <div class="meter-row"><span>Smoothness</span><div class="meter"><i id="meter-smooth"></i></div><strong id="meter-smooth-val">0</strong></div>
+                  <div class="meter-row"><span>Durability</span><div class="meter"><i id="meter-durability"></i></div><strong id="meter-durability-val">0</strong></div>
+                  <div class="meter-row"><span>Stealth</span><div class="meter"><i id="meter-stealth"></i></div><strong id="meter-stealth-val">0</strong></div>
+                  <div class="meter-row"><span>Style</span><div class="meter"><i id="meter-style"></i></div><strong id="meter-style-val">0</strong></div>
+                </div>
+                <div class="stat-row">
+                  <div><span class="num" id="sum-price">$60</span><span class="cap">Price per piece</span></div>
+                  <div><span class="num" id="sum-total">$60</span><span class="cap">Build total</span></div>
+                  <div><span class="num" id="budz-earned">0</span><span class="cap">Budz earned at launch</span></div>
+                </div>
+                <p>This studio is a design demo — no payment is taken here. When the Marketplace opens, designs like this get made on demand: zero inventory, printed and shipped per order.</p>
+                <p><a class="button secondary" href="/marketplace/">See the Ghost Marketplace</a></p>
+                <div class="design-actions">
+                  <button class="button primary" type="button" id="save-design">Save Design</button>
+                  <button class="button secondary" type="button" id="copy-design">Copy Summary</button>
+                  <button class="button secondary" type="button" id="download-design">Download Spec</button>
+                  <button class="button secondary" type="button" id="random-design">Surprise Me</button>
+                  <button class="button secondary" type="button" id="hear-design">Hear It</button>
+                  <button class="button secondary" type="button" id="share-design">Share</button>
+                </div>
+                <p id="action-status" style="color:var(--accent);margin:.6rem 0 0"></p>
+                <p style="color:var(--muted);margin:.8rem 0 0">Scan to carry this build to your phone:</p>
+                <img id="design-qr" src="" alt="QR code for the current design code" width="120" height="120" style="border-radius:10px;background:#fff;padding:6px" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="section-pad" id="presets">
+          <div class="section-heading">
+            <p class="eyebrow">Presets</p>
+            <h2>House builds — load one, remix it.</h2>
+          </div>
+          <div class="product-grid">
+            <article class="product-card">
+              <span class="badge">Glass Lab</span>
+              <h3>The Emerald Standard</h3>
+              <p>Beaker bong in Emerald, 7mm glass, showerhead perc, ice catcher. The house daily driver.</p>
+              <p><button class="button secondary" type="button" data-preset="emerald">Load This Build</button></p>
+            </article>
+            <article class="product-card">
+              <span class="badge">Apparel Lab</span>
+              <h3>Purple Haze Hoodie</h3>
+              <p>Hoodie in Purple Haze with the GanjaGoddess artwork front and back.</p>
+              <p><button class="button secondary" type="button" data-preset="haze">Load This Build</button></p>
+            </article>
+            <article class="product-card">
+              <span class="badge">Gear Lab</span>
+              <h3>Midnight Operator Kit</h3>
+              <p>Grinder in Midnight, premium material, with carry case and cleaning kit riding along.</p>
+              <p><button class="button secondary" type="button" data-preset="midnight">Load This Build</button></p>
+            </article>
+            <article class="product-card">
+              <span class="badge">Glass Lab</span>
+              <h3>Frost Rocket Rig</h3>
+              <p>Dab rig in Frost, 9mm tank glass, honeycomb perc, quartz banger, LED glow base.</p>
+              <p><button class="button secondary" type="button" data-preset="frost">Load This Build</button></p>
+            </article>
+            <article class="product-card">
+              <span class="badge">Apparel Lab</span>
+              <h3>Camo Trail Tee</h3>
+              <p>Tee in Camo, hemp-blend fabric, Hustle Hard artwork up front, gift wrap on.</p>
+              <p><button class="button secondary" type="button" data-preset="camo">Load This Build</button></p>
+            </article>
+            <article class="product-card">
+              <span class="badge">Gear Lab</span>
+              <h3>Royal Stash Jar</h3>
+              <p>Stash jar in Royal with an anodized finish path and the LED glow base under it.</p>
+              <p><button class="button secondary" type="button" data-preset="royal">Load This Build</button></p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-pad" id="my-designs">
+          <div class="section-heading">
+            <p class="eyebrow">My Designs</p>
+            <h2>Your saved builds.</h2>
+          </div>
+          <div id="saved-designs">
+            <p style="color:var(--muted)">Nothing saved yet. Build something in the configurator and hit Save Design — it lives here, on this device, ready to reload or share.</p>
+          </div>
+        </section>
+
+        <section class="section-pad" id="materials">
+          <div class="section-heading">
+            <p class="eyebrow">Materials &amp; Craft</p>
+            <h2>Know what you are buying.</h2>
+          </div>
+          <div class="grid-2">
+            <div class="tool-card" style="margin:0">
+              <h3>Glass thickness guide</h3>
+              <table class="spec-table">
+                <tr><th>Thickness</th><th>Feel</th><th>Best for</th></tr>
+                <tr><td>5mm</td><td>Standard, light</td><td>Budget builds, careful hands</td></tr>
+                <tr><td>7mm</td><td>Heavy duty</td><td>Daily drivers, shared pieces</td></tr>
+                <tr><td>9mm</td><td>Tank grade</td><td>Clumsy friends, long lifetimes</td></tr>
+              </table>
+              <p style="color:var(--muted)">All glass pieces are borosilicate — the same lab-grade glass that shrugs off thermal shock. Percolators add diffusion: more bubbles, cooler and smoother pulls, a little more cleaning.</p>
+            </div>
+            <div class="tool-card" style="margin:0">
+              <h3>Print &amp; materials guide</h3>
+              <table class="spec-table">
+                <tr><th>Item</th><th>Method</th><th>Care</th></tr>
+                <tr><td>Apparel</td><td>Printed on demand, per order</td><td>Wash cold, inside out; hang dry</td></tr>
+                <tr><td>Gear — standard</td><td>Molded / printed finish</td><td>Wipe clean; keep dry</td></tr>
+                <tr><td>Gear — premium</td><td>Anodized metal / hardwood</td><td>Oil wood yearly; metal is dishwasher-safe</td></tr>
+                <tr><td>Glass</td><td>Hand-finished, etched to order</td><td>Isopropyl + coarse salt; rinse warm</td></tr>
+              </table>
+              <p style="color:var(--muted)">Nothing is printed, poured, or etched until an order exists. That is the whole ghost model: zero dead stock, zero landfill drops.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-pad" id="process">
+          <div class="section-heading">
+            <p class="eyebrow">How It Works</p>
+            <h2>From your screen to your door.</h2>
+          </div>
+          <div class="card-grid">
+            <article class="feature-card"><h3>1 · Design</h3><p>You build it here — piece, colorway, options, etch. The price you see is the price math we honor.</p></article>
+            <article class="feature-card"><h3>2 · Proof</h3><p>At launch, every custom design gets a human proof check before production. Etch text and placement are confirmed by email.</p></article>
+            <article class="feature-card"><h3>3 · Made on demand</h3><p>Your piece is produced per order by a vetted maker — glass finished and etched, apparel printed, gear assembled.</p></article>
+            <article class="feature-card"><h3>4 · Shipped</h3><p>Production runs about 3–5 business days for apparel and gear, 5–10 for custom glass. Tracking lands in your inbox automatically.</p></article>
+          </div>
+        </section>
+
+        <section class="section-pad" id="studio-faq">
+          <div class="section-heading">
+            <p class="eyebrow">Studio FAQ</p>
+            <h2>Before you ask the budtender.</h2>
+          </div>
+          <details class="faq">
+            <summary>Is my design saved anywhere besides this device?</summary>
+            <p>No. Saved designs live in this browser's local storage only. Use Copy Summary or Download Spec to keep a copy you can share or send us at order time.</p>
+          </details>
+          <details class="faq">
+            <summary>Why does taller glass cost more?</summary>
+            <p>More material, more breakage risk in production, and bigger packaging. The studio charges a flat $0.50 per centimeter over 30 cm — the same rule for every tall glass piece.</p>
+          </details>
+          <details class="faq">
+            <summary>Can I put anything in the etch text?</summary>
+            <p>Up to 14 characters. Names, initials, and short words etch best. At proof time we will flag anything that will not etch cleanly — and anything unlawful or hateful does not get made.</p>
+          </details>
+          <details class="faq">
+            <summary>When can I actually order?</summary>
+            <p>Checkout opens with the Ghost Marketplace launch. Until then this studio is a full design demo: no payment is taken here, ever. Join the drop list on the contact page to hear first.</p>
+          </details>
+          <details class="faq">
+            <summary>What if my piece arrives broken?</summary>
+            <p>Glass ships insured and padded like it owes us money. Breakage in transit gets replaced or refunded under the Marketplace terms that will be posted at launch — and the owner reads the support inbox personally.</p>
+          </details>
+          <details class="faq">
+            <summary>How do the 3D viewer, AR, and VR work?</summary>
+            <p>All three run in your browser. The 3D viewer (Three.js) rebuilds your design as a real-time model. AR exports that model so your phone can place it on a real shelf — it needs the live hosted site. The VR showroom (A-Frame/WebXR) is a walk-around space; on a headset, enter VR from inside the scene.</p>
+          </details>
+          <details class="faq">
+            <summary>What does no-inventory actually mean for my order?</summary>
+            <p>Your piece does not exist until you order it. Production starts at checkout — that is why custom lead times exist — and it is also why nothing here is ever out of stock, overstocked, or landfilled.</p>
+          </details>
+          <details class="faq">
+            <summary>Which pieces can be 3D printed?</summary>
+            <p>Most of the Gear Lab: grinders, trays, jars, dugouts, ashtrays, rolling machines, and stands. The Print Lab section above estimates weight, time, and price for each before you commit.</p>
+          </details>
+          <details class="faq">
+            <summary>What are Budz?</summary>
+            <p>The house loyalty currency from the GanjaGalaxy side of the platform. At launch, every dollar of build total earns 10 Budz toward member perks. The studio already counts them on your build summary.</p>
+          </details>
+        </section>
+
+        <section class="section-pad" id="inventory">
+          <div class="section-heading">
+            <p class="eyebrow">The No-Inventory Engine</p>
+            <h2>Zero stock. Zero warehouse. Zero dead money.</h2>
+            <p style="color:var(--muted);max-width:46rem">This store never buys a product before a customer does. There is no inventory system because there is no inventory — every order triggers automatic procurement: a vetted maker produces the piece, or a supplier dropships it, straight to the buyer. Watch the engine breathe:</p>
+          </div>
+          <div class="tool-card" style="margin:0">
+            <div class="kicker-stat" style="margin-top:0">
+              <div><span class="num" id="inv-held">0</span><span class="cap">Units in stock — always</span></div>
+              <div><span class="num" id="inv-capital">$0</span><span class="cap">Cash tied up in stock</span></div>
+              <div><span class="num" id="inv-skus">1,240</span><span class="cap">Virtual SKUs live</span></div>
+              <div><span class="num" id="inv-makers">16</span><span class="cap">Makers online</span></div>
+              <div><span class="num" id="inv-orders">0</span><span class="cap">Orders routed (demo)</span></div>
+            </div>
+            <div class="grid-2" style="margin-top:1.5rem">
+              <div>
+                <h3>Run a live order through it</h3>
+                <p style="color:var(--muted)">One click fires a simulated order. The engine matches a maker, books production, procures any bought-in parts, and issues tracking — without touching a shelf, because there are no shelves.</p>
+                <p><button class="button primary" type="button" id="inv-sim">Simulate an Order</button></p>
+                <ul id="inv-log" style="color:var(--muted);padding-left:1.2rem;margin:0">
+                  <li>Engine idle. No stock was harmed — there is none.</li>
+                </ul>
+              </div>
+              <div>
+                <h3>What "virtual inventory" means</h3>
+                <table class="spec-table" style="margin-top:.5rem">
+                  <tr><th>Catalog entry</th><th>Source</th><th>Lead time</th></tr>
+                  <tr><td>Custom glass</td><td>Maker bench</td><td>5–10 days</td></tr>
+                  <tr><td>Apparel</td><td>Print-on-demand partner</td><td>3–5 days</td></tr>
+                  <tr><td>Printed gear</td><td>Print Lab partner</td><td>2–4 days</td></tr>
+                  <tr><td>Grow hardware</td><td>Supplier dropship</td><td>2–6 days</td></tr>
+                </table>
+                <p style="color:var(--muted)">A catalog entry is a promise plus a pipeline, not a box on a shelf. If a maker goes dark, the entry reroutes — the customer never sees the scramble.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-pad" id="pipeline">
+          <div class="section-heading">
+            <p class="eyebrow">Ghost Pipeline</p>
+            <h2>Automatic procurement &amp; dropshipping, end to end.</h2>
+          </div>
+          <div class="card-grid">
+            <article class="feature-card"><h3>1 · Order lands</h3><p>Checkout fires a production order containing the full build spec — piece, colorway, finish, etch, everything on this page.</p></article>
+            <article class="feature-card"><h3>2 · Auto-procurement</h3><p>The engine picks the maker or supplier by rules: capability, current lead time, defect rate, shipping zone. No human touches it.</p></article>
+            <article class="feature-card"><h3>3 · Made or pulled</h3><p>Custom work is produced per order; stock goods are dropshipped by the supplier under our label. Either way, we never held it.</p></article>
+            <article class="feature-card"><h3>4 · Tracking &amp; proof</h3><p>Carrier tracking flows back to the customer automatically; the maker uploads a photo proof before the box seals.</p></article>
+          </div>
+          <div class="grid-2" style="margin-top:1.5rem">
+            <div class="tool-card" style="margin:0">
+              <h3>Standing procurement rules</h3>
+              <table class="spec-table" style="margin-top:.5rem">
+                <tr><th>If this happens</th><th>The engine does this</th></tr>
+                <tr><td>Maker lead time passes 7 days</td><td>Reroute new orders to the backup maker</td></tr>
+                <tr><td>Defect rate crosses 2%</td><td>Pause the maker, flag for human review</td></tr>
+                <tr><td>Supplier price rises over 8%</td><td>Re-price the catalog entry or swap supplier</td></tr>
+                <tr><td>Tracking stalls 72 hours</td><td>Auto-message the customer before they ask</td></tr>
+                <tr><td>Design sells 50+ units</td><td>Pitch bulk blank pricing — still zero finished stock</td></tr>
+              </table>
+            </div>
+            <div class="tool-card" style="margin:0">
+              <h3>Integrations on this page</h3>
+              <table class="spec-table" style="margin-top:.5rem">
+                <tr><th>Integration</th><th>What it powers</th></tr>
+                <tr><td>Three.js</td><td>The interactive 3D viewer</td></tr>
+                <tr><td>WebXR + model-viewer</td><td>AR placement in your room</td></tr>
+                <tr><td>A-Frame</td><td>The VR showroom</td></tr>
+                <tr><td>Web Speech</td><td>Voice — hear your build read aloud</td></tr>
+                <tr><td>Web Share</td><td>One-tap sharing of a design</td></tr>
+                <tr><td>Print-on-demand network</td><td>Apparel + Print Lab production</td></tr>
+                <tr><td>3D print partners</td><td>Gear Lab printed pieces</td></tr>
+                <tr><td>Dropship suppliers</td><td>Grow Lab hardware, shipped direct</td></tr>
+                <tr><td>GanjaGoddess AI</td><td>The budtender, one floor down</td></tr>
+              </table>
+              <p style="color:var(--muted)">Commerce integrations switch on with the Marketplace launch; the design-side integrations above are live in this page right now.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-pad" id="size-guide">
+          <div class="section-heading">
+            <p class="eyebrow">Size Guide</p>
+            <h2>Measure twice, order once.</h2>
+          </div>
+          <div class="grid-2">
+            <div class="tool-card" style="margin:0">
+              <h3>Apparel sizes</h3>
+              <table class="spec-table" style="margin-top:.5rem">
+                <tr><th>Size</th><th>Chest (in)</th><th>Fit note</th></tr>
+                <tr><td>S</td><td>34–36</td><td>Close fit</td></tr>
+                <tr><td>M</td><td>38–40</td><td>The standard cut</td></tr>
+                <tr><td>L</td><td>42–44</td><td>Room to layer</td></tr>
+                <tr><td>XL</td><td>46–48</td><td>Relaxed</td></tr>
+                <tr><td>2XL</td><td>50–52</td><td>+$4 blanks cost</td></tr>
+                <tr><td>3XL</td><td>54–56</td><td>+$4 blanks cost</td></tr>
+              </table>
+            </div>
+            <div class="tool-card" style="margin:0">
+              <h3>Glass heights</h3>
+              <table class="spec-table" style="margin-top:.5rem">
+                <tr><th>Height</th><th>Character</th></tr>
+                <tr><td>20–26 cm</td><td>Personal piece, stealth shelf</td></tr>
+                <tr><td>30 cm</td><td>The standard daily driver</td></tr>
+                <tr><td>36–42 cm</td><td>Statement piece, two-hand carry</td></tr>
+                <tr><td>44–50 cm</td><td>Centerpiece — measure the shelf first</td></tr>
+              </table>
+              <p style="color:var(--muted)">Height is priced at $0.50 per cm over 30 cm, the same rule across every tall glass piece in the studio.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-pad" id="compatibility">
+          <div class="section-heading">
+            <p class="eyebrow">Compatibility</p>
+            <h2>What fits what — enforced live.</h2>
+            <p style="color:var(--muted);max-width:46rem">The configurator already enforces this matrix: pick a piece and any add-on that cannot fit it greys out and unchecks itself.</p>
+          </div>
+          <div class="tool-card" style="margin:0">
+            <table class="spec-table" style="margin-top:0">
+              <tr><th>Add-on</th><th>Glass</th><th>Apparel</th><th>Gear / Print / Grow</th></tr>
+              <tr><td>Ice catcher</td><td>Tall glass only</td><td>—</td><td>—</td></tr>
+              <tr><td>Extra percolator</td><td>Tall glass only</td><td>—</td><td>—</td></tr>
+              <tr><td>Ash catcher</td><td>Fits</td><td>—</td><td>—</td></tr>
+              <tr><td>Quartz banger</td><td>Bongs &amp; rigs</td><td>—</td><td>—</td></tr>
+              <tr><td>Bowl upgrade</td><td>Fits</td><td>—</td><td>—</td></tr>
+              <tr><td>LED glow base</td><td>Bongs, rigs, bubblers</td><td>—</td><td>Stash jars</td></tr>
+              <tr><td>Custom name etch</td><td>Fits</td><td>Fits (as print)</td><td>Fits</td></tr>
+              <tr><td>Gift wrap</td><td>Fits</td><td>Fits</td><td>Fits</td></tr>
+              <tr><td>Carry case</td><td>Fits</td><td>Fits</td><td>Fits</td></tr>
+              <tr><td>Cleaning kit</td><td>Fits</td><td>Fits</td><td>Fits</td></tr>
+            </table>
+          </div>
+        </section>
+
+        <section class="section-pad" id="compare">
+          <div class="section-heading">
+            <p class="eyebrow">Build Compare</p>
+            <h2>The house builds, side by side.</h2>
+          </div>
+          <div class="tool-card" style="margin:0">
+            <table class="spec-table" style="margin-top:0">
+              <tr><th>Spec</th><th>Emerald Standard</th><th>Frost Rocket Rig</th><th>Midnight Operator Kit</th></tr>
+              <tr><td>Piece</td><td>Glass Bong, 34 cm</td><td>Dab Rig, 32 cm</td><td>Grinder, Standard</td></tr>
+              <tr><td>Build</td><td>7mm glass, showerhead perc, 18mm joint</td><td>9mm glass, honeycomb perc, 14mm joint</td><td>Premium material</td></tr>
+              <tr><td>Add-ons</td><td>Ice catcher</td><td>Quartz banger, LED glow base</td><td>Carry case, cleaning kit</td></tr>
+              <tr><td>Unit price</td><td><strong style="color:var(--text)">$106</strong></td><td><strong style="color:var(--text)">$164</strong></td><td><strong style="color:var(--text)">$65</strong></td></tr>
+            </table>
+            <p style="color:var(--muted)">Prices computed by the same engine that runs the configurator — load any preset up top and the breakdown proves it line by line.</p>
+          </div>
+        </section>
+
+        <section class="section-pad" id="care">
+          <div class="section-heading">
+            <p class="eyebrow">Pro Care</p>
+            <h2>The 4-step glass reset.</h2>
+          </div>
+          <div class="card-grid">
+            <article class="feature-card"><h3>1 · Empty &amp; rinse</h3><p>Warm water only. Never boiling water on cold glass — thermal shock cracks more pieces than drops do.</p></article>
+            <article class="feature-card"><h3>2 · Iso + salt</h3><p>Isopropyl and coarse salt in, holes capped. The salt is the scrubber, the iso is the solvent.</p></article>
+            <article class="feature-card"><h3>3 · Shake &amp; soak</h3><p>Sixty seconds of shaking; stubborn spots soak twenty minutes. Pipe cleaners chase the percolator arms.</p></article>
+            <article class="feature-card"><h3>4 · Rinse to silent</h3><p>Rinse until the water runs clear and quiet. A weekly light clean beats a monthly deep rescue, every time.</p></article>
+          </div>
+        </section>
+
+        <section class="section-pad" id="viewer3d">
+          <div class="section-heading">
+            <p class="eyebrow">Interactive 3D</p>
+            <h2>Hold your build in your hands — almost.</h2>
+            <p style="color:var(--muted);max-width:46rem">A live 3D model of your piece, generated in the browser with Three.js. Load your current studio design into it — colorway, accent, finish, and height carry over — then orbit it, zoom in, and inspect it like it is already on your shelf.</p>
+          </div>
+          <div class="tool-card" style="margin:0">
+            <div id="gl-wrap" style="height:400px;border-radius:12px;overflow:hidden;background:radial-gradient(700px 300px at 70% 0%, rgba(155,93,229,.22), transparent 60%),radial-gradient(600px 300px at 15% 100%, rgba(61,220,132,.15), transparent 55%),#17100b"></div>
+            <div class="design-actions">
+              <button class="button primary" type="button" id="gl-load">Load Current Design</button>
+              <button class="button secondary" type="button" id="gl-rotate">Auto-Rotate: On</button>
+              <button class="button secondary" type="button" id="gl-wire">Wireframe: Off</button>
+            </div>
+            <p class="etch-note" id="gl-status">Drag to orbit · scroll to zoom · right-drag to pan. The viewer loads Three.js from a CDN, so it needs an internet connection; the rest of this page works fully offline.</p>
+          </div>
+        </section>
+
+        <section class="section-pad" id="ar-vr">
+          <div class="section-heading">
+            <p class="eyebrow">AR / VR</p>
+            <h2>See it in your room. Walk around it in the showroom.</h2>
+          </div>
+          <div class="grid-2">
+            <div class="tool-card" style="margin:0">
+              <h3>AR — your room, your shelf</h3>
+              <p style="color:var(--muted)">Build an AR model straight from your current design, then tap the AR button on the viewer to place it on your actual shelf at real scale. AR needs this page hosted on the live site (HTTPS) and a phone that supports AR.</p>
+              <model-viewer id="ar-viewer" camera-controls ar ar-modes="webxr scene-viewer quick-look" style="width:100%;height:320px;background:#17100b;border-radius:12px" alt="Your design as an AR model"></model-viewer>
+              <div class="design-actions">
+                <button class="button primary" type="button" id="ar-export">Build AR Model From My Design</button>
+              </div>
+              <p class="etch-note" id="ar-status">No model yet — design something up top, then build it here.</p>
+            </div>
+            <div class="tool-card" style="margin:0">
+              <h3>VR — the showroom</h3>
+              <p style="color:var(--muted)">Step into the studio showroom with A-Frame / WebXR. On a headset, use the VR button in the scene; on desktop, drag to look around. The pedestal piece wears your current colorway.</p>
+              <div id="vr-holder" style="border-radius:12px;overflow:hidden"></div>
+              <div class="design-actions">
+                <button class="button secondary" type="button" id="vr-sync">Sync Studio Colorway</button>
+                <button class="button secondary" type="button" id="vr-spin">Spin the Pedestal</button>
+              </div>
+              <p class="etch-note">The VR scene loads A-Frame from a CDN (internet required) and builds itself when this section scrolls into view.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-pad" id="print-lab">
+          <div class="section-heading">
+            <p class="eyebrow">3D Print On Demand</p>
+            <h2>The Print Lab — plastic, on purpose, per order.</h2>
+            <p style="color:var(--muted);max-width:46rem">Half the Gear Lab can be printed instead of stocked: grinders, trays, jars, dugouts, ashtrays, rolling machines, and custom stands. Estimate a print right here — material, infill, weight, time, and price, computed live.</p>
+          </div>
+          <div class="tool-card" style="margin:0">
+            <div class="grid-2">
+              <div>
+                <div class="field">
+                  <label for="pf-piece">Printable piece</label>
+                  <select id="pf-piece">
+                    <option value="85">Grinder (85 g shell)</option>
+                    <option value="120">Rolling Tray (120 g shell)</option>
+                    <option value="95">Stash Jar (95 g shell)</option>
+                    <option value="45">Dugout (45 g shell)</option>
+                    <option value="70">Ashtray (70 g shell)</option>
+                    <option value="150">Rolling Machine (150 g shell)</option>
+                    <option value="60">Display Stand (60 g shell)</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="pf-material">Filament / resin</label>
+                  <select id="pf-material">
+                    <option value="0.05" data-name="PLA">PLA — everyday, biodegradable-leaning ($0.05/g)</option>
+                    <option value="0.06" data-name="PETG">PETG — tougher, water-resistant ($0.06/g)</option>
+                    <option value="0.08" data-name="Hemp-fill PLA">Hemp-fill PLA — plant fiber composite ($0.08/g)</option>
+                    <option value="0.12" data-name="Resin">Resin — fine detail, smooth finish ($0.12/g)</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="pf-infill">Infill — <output id="pf-infill-out">40%</output></label>
+                  <input type="range" id="pf-infill" min="10" max="100" value="40" />
+                  <p class="etch-note">More infill = heavier, stronger, slower. 40% is the sweet spot for gear.</p>
+                </div>
+              </div>
+              <div>
+                <div class="result-panel" style="margin-top:0">
+                  <h3>Print estimate</h3>
+                  <div class="stat-row">
+                    <div><span class="num" id="pf-weight">—</span><span class="cap">Finished weight</span></div>
+                    <div><span class="num" id="pf-time">—</span><span class="cap">Print time</span></div>
+                    <div><span class="num" id="pf-price">—</span><span class="cap">Print price</span></div>
+                  </div>
+                  <p id="pf-note">Pick a piece and the numbers build themselves.</p>
+                </div>
+                <h3 style="margin-top:1.2rem">How a print order flows</h3>
+                <p style="color:var(--muted)">1 · Your design file slices automatically at order time. 2 · The nearest print partner with your material gets the job. 3 · Print, cure, quality-check against the spec. 4 · Ships in recycled packaging with tracking — the file is the inventory.</p>
+              </div>
+            </div>
+            <h3 style="margin-top:1.5rem">Material cheat sheet</h3>
+            <table class="spec-table">
+              <tr><th>Material</th><th>Strength</th><th>Best for</th><th>Notes</th></tr>
+              <tr><td>PLA</td><td>Good</td><td>Trays, stands, dugouts</td><td>Keep out of hot cars</td></tr>
+              <tr><td>PETG</td><td>High</td><td>Grinders, jars, ashtrays</td><td>The workhorse upgrade</td></tr>
+              <tr><td>Hemp-fill PLA</td><td>Good</td><td>Anything — the house signature</td><td>Visible plant fiber, matte feel</td></tr>
+              <tr><td>Resin</td><td>Detail-grade</td><td>Etched-look texture, minis</td><td>Fully cured and sealed before shipping</td></tr>
+            </table>
+          </div>
+        </section>
+
+        <section class="section-pad" id="related">
+          <div class="section-heading">
+            <p class="eyebrow">Keep Building</p>
+            <h2>The rest of the bench.</h2>
+          </div>
+          <div class="card-grid">
+            <a class="feature-card" href="/strain-builder/"><h3>Strain Creation Lab</h3><p>Design the cultivar that deserves a custom piece.</p></a>
+            <a class="feature-card" href="/blueprinting/"><h3>Blueprinting Studio</h3><p>Size the room your collection lives in.</p></a>
+            <a class="feature-card" href="/budtender/"><h3>AI Virtual Budtender</h3><p>Ask the GanjaGoddess what pairs with your build.</p></a>
+            <a class="feature-card" href="/consultation/"><h3>Consultations</h3><p>One-on-one time for bigger projects.</p></a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>&copy; <span id="year">2026</span> ReeferDude.com &amp; PotGrowHub.store</p>
+        <div class="footer-links">
+          <a href="/privacy/">Privacy</a>
+          <a href="/terms/">Terms</a>
+          <a href="/accessibility/">Accessibility</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="build-bar" role="region" aria-label="Current build">
+      <span>Build <strong id="bar-code">—</strong></span>
+      <span>Total <strong id="bar-total">$0</strong></span>
+      <button class="button primary" type="button" id="bar-save">Save Design</button>
+      <button class="button secondary" type="button" id="bar-top">Back to Studio</button>
+    </div>
+
+    <script>
+      (function () {
+        "use strict";
+        var piece = document.getElementById("piece");
+        var size = document.getElementById("size");
+        var color = "#3ddc84", colorName = "Emerald";
+        var finish = "Gloss", finishPrice = 0;
+        var accent = "#e9f5ec", accentName = "Bone";
+
+        var CATS = { bong: "glass", rig: "glass", bubbler: "glass", gravity: "glass", pipe: "glass", steamroller: "glass", chillum: "glass",
+                     tee: "apparel", hoodie: "apparel", crewneck: "apparel", longsleeve: "apparel", tank: "apparel", cap: "apparel", beanie: "apparel", tote: "apparel", socks: "apparel",
+                     grinder: "gear", tray: "gear", jar: "gear", dugout: "gear", scale: "gear", "rolling-machine": "gear", ashtray: "gear", papers: "gear", wick: "gear",
+                     poster: "print", canvas: "print", tapestry: "print", stickers: "print",
+                     tent: "grow", led: "grow", filter: "grow", nutrients: "grow" };
+        var TALL = { bong: 1, rig: 1, bubbler: 1, gravity: 1 };
+        var PREVIEWS = { bong: "preview-bong", rig: "preview-bong", bubbler: "preview-bong", gravity: "preview-bong", pipe: "preview-pipe", steamroller: "preview-pipe", chillum: "preview-pipe",
+                         tee: "preview-tee", hoodie: "preview-tee", crewneck: "preview-tee", longsleeve: "preview-tee", tank: "preview-tee", tote: "preview-tee", tapestry: "preview-tee", cap: "preview-cap", beanie: "preview-cap",
+                         jar: "preview-jar" };
+        function previewFor(kind) { return PREVIEWS[kind] || "preview-flat"; }
+        var FITS = {
+          "Ice catcher": function (k) { return !!TALL[k]; },
+          "Extra percolator": function (k) { return !!TALL[k]; },
+          "Custom name etch": function () { return true; },
+          "Gift wrap": function () { return true; },
+          "Ash catcher": function (k, c) { return c === "glass"; },
+          "Quartz banger": function (k) { return k === "rig" || k === "bong"; },
+          "Bowl upgrade": function (k, c) { return c === "glass"; },
+          "Carry case": function () { return true; },
+          "Cleaning kit": function () { return true; },
+          "LED glow base": function (k) { return k === "bong" || k === "rig" || k === "bubbler" || k === "jar"; }
+        };
+
+        function el(id) { return document.getElementById(id); }
+        function selPrice(sel) { var o = sel.options[sel.selectedIndex]; return o ? parseInt(o.getAttribute("data-price") || "0", 10) : 0; }
+        function fmt(n) { var v = Math.round(n * 100) / 100; return "$" + (v % 1 === 0 ? String(v) : v.toFixed(2)); }
+        function paints() { return document.querySelectorAll(".paint"); }
+
+        function currentKind() { return piece.options[piece.selectedIndex].value; }
+        function pieceName() { return piece.options[piece.selectedIndex].text.split(" \u2014 ")[0]; }
+
+        function compute() {
+          var opt = piece.options[piece.selectedIndex];
+          var base = parseInt(opt.getAttribute("data-base"), 10);
+          var kind = opt.value, cat = CATS[kind];
+          var lines = [[pieceName() + " \u00b7 " + colorName + " (base)", base]];
+          var detail = [];
+          var extra = 0, hAmt = 0;
+          if (TALL[kind]) {
+            var cm = parseInt(size.value, 10);
+            if (cm > 30) { hAmt = (cm - 30) * 0.5; lines.push(["Extra height (" + (cm - 30) + " cm over 30)", hAmt]); }
+            detail.push(cm + " cm tall");
+          }
+          if (cat === "glass") {
+            var th = el("thickness"), pc = el("perc");
+            var gs = el("glass-style");
+            if (selPrice(gs) > 0) lines.push(["Glass style: " + gs.value, selPrice(gs)]);
+            if (selPrice(th) > 0) lines.push(["Glass thickness " + th.value, selPrice(th)]);
+            if (selPrice(pc) > 0) lines.push([pc.value, selPrice(pc)]);
+            detail.push(gs.value, th.value + " glass", pc.value, el("joint").value + " joint");
+          }
+          if (cat === "apparel") {
+            var cs = el("cloth-size"), pp = el("print-place"), fb = el("fabric");
+            if (selPrice(fb) > 0) lines.push(["Fabric: " + fb.value, selPrice(fb)]);
+            if (kind !== "cap" && kind !== "beanie" && selPrice(cs) > 0) lines.push(["Size " + cs.value, selPrice(cs)]);
+            if (selPrice(pp) > 0) lines.push(["Print placement: " + pp.value, selPrice(pp)]);
+            detail.push(fb.value, (kind === "cap" || kind === "beanie") ? "One size" : "Size " + cs.value, "Print: " + pp.value, "Artwork: " + el("artwork").value);
+          }
+          if (cat === "gear" || cat === "print" || cat === "grow") {
+            var gz = el("gear-size"), mt = el("material");
+            if (selPrice(gz) > 0) lines.push(["Size: " + gz.value, selPrice(gz)]);
+            if (selPrice(mt) > 0) lines.push(["Material: " + mt.value, selPrice(mt)]);
+            detail.push("Size: " + gz.value, "Material: " + mt.value);
+          }
+          var names = [];
+          document.querySelectorAll("#addons input:checked").forEach(function (box) {
+            lines.push(["Add-on: " + box.getAttribute("data-name"), parseInt(box.value, 10)]);
+            names.push(box.getAttribute("data-name"));
+          });
+          if (finishPrice > 0) lines.push(["Finish: " + finish, finishPrice]);
+          detail.push("Finish: " + finish, "Accent: " + accentName);
+          var etchVal = el("etch").value.trim();
+          if (etchVal) detail.push("Etch/print text: \"" + etchVal.toUpperCase() + "\"");
+          var gn = el("gift-note").value.trim();
+          if (gn) detail.push("Gift note: " + gn);
+          var unit = 0;
+          lines.forEach(function (l) { unit += l[1]; });
+          var qty = Math.min(10, Math.max(1, parseInt(el("qty").value || "1", 10) || 1));
+          var rate = qty >= 3 ? 0.15 : (qty === 2 ? 0.10 : 0);
+          var gross = unit * qty, disc = gross * rate, total = gross - disc;
+          var code = "RD-" + kind.slice(0, 3).toUpperCase() + "-" + colorName.replace(/[^A-Za-z]/g, "").slice(0, 3).toUpperCase() + "-" + Math.round(unit);
+          return { kind: kind, cat: cat, lines: lines, names: names, detail: detail, unit: unit, qty: qty, rate: rate, gross: gross, disc: disc, total: total, code: code, etch: etchVal };
+        }
+
+        function summaryText(c) {
+          var out = ["REEFERDUDE DESIGN STUDIO \u2014 BUILD SPEC", "Design code: " + c.code, "Piece: " + pieceName(), "Colorway: " + colorName];
+          c.detail.forEach(function (d) { out.push(d); });
+          out.push("Add-ons: " + (c.names.length ? c.names.join(", ") : "none"));
+          out.push("Price per piece: " + fmt(c.unit));
+          out.push("Quantity: " + c.qty + (c.rate ? " (studio discount " + Math.round(c.rate * 100) + "% applied)" : ""));
+          out.push("Build total: " + fmt(c.total));
+          out.push("Design demo \u2014 no payment taken. Ordering opens with the Ghost Marketplace.");
+          return out.join("\n");
+        }
+
+        function update() {
+          var kNow = currentKind(), cNow = CATS[kNow];
+          document.querySelectorAll("#addons input").forEach(function (box) {
+            var f = FITS[box.getAttribute("data-name")];
+            var ok = !f || f(kNow, cNow);
+            if (!ok) box.checked = false;
+            box.disabled = !ok;
+            var lab = box.closest("label");
+            if (lab) { lab.style.opacity = ok ? "" : "0.45"; lab.title = ok ? "" : "Does not fit this piece"; }
+          });
+          var gwOn = false;
+          document.querySelectorAll("#addons input").forEach(function (box) { if (box.getAttribute("data-name") === "Gift wrap") gwOn = box.checked; });
+          el("gift-note-field").style.display = gwOn ? "" : "none";
+          var c = compute();
+          var kind = c.kind;
+          ["preview-bong", "preview-tee", "preview-flat", "preview-pipe", "preview-cap", "preview-jar"].forEach(function (id) {
+            el(id).hidden = id !== previewFor(kind);
+          });
+          el("glass-fields").hidden = c.cat !== "glass";
+          el("apparel-fields").hidden = c.cat !== "apparel";
+          el("gear-fields").hidden = !(c.cat === "gear" || c.cat === "print" || c.cat === "grow");
+          el("cloth-size").closest(".field").style.display = (kind === "cap" || kind === "beanie") ? "none" : "";
+          el("size-field").style.display = TALL[kind] ? "" : "none";
+          if (TALL[kind]) {
+            var cm = parseInt(size.value, 10);
+            el("size-out").textContent = cm + " cm";
+            el("sum-size").textContent = " \u00b7 " + cm + " cm";
+            var lbl = el("size-field").querySelector("label");
+            if (lbl && lbl.childNodes[0]) lbl.childNodes[0].textContent = pieceName() + " height \u2014 ";
+          } else {
+            el("sum-size").textContent = "";
+          }
+          paints().forEach(function (p) { p.setAttribute("fill", color); });
+          document.querySelectorAll(".paint2").forEach(function (p) { p.setAttribute("fill", accent); });
+          var op = finish === "Frosted" ? "0.55" : (finish === "Matte" ? "0.8" : ((c.cat === "glass" && el("glass-style").value === "Transparent tint") ? "0.5" : "0.95"));
+          paints().forEach(function (p) { p.setAttribute("opacity", op); });
+          var stage = document.querySelector(".preview-stage");
+          var scenes = { garden: "radial-gradient(700px 300px at 70% 0%, rgba(255,179,92,.22), transparent 60%), #1d130b", neon: "radial-gradient(700px 300px at 50% 0%, rgba(255,107,53,.38), transparent 65%), #200f06", sunset: "radial-gradient(700px 320px at 50% 110%, rgba(255,158,69,.4), transparent 60%), #1c1108", clean: "#241a12" };
+          if (stage) stage.style.background = scenes[el("scene").value] || "";
+          var fonts = { Block: "Arial, sans-serif", Stencil: "'Courier New', monospace", Script: "'Caveat', 'Segoe Script', cursive" };
+          ["etch-bong", "etch-tee"].forEach(function (id) { var t = el(id); if (t) t.setAttribute("font-family", fonts[el("etch-font").value] || fonts.Block); });
+          var et = c.etch.toUpperCase();
+          el("etch-bong").textContent = et; el("etch-tee").textContent = et;
+          el("sum-piece").textContent = pieceName();
+          el("sum-color").textContent = colorName;
+          el("sum-addons").textContent = c.names.length ? "Add-ons: " + c.names.join(", ") : "No add-ons";
+          var bl = "";
+          c.lines.forEach(function (l) { bl += "<li><span>" + l[0] + "</span><strong>" + fmt(l[1]) + "</strong></li>"; });
+          if (c.qty > 1) bl += "<li><span>Quantity \u00d7 " + c.qty + "</span><strong>" + fmt(c.gross) + "</strong></li>";
+          if (c.disc > 0) bl += "<li class=\"discount\"><span>Studio discount (" + Math.round(c.rate * 100) + "%)</span><strong>\u2212" + fmt(c.disc) + "</strong></li>";
+          el("breakdown").innerHTML = bl;
+          el("sum-price").textContent = fmt(c.unit);
+          el("sum-total").textContent = fmt(c.total);
+          el("design-code").textContent = c.code;
+          var has2 = function (n) { return c.names.indexOf(n) !== -1; };
+          var sm = 40; if (c.cat === "glass" && el("perc").value !== "None") sm += 25; if (has2("Ice catcher")) sm += 15; if (has2("Extra percolator")) sm += 15; if (has2("Ash catcher")) sm += 5;
+          var du = 45; if (c.cat === "glass") { if (el("thickness").value === "7mm") du += 20; if (el("thickness").value === "9mm") du += 35; } if (el("material").value === "Premium") du += 20; if (has2("Carry case")) du += 5;
+          var st = 60; if (kind === "pipe" || kind === "jar" || kind === "papers" || kind === "chillum" || kind === "wick") st += 25; if (kind === "bong" || kind === "rig" || kind === "gravity") st -= 10; if (has2("LED glow base")) st -= 15; if (TALL[kind] && parseInt(size.value, 10) > 40) st -= 10;
+          var sy = 50; if (finishPrice > 0) sy += 20; if (c.etch) sy += 10; if (accentName !== "Bone") sy += 10; if (el("print-place").value === "Front + Back") sy += 10;
+          [["smooth", sm], ["durability", du], ["stealth", st], ["style", sy]].forEach(function (m) { var v = Math.max(5, Math.min(98, m[1])); el("meter-" + m[0]).style.width = v + "%"; el("meter-" + m[0] + "-val").textContent = v; });
+          el("budz-earned").textContent = Math.round(c.total * 10);
+          el("bar-code").textContent = c.code;
+          el("bar-total").textContent = fmt(c.total);
+          el("design-qr").src = "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=" + encodeURIComponent("ReeferDude build " + c.code + " - " + pieceName() + " - " + fmt(c.total));
+        }
+
+        function setColor(name) {
+          document.querySelectorAll("#swatches .swatch").forEach(function (b) {
+            var on = b.getAttribute("data-name") === name;
+            b.classList.toggle("selected", on);
+            if (on) { color = b.getAttribute("data-color"); colorName = name; el("color-name").textContent = name; }
+          });
+        }
+
+        function readConfig() {
+          var c = compute();
+          return { piece: c.kind, colorName: colorName, size: size.value,
+                   finish: finish, finishPrice: finishPrice, accentName: accentName,
+                   thickness: el("thickness").value, perc: el("perc").value, joint: el("joint").value, glassStyle: el("glass-style").value,
+                   clothSize: el("cloth-size").value, printPlace: el("print-place").value, artwork: el("artwork").value, fabric: el("fabric").value,
+                   material: el("material").value, gearSize: el("gear-size").value,
+                   etch: el("etch").value, etchFont: el("etch-font").value, scene: el("scene").value, qty: el("qty").value,
+                   addons: c.names, code: c.code, total: c.total, summary: summaryText(c) };
+        }
+
+        function setSel(id, val) { var s = el(id); if (!s || !val) return; for (var i = 0; i < s.options.length; i++) { if (s.options[i].value === val) { s.selectedIndex = i; return; } } }
+
+        function applyConfig(cfg) {
+          if (!cfg) return;
+          if (cfg.piece) piece.value = cfg.piece;
+          if (cfg.colorName) setColor(cfg.colorName);
+          if (cfg.size) size.value = cfg.size;
+          setSel("thickness", cfg.thickness); setSel("perc", cfg.perc); setSel("joint", cfg.joint); setSel("glass-style", cfg.glassStyle);
+          setSel("cloth-size", cfg.clothSize); setSel("print-place", cfg.printPlace); setSel("artwork", cfg.artwork); setSel("fabric", cfg.fabric);
+          setSel("material", cfg.material); setSel("gear-size", cfg.gearSize); setSel("etch-font", cfg.etchFont); setSel("scene", cfg.scene);
+          if (cfg.finish) { finish = cfg.finish; finishPrice = cfg.finishPrice || 0; document.querySelectorAll(".finish-chip").forEach(function (ch) { ch.classList.toggle("selected", ch.getAttribute("data-finish") === cfg.finish); }); }
+          if (cfg.accentName) { accentName = cfg.accentName; el("accent-name").textContent = accentName; document.querySelectorAll("#accent-swatches .swatch").forEach(function (s) { var on = s.getAttribute("data-name") === cfg.accentName; s.classList.toggle("selected", on); if (on) accent = s.getAttribute("data-color"); }); }
+          el("etch").value = cfg.etch || "";
+          el("qty").value = cfg.qty || 1;
+          var want = cfg.addons || [];
+          document.querySelectorAll("#addons input").forEach(function (box) {
+            box.checked = want.indexOf(box.getAttribute("data-name")) !== -1;
+          });
+          update();
+          el("configurator").scrollIntoView({ behavior: "smooth" });
+        }
+
+        var PRESETS = {
+          emerald: { piece: "bong", colorName: "Emerald", size: 34, thickness: "7mm", perc: "Showerhead perc", joint: "18mm", addons: ["Ice catcher"] },
+          haze: { piece: "hoodie", colorName: "Purple Haze", clothSize: "L", printPlace: "Front + Back", artwork: "GanjaGoddess", addons: [] },
+          midnight: { piece: "grinder", colorName: "Midnight", material: "Premium", gearSize: "Standard", addons: ["Carry case", "Cleaning kit"] },
+          frost: { piece: "rig", colorName: "Frost", size: 32, thickness: "9mm", perc: "Honeycomb perc", joint: "14mm", addons: ["Quartz banger", "LED glow base"] },
+          camo: { piece: "tee", colorName: "Camo", clothSize: "XL", printPlace: "Front", artwork: "Hustle Hard", fabric: "Organic hemp blend", addons: ["Gift wrap"] },
+          royal: { piece: "jar", colorName: "Royal", gearSize: "Standard", material: "Anodized / Hardwood", addons: ["LED glow base"] }
+        };
+
+        function renderSaved() {
+          var wrap = el("saved-designs");
+          var arr = [];
+          try { arr = JSON.parse(localStorage.getItem("rd-designs") || "[]"); } catch (e) { arr = []; }
+          if (!arr.length) {
+            wrap.innerHTML = "<p style=\"color:var(--muted)\">Nothing saved yet. Build something in the configurator and hit Save Design \u2014 it lives here, on this device, ready to reload or share.</p>";
+            return;
+          }
+          wrap.innerHTML = "";
+          arr.forEach(function (d, i) {
+            var card = document.createElement("div");
+            card.className = "tool-card saved-item";
+            card.style.margin = "0 0 1rem";
+            var left = document.createElement("div");
+            left.innerHTML = "<strong>" + d.code + "</strong><br><span style=\"color:var(--muted)\">" + d.summary.split("\n")[2] + " \u00b7 " + d.summary.split("\n")[3] + " \u00b7 " + fmt(d.total) + "</span>";
+            var right = document.createElement("div");
+            right.className = "design-actions";
+            var lb = document.createElement("button"); lb.className = "button secondary"; lb.type = "button"; lb.textContent = "Load";
+            lb.addEventListener("click", function () { applyConfig(d.cfg); });
+            var db = document.createElement("button"); db.className = "button secondary"; db.type = "button"; db.textContent = "Delete";
+            db.addEventListener("click", function () {
+              var a = []; try { a = JSON.parse(localStorage.getItem("rd-designs") || "[]"); } catch (e) { a = []; }
+              a.splice(i, 1);
+              try { localStorage.setItem("rd-designs", JSON.stringify(a)); } catch (e) {}
+              renderSaved();
+            });
+            right.appendChild(lb); right.appendChild(db);
+            card.appendChild(left); card.appendChild(right);
+            wrap.appendChild(card);
+          });
+        }
+
+        function status(msg) { el("action-status").textContent = msg; }
+
+        piece.addEventListener("change", update);
+        size.addEventListener("input", update);
+        ["thickness", "perc", "joint", "cloth-size", "print-place", "artwork", "material", "qty", "glass-style", "fabric", "gear-size", "etch-font", "scene"].forEach(function (id) {
+          el(id).addEventListener("change", update);
+          el(id).addEventListener("input", update);
+        });
+        document.querySelectorAll("#addons input").forEach(function (box) { box.addEventListener("change", update); });
+        document.querySelectorAll("#swatches .swatch").forEach(function (btn) {
+          btn.addEventListener("click", function () { setColor(btn.getAttribute("data-name")); update(); });
+        });
+        el("etch").addEventListener("input", function () {
+          if (el("etch").value.trim()) {
+            document.querySelectorAll("#addons input").forEach(function (box) {
+              if (box.getAttribute("data-name") === "Custom name etch") box.checked = true;
+            });
+          }
+          update();
+        });
+        document.querySelectorAll("[data-set-piece]").forEach(function (b) {
+          b.addEventListener("click", function () { piece.value = b.getAttribute("data-set-piece"); update(); el("configurator").scrollIntoView({ behavior: "smooth" }); });
+        });
+        document.querySelectorAll("[data-preset]").forEach(function (b) {
+          b.addEventListener("click", function () { applyConfig(PRESETS[b.getAttribute("data-preset")]); status("Preset loaded \u2014 remix it and make it yours."); });
+        });
+        el("save-design").addEventListener("click", function () {
+          var cfg = readConfig();
+          var arr = [];
+          try { arr = JSON.parse(localStorage.getItem("rd-designs") || "[]"); } catch (e) { arr = []; }
+          arr.push({ code: cfg.code, total: cfg.total, summary: cfg.summary, cfg: cfg });
+          try { localStorage.setItem("rd-designs", JSON.stringify(arr)); status("Saved as " + cfg.code + " \u2014 find it under My Designs."); }
+          catch (e) { status("This browser blocked local storage, so the design could not be saved."); }
+          renderSaved();
+        });
+        el("copy-design").addEventListener("click", function () {
+          var t = summaryText(compute());
+          function done() { status("Summary copied \u2014 paste it anywhere."); }
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(t).then(done, function () { status("Copy was blocked by the browser \u2014 use Download Spec instead."); });
+          } else { status("Clipboard is not available here \u2014 use Download Spec instead."); }
+        });
+        el("download-design").addEventListener("click", function () {
+          var c = compute();
+          var blob = new Blob([summaryText(c)], { type: "text/plain" });
+          var a = document.createElement("a");
+          a.href = URL.createObjectURL(blob);
+          a.download = c.code + "-spec.txt";
+          document.body.appendChild(a); a.click(); a.remove();
+          setTimeout(function () { URL.revokeObjectURL(a.href); }, 2000);
+          status("Spec sheet downloaded: " + c.code + "-spec.txt");
+        });
+
+        document.querySelectorAll(".finish-chip").forEach(function (ch) {
+          ch.addEventListener("click", function () {
+            document.querySelectorAll(".finish-chip").forEach(function (x) { x.classList.remove("selected"); });
+            ch.classList.add("selected");
+            finish = ch.getAttribute("data-finish");
+            finishPrice = parseInt(ch.getAttribute("data-price"), 10);
+            update();
+          });
+        });
+        document.querySelectorAll("#accent-swatches .swatch").forEach(function (s) {
+          s.addEventListener("click", function () {
+            document.querySelectorAll("#accent-swatches .swatch").forEach(function (x) { x.classList.remove("selected"); });
+            s.classList.add("selected");
+            accent = s.getAttribute("data-color");
+            accentName = s.getAttribute("data-name");
+            el("accent-name").textContent = accentName;
+            update();
+          });
+        });
+
+        function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+        function randomizeBuild() {
+          piece.value = pick(Object.keys(CATS));
+          var names = [];
+          document.querySelectorAll("#swatches .swatch").forEach(function (b) { names.push(b.getAttribute("data-name")); });
+          setColor(pick(names));
+          size.value = 24 + Math.floor(Math.random() * 23);
+          setSel("thickness", pick(["5mm", "7mm", "9mm"]));
+          setSel("perc", pick(["None", "Tree perc", "Showerhead perc", "Honeycomb perc"]));
+          setSel("joint", pick(["14mm", "18mm"]));
+          setSel("glass-style", pick(["Solid", "Transparent tint", "Fumed (color-changing)"]));
+          setSel("cloth-size", pick(["S", "M", "L", "XL", "2XL"]));
+          setSel("print-place", pick(["Front", "Back", "Front + Back"]));
+          setSel("artwork", pick(["Leaf Mark", "REEFERDUDE Wordmark", "GanjaGoddess", "Hustle Hard"]));
+          setSel("fabric", pick(["Standard cotton", "Heavyweight", "Organic hemp blend"]));
+          setSel("material", pick(["Standard", "Anodized / Hardwood", "Premium"]));
+          setSel("gear-size", pick(["Compact", "Standard", "XL"]));
+          setSel("etch-font", pick(["Block", "Stencil", "Script"]));
+          setSel("scene", pick(["garden", "neon", "sunset", "clean"]));
+          var fcs = Array.prototype.slice.call(document.querySelectorAll(".finish-chip"));
+          var fc = pick(fcs);
+          fcs.forEach(function (ch) { ch.classList.toggle("selected", ch === fc); });
+          finish = fc.getAttribute("data-finish"); finishPrice = parseInt(fc.getAttribute("data-price"), 10);
+          var asw = Array.prototype.slice.call(document.querySelectorAll("#accent-swatches .swatch"));
+          var ac = pick(asw);
+          asw.forEach(function (s) { s.classList.toggle("selected", s === ac); });
+          accent = ac.getAttribute("data-color"); accentName = ac.getAttribute("data-name"); el("accent-name").textContent = accentName;
+          document.querySelectorAll("#addons input").forEach(function (box) { box.checked = Math.random() < 0.3; });
+          el("etch").value = "";
+          el("qty").value = 1;
+          update();
+          status("Surprise build rolled — " + compute().code + ". Remix it or save it.");
+          el("configurator").scrollIntoView({ behavior: "smooth" });
+        }
+        el("random-design").addEventListener("click", randomizeBuild);
+        el("bar-save").addEventListener("click", function () { el("save-design").click(); });
+        el("bar-top").addEventListener("click", function () { el("configurator").scrollIntoView({ behavior: "smooth" }); });
+        el("hear-design").addEventListener("click", function () {
+          var c = compute();
+          var msg = pieceName() + " in " + colorName + ". " + c.detail.join(". ") + ". Total " + fmt(c.total) + ". Design code " + c.code + ".";
+          if ("speechSynthesis" in window) { speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(msg)); status("Reading your build aloud."); }
+          else status("Voice is not available in this browser.");
+        });
+        el("share-design").addEventListener("click", function () {
+          var t = summaryText(compute());
+          if (navigator.share) { navigator.share({ title: "My ReeferDude build", text: t }).catch(function () {}); }
+          else if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(t).then(function () { status("Share is not available here — the summary was copied instead."); }); }
+          else status("Sharing is not available in this browser.");
+        });
+        window.RD_cycleColor = function () {
+          var names = [];
+          document.querySelectorAll("#swatches .swatch").forEach(function (b) { names.push(b.getAttribute("data-name")); });
+          var next = names[(names.indexOf(colorName) + 1) % names.length];
+          setColor(next);
+          update();
+          return next;
+        };
+        window.RD_cycleAccent = function () {
+          var names = [];
+          document.querySelectorAll("#accent-swatches .swatch").forEach(function (b) { names.push(b.getAttribute("data-name")); });
+          var next = names[(names.indexOf(accentName) + 1) % names.length];
+          document.querySelectorAll("#accent-swatches .swatch").forEach(function (b) { if (b.getAttribute("data-name") === next) b.click(); });
+          return next;
+        };
+        window.RD_flash = function (id) {
+          var e = el(id);
+          if (!e) return;
+          var f = e.closest(".field") || e;
+          f.scrollIntoView({ behavior: "smooth", block: "center" });
+          f.style.transition = "box-shadow .3s ease";
+          f.style.boxShadow = "0 0 0 3px rgba(255,158,69,.85), 0 0 24px rgba(255,158,69,.4)";
+          f.style.borderRadius = "12px";
+          setTimeout(function () { f.style.boxShadow = ""; }, 1300);
+        };
+        window.RD_getDesign = function () {
+          var c = compute();
+          return { color: color, accent: accent, finish: finish, kind: c.kind, cat: c.cat, cm: TALL[c.kind] ? parseInt(size.value, 10) : 30, name: pieceName(), code: c.code, total: c.total };
+        };
+
+        renderSaved();
+        update();
+      })();
+    </script>
+  <script>
+(function(){var y=document.getElementById('year');if(y){y.textContent=String(new Date().getFullYear());}var h=document.querySelector('.site-header');if(h){var f=function(){h.classList.toggle('scrolled',window.scrollY>8)};window.addEventListener('scroll',f,{passive:true});f();}if('IntersectionObserver' in window){var r=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');r.unobserve(e.target)}})},{threshold:0.12});document.querySelectorAll('.feature-card,.mini-card').forEach(function(el){el.classList.add('reveal');r.observe(el)});}})();
+</script>
+    <script type="importmap">
+    {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}
+    </script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
+    <script type="module">
+      import * as THREE from "three";
+      import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+      import { GLTFExporter } from "three/addons/exporters/GLTFExporter.js";
+
+      var wrap = document.getElementById("gl-wrap");
+      var statusEl = document.getElementById("gl-status");
+      var scene, camera, renderer, controls, pieceGroup = null, spinning = true, wire = false;
+
+      function mat(colorHex, finish) {
+        var m = new THREE.MeshPhysicalMaterial({ color: new THREE.Color(colorHex), metalness: 0.05, roughness: 0.2 });
+        if (finish === "Matte") m.roughness = 0.65;
+        if (finish === "Frosted") { m.roughness = 0.4; m.transparent = true; m.opacity = 0.85; }
+        if (finish === "Glow") { m.emissive = new THREE.Color(colorHex); m.emissiveIntensity = 0.55; m.roughness = 0.3; }
+        if (finish === "Color-Shift") { m.iridescence = 0.85; m.roughness = 0.25; }
+        if (finish === "Gloss") m.roughness = 0.12;
+        return m;
+      }
+
+      function buildPiece(d) {
+        var g = new THREE.Group();
+        var main = mat(d.color, d.finish), acc = mat(d.accent, "Gloss");
+        var s = (d.cm || 30) / 30;
+        if (d.cat === "glass") {
+          var pts = [];
+          var prof = [[0, 0], [0.85, 0], [0.92, 0.18], [0.6, 0.9], [0.36, 1.45], [0.31, 2.2], [0.33, 2.85], [0.44, 3.0]];
+          prof.forEach(function (p) { pts.push(new THREE.Vector2(p[0], p[1] * s)); });
+          var body = new THREE.Mesh(new THREE.LatheGeometry(pts, 42), main);
+          g.add(body);
+          var ring = new THREE.Mesh(new THREE.TorusGeometry(0.4, 0.07, 12, 32), acc);
+          ring.rotation.x = Math.PI / 2; ring.position.y = 2.95 * s; g.add(ring);
+          var bowl = new THREE.Mesh(new THREE.SphereGeometry(0.17, 18, 14), acc);
+          bowl.position.set(0.62, 1.7 * s, 0); g.add(bowl);
+        } else if (d.kind === "jar") {
+          var jarBody = new THREE.Mesh(new THREE.CylinderGeometry(0.8, 0.8, 1.5, 36), main); jarBody.position.y = 0.75; g.add(jarBody);
+          var lid = new THREE.Mesh(new THREE.CylinderGeometry(0.84, 0.84, 0.28, 36), acc); lid.position.y = 1.64; g.add(lid);
+        } else if (d.cat === "apparel") {
+          var body2 = new THREE.Mesh(new THREE.CapsuleGeometry(0.72, 1.15, 8, 20), main);
+          body2.scale.set(1, 1, 0.55); body2.position.y = 1.25; g.add(body2);
+          var badge = new THREE.Mesh(new THREE.CircleGeometry(0.3, 26), acc);
+          badge.position.set(0, 1.45, 0.41); g.add(badge);
+        } else if (d.cat === "grow") {
+          var box = new THREE.Mesh(new THREE.BoxGeometry(1.7, 1.9, 1.7), main); box.position.y = 0.95; g.add(box);
+          var trim = new THREE.Mesh(new THREE.BoxGeometry(1.74, 0.12, 1.74), acc); trim.position.y = 1.86; g.add(trim);
+        } else if (d.cat === "print") {
+          var sheet = new THREE.Mesh(new THREE.BoxGeometry(1.5, 1.9, 0.06), main); sheet.position.y = 1.1; g.add(sheet);
+          var art = new THREE.Mesh(new THREE.CircleGeometry(0.42, 26), acc); art.position.set(0, 1.2, 0.05); g.add(art);
+        } else {
+          var base = new THREE.Mesh(new THREE.CylinderGeometry(0.82, 0.82, 0.5, 36), main); base.position.y = 0.25; g.add(base);
+          var top = new THREE.Mesh(new THREE.CylinderGeometry(0.7, 0.7, 0.18, 36), acc); top.position.y = 0.6; g.add(top);
+        }
+        return g;
+      }
+
+      function loadCurrent() {
+        if (!scene) return;
+        var d = window.RD_getDesign ? window.RD_getDesign() : { color: "#3ddc84", accent: "#e9f5ec", finish: "Gloss", kind: "bong", cat: "glass", cm: 30, code: "RD" };
+        if (pieceGroup) { scene.remove(pieceGroup); }
+        pieceGroup = buildPiece(d);
+        pieceGroup.traverse(function (o) { if (o.isMesh) o.material.wireframe = wire; });
+        scene.add(pieceGroup);
+        statusEl.textContent = "Showing " + d.name + " (" + d.code + ") — drag to orbit, scroll to zoom. Finish: " + d.finish + ".";
+      }
+
+      try {
+        scene = new THREE.Scene();
+        scene.fog = new THREE.Fog(0x0c1a12, 9, 20);
+        camera = new THREE.PerspectiveCamera(42, wrap.clientWidth / wrap.clientHeight, 0.1, 100);
+        camera.position.set(3.4, 2.6, 4.6);
+        renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        renderer.setSize(wrap.clientWidth, wrap.clientHeight);
+        wrap.appendChild(renderer.domElement);
+        controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+        controls.target.set(0, 1.3, 0);
+        controls.autoRotate = true;
+        controls.autoRotateSpeed = 1.6;
+        scene.add(new THREE.HemisphereLight(0xd8ffe2, 0x241811, 0.9));
+        var key = new THREE.DirectionalLight(0xffffff, 1.6); key.position.set(4, 6, 3); scene.add(key);
+        var rim = new THREE.PointLight(0x9b5de5, 12, 20); rim.position.set(-4, 3, -3); scene.add(rim);
+        var ground = new THREE.Mesh(new THREE.CircleGeometry(4.4, 48), new THREE.MeshStandardMaterial({ color: 0x241811, roughness: 0.95 }));
+        ground.rotation.x = -Math.PI / 2; scene.add(ground);
+        loadCurrent();
+        (function loop() {
+          requestAnimationFrame(loop);
+          controls.update();
+          renderer.render(scene, camera);
+        })();
+        new ResizeObserver(function () {
+          if (!wrap.clientWidth) return;
+          camera.aspect = wrap.clientWidth / wrap.clientHeight;
+          camera.updateProjectionMatrix();
+          renderer.setSize(wrap.clientWidth, wrap.clientHeight);
+        }).observe(wrap);
+      } catch (e) {
+        statusEl.textContent = "The 3D viewer could not start here (it needs WebGL and an internet connection for Three.js). The rest of the studio works fine.";
+      }
+
+      document.getElementById("gl-load").addEventListener("click", loadCurrent);
+      document.getElementById("gl-rotate").addEventListener("click", function () {
+        spinning = !spinning;
+        if (controls) controls.autoRotate = spinning;
+        this.textContent = "Auto-Rotate: " + (spinning ? "On" : "Off");
+      });
+      document.getElementById("gl-wire").addEventListener("click", function () {
+        wire = !wire;
+        if (pieceGroup) pieceGroup.traverse(function (o) { if (o.isMesh) o.material.wireframe = wire; });
+        this.textContent = "Wireframe: " + (wire ? "On" : "Off");
+      });
+      document.getElementById("ar-export").addEventListener("click", function () {
+        var st = document.getElementById("ar-status");
+        if (!pieceGroup) { st.textContent = "Load a design in the 3D viewer first."; return; }
+        st.textContent = "Building your AR model...";
+        new GLTFExporter().parse(pieceGroup, function (result) {
+          var blob = new Blob([result], { type: "model/gltf-binary" });
+          var viewer = document.getElementById("ar-viewer");
+          viewer.src = URL.createObjectURL(blob);
+          var d = window.RD_getDesign ? window.RD_getDesign() : { code: "design" };
+          st.textContent = "AR model ready for " + d.code + " — tap the AR button on the viewer to place it in your room (hosted site + AR-capable phone).";
+        }, function (err) { st.textContent = "AR export hit a snag in this browser — the 3D viewer still has your design."; }, { binary: true });
+      });
+    </script>
+    <script>
+      (function () {
+        "use strict";
+        // Print Lab calculator
+        var pfPiece = document.getElementById("pf-piece"), pfMat = document.getElementById("pf-material"), pfInf = document.getElementById("pf-infill");
+        function pfCalc() {
+          var base = parseInt(pfPiece.value, 10);
+          var rate = parseFloat(pfMat.value);
+          var name = pfMat.options[pfMat.selectedIndex].getAttribute("data-name");
+          var infill = parseInt(pfInf.value, 10);
+          document.getElementById("pf-infill-out").textContent = infill + "%";
+          var grams = Math.round(base * (0.4 + 0.6 * infill / 100));
+          var speed = name === "Resin" ? 14 : 9;
+          var hrs = grams / speed;
+          var time = hrs < 1 ? Math.round(hrs * 60) + " min" : hrs.toFixed(1) + " hrs";
+          var price = grams * rate + 2.5;
+          document.getElementById("pf-weight").textContent = grams + " g";
+          document.getElementById("pf-time").textContent = time;
+          document.getElementById("pf-price").textContent = "$" + price.toFixed(2);
+          document.getElementById("pf-note").textContent = name + " at " + infill + "% infill. Printed per order by the nearest Print Lab partner — the file is the inventory.";
+        }
+        [pfPiece, pfMat, pfInf].forEach(function (el) { el.addEventListener("input", pfCalc); el.addEventListener("change", pfCalc); });
+        pfCalc();
+
+        // No-Inventory Engine simulator
+        var orders = 0;
+        var makers = ["Glassworks PDX", "Mile High Prints", "Emerald Etch Co.", "Cascadia Print Lab", "Sunbelt Supply Co.", "HempWorks Studio"];
+        var kinds = ["Glass Bong — Emerald", "Hoodie — Purple Haze", "Grinder — Midnight", "Canvas Print — Royal", "LED Grow Panel", "Stash Jar — Frost"];
+        var log = document.getElementById("inv-log");
+        function stamp() { return new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" }); }
+        function addLog(text) {
+          var li = document.createElement("li");
+          li.textContent = stamp() + " — " + text;
+          log.insertBefore(li, log.firstChild);
+          while (log.children.length > 7) log.removeChild(log.lastChild);
+        }
+        document.getElementById("inv-sim").addEventListener("click", function () {
+          orders++;
+          document.getElementById("inv-orders").textContent = orders;
+          var item = kinds[Math.floor(Math.random() * kinds.length)];
+          var maker = makers[Math.floor(Math.random() * makers.length)];
+          addLog("Order #" + (1040 + orders) + " received: " + item + ". Stock check skipped — there is no stock.");
+          setTimeout(function () { addLog("Auto-procurement matched " + maker + " (lead time + defect rate rules)."); }, 650);
+          setTimeout(function () { addLog("Production slot booked with " + maker + ". Photo proof required before seal."); }, 1400);
+          setTimeout(function () { addLog("Tracking issued to customer. Engine back to zero inventory, as always."); }, 2200);
+        });
+        setInterval(function () {
+          var m = 16 + Math.round(Math.random() * 4 - 2);
+          document.getElementById("inv-makers").textContent = Math.max(12, Math.min(19, m));
+        }, 5000);
+
+        // VR showroom: build when scrolled into view
+        var vrBuilt = false, spinning = false;
+        function buildVR() {
+          if (vrBuilt) return;
+          vrBuilt = true;
+          var s = document.createElement("script");
+          s.src = "https://cdn.jsdelivr.net/npm/aframe@1.5.0/dist/aframe-master.min.js";
+          s.onload = function () {
+            document.getElementById("vr-holder").innerHTML =
+              '<a-scene embedded style="height:320px" vr-mode-ui="enabled: true">' +
+              '<a-sky color="#17100b"></a-sky>' +
+              '<a-plane position="0 0 -4" rotation="-90 0 0" width="34" height="34" color="#241811"></a-plane>' +
+              '<a-cylinder position="0 0.4 -3" radius="0.85" height="0.8" color="#2e1d10"></a-cylinder>' +
+              '<a-entity id="vr-piece" position="0 0.8 -3">' +
+              '<a-cylinder class="vr-paint" position="0 0.35 0" radius="0.34" height="0.5" color="#3ddc84"></a-cylinder>' +
+              '<a-cylinder class="vr-paint" position="0 1.05 0" radius="0.13" height="1.0" color="#3ddc84"></a-cylinder>' +
+              '<a-sphere class="vr-paint" position="0.3 0.8 0" radius="0.1" color="#3ddc84"></a-sphere>' +
+              "</a-entity>" +
+              '<a-sphere position="-2.4 2.2 -4.5" radius="0.16" color="#9b5de5"></a-sphere>' +
+              '<a-sphere position="2.6 2.8 -5" radius="0.12" color="#3ddc84"></a-sphere>' +
+              '<a-sphere position="1.6 1.6 -4" radius="0.09" color="#f4a261"></a-sphere>' +
+              '<a-entity light="type: ambient; intensity: 0.75"></a-entity>' +
+              '<a-entity light="type: point; intensity: 0.9" position="2 3 1"></a-entity>' +
+              '<a-camera position="0 1.5 0.6"></a-camera>' +
+              "</a-scene>";
+          };
+          document.head.appendChild(s);
+        }
+        if ("IntersectionObserver" in window) {
+          var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { buildVR(); io.disconnect(); } }); }, { rootMargin: "300px" });
+          io.observe(document.getElementById("ar-vr"));
+        } else { buildVR(); }
+        document.getElementById("vr-sync").addEventListener("click", function () {
+          var d = window.RD_getDesign ? window.RD_getDesign() : { color: "#3ddc84" };
+          document.querySelectorAll(".vr-paint").forEach(function (el) { el.setAttribute("color", d.color); });
+        });
+        document.getElementById("vr-spin").addEventListener("click", function () {
+          var p = document.getElementById("vr-piece");
+          if (!p) return;
+          spinning = !spinning;
+          if (spinning) p.setAttribute("animation", "property: rotation; to: 0 360 0; loop: true; dur: 6000; easing: linear");
+          else p.removeAttribute("animation");
+          this.textContent = spinning ? "Stop the Spin" : "Spin the Pedestal";
+        });
+      })();
+    </script>
+    <script type="module">
+      import * as THREE from "three";
+      import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+
+      var glEl = document.getElementById("bench-gl");
+      var statusEl = document.getElementById("bench-status");
+      var benchEl = document.getElementById("bench3d");
+      var flatEl = document.getElementById("flat-previews");
+      var mode3d = document.getElementById("mode-3d");
+      var modeFlat = document.getElementById("mode-flat");
+      var spinning = true;
+
+      function setMode(three) {
+        benchEl.hidden = !three;
+        flatEl.hidden = three;
+        mode3d.classList.toggle("selected", three);
+        modeFlat.classList.toggle("selected", !three);
+      }
+      mode3d.addEventListener("click", function () { setMode(true); });
+      modeFlat.addEventListener("click", function () { setMode(false); });
+      document.querySelectorAll(".bench-flash").forEach(function (b) {
+        b.addEventListener("click", function () { if (window.RD_flash) window.RD_flash(b.getAttribute("data-flash")); });
+      });
+
+      function bmat(colorHex, finish) {
+        var m = new THREE.MeshPhysicalMaterial({ color: new THREE.Color(colorHex), metalness: 0.05, roughness: 0.2 });
+        if (finish === "Matte") m.roughness = 0.65;
+        if (finish === "Frosted") { m.roughness = 0.4; m.transparent = true; m.opacity = 0.85; }
+        if (finish === "Glow") { m.emissive = new THREE.Color(colorHex); m.emissiveIntensity = 0.55; m.roughness = 0.3; }
+        if (finish === "Color-Shift") { m.iridescence = 0.85; m.roughness = 0.25; }
+        if (finish === "Gloss") m.roughness = 0.12;
+        return m;
+      }
+
+      function tag(mesh, part) { mesh.userData.part = part; return mesh; }
+
+      function buildBenchPiece(d) {
+        var g = new THREE.Group();
+        var main = bmat(d.color, d.finish), acc = bmat(d.accent, "Gloss");
+        var s = (d.cm || 30) / 30;
+        if (d.cat === "glass") {
+          var pts = [];
+          [[0, 0], [0.85, 0], [0.92, 0.18], [0.6, 0.9], [0.36, 1.45], [0.31, 2.2], [0.33, 2.85], [0.44, 3.0]].forEach(function (p) { pts.push(new THREE.Vector2(p[0], p[1] * s)); });
+          g.add(tag(new THREE.Mesh(new THREE.LatheGeometry(pts, 42), main), "body"));
+          var ring = tag(new THREE.Mesh(new THREE.TorusGeometry(0.4, 0.07, 12, 32), acc), "trim");
+          ring.rotation.x = Math.PI / 2; ring.position.y = 2.95 * s; g.add(ring);
+          var bowl = tag(new THREE.Mesh(new THREE.SphereGeometry(0.17, 18, 14), acc), "trim");
+          bowl.position.set(0.62, 1.7 * s, 0); g.add(bowl);
+        } else if (d.kind === "jar") {
+          var jb = tag(new THREE.Mesh(new THREE.CylinderGeometry(0.8, 0.8, 1.5, 36), main), "body"); jb.position.y = 0.75; g.add(jb);
+          var lid = tag(new THREE.Mesh(new THREE.CylinderGeometry(0.84, 0.84, 0.28, 36), acc), "trim"); lid.position.y = 1.64; g.add(lid);
+        } else if (d.cat === "apparel") {
+          var bd = tag(new THREE.Mesh(new THREE.CapsuleGeometry(0.72, 1.15, 8, 20), main), "body");
+          bd.scale.set(1, 1, 0.55); bd.position.y = 1.25; g.add(bd);
+          var bg = tag(new THREE.Mesh(new THREE.CircleGeometry(0.3, 26), acc), "trim"); bg.position.set(0, 1.45, 0.41); g.add(bg);
+        } else if (d.cat === "grow") {
+          var bx = tag(new THREE.Mesh(new THREE.BoxGeometry(1.7, 1.9, 1.7), main), "body"); bx.position.y = 0.95; g.add(bx);
+          var tr = tag(new THREE.Mesh(new THREE.BoxGeometry(1.74, 0.12, 1.74), acc), "trim"); tr.position.y = 1.86; g.add(tr);
+        } else if (d.cat === "print") {
+          var sh = tag(new THREE.Mesh(new THREE.BoxGeometry(1.5, 1.9, 0.06), main), "body"); sh.position.y = 1.1; g.add(sh);
+          var ar = tag(new THREE.Mesh(new THREE.CircleGeometry(0.42, 26), acc), "trim"); ar.position.set(0, 1.2, 0.05); g.add(ar);
+        } else {
+          var bs = tag(new THREE.Mesh(new THREE.CylinderGeometry(0.82, 0.82, 0.5, 36), main), "body"); bs.position.y = 0.25; g.add(bs);
+          var tp = tag(new THREE.Mesh(new THREE.CylinderGeometry(0.7, 0.7, 0.18, 36), acc), "trim"); tp.position.y = 0.6; g.add(tp);
+        }
+        return g;
+      }
+
+      var scene, camera, renderer, controls, piece = null, lastSig = "";
+      try {
+        scene = new THREE.Scene();
+        camera = new THREE.PerspectiveCamera(40, glEl.clientWidth / glEl.clientHeight, 0.1, 100);
+        camera.position.set(3.2, 2.4, 4.4);
+        renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        renderer.setSize(glEl.clientWidth, glEl.clientHeight);
+        glEl.appendChild(renderer.domElement);
+        controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+        controls.target.set(0, 1.25, 0);
+        controls.autoRotate = true;
+        controls.autoRotateSpeed = 1.4;
+        controls.minDistance = 2.2;
+        controls.maxDistance = 9;
+        controls.maxPolarAngle = Math.PI * 0.55;
+        controls.update();
+        controls.saveState();
+        scene.add(new THREE.HemisphereLight(0xffe2b0, 0x241811, 0.95));
+        var key = new THREE.DirectionalLight(0xfff1d6, 1.7); key.position.set(4, 6, 3); scene.add(key);
+        var torch = new THREE.PointLight(0xff8a3c, 14, 16); torch.position.set(-3.5, 2.2, 2.5); scene.add(torch);
+        var benchTop = new THREE.Mesh(new THREE.BoxGeometry(7, 0.18, 4.4), new THREE.MeshStandardMaterial({ color: 0x4a2f16, roughness: 0.9 }));
+        benchTop.position.y = -0.09; scene.add(benchTop);
+        var pedestal = new THREE.Mesh(new THREE.CylinderGeometry(1.05, 1.15, 0.16, 40), new THREE.MeshStandardMaterial({ color: 0x2e1d10, roughness: 0.7 }));
+        pedestal.position.y = 0.08; scene.add(pedestal);
+
+        function sync() {
+          if (!window.RD_getDesign) return;
+          var d = window.RD_getDesign();
+          var sig = [d.kind, d.color, d.accent, d.finish, d.cm].join("|");
+          if (sig === lastSig) return;
+          lastSig = sig;
+          if (piece) {
+            scene.remove(piece);
+            piece.traverse(function (o) { if (o.isMesh) { o.geometry.dispose(); o.material.dispose(); } });
+          }
+          piece = buildBenchPiece(d);
+          piece.position.y = 0.16;
+          scene.add(piece);
+        }
+        sync();
+        setInterval(sync, 500);
+        (function loop() {
+          requestAnimationFrame(loop);
+          controls.update();
+          renderer.render(scene, camera);
+        })();
+        new ResizeObserver(function () {
+          if (!glEl.clientWidth) return;
+          camera.aspect = glEl.clientWidth / glEl.clientHeight;
+          camera.updateProjectionMatrix();
+          renderer.setSize(glEl.clientWidth, glEl.clientHeight);
+        }).observe(glEl);
+
+        var ray = new THREE.Raycaster(), ptr = new THREE.Vector2(), downX = 0, downY = 0;
+        renderer.domElement.addEventListener("pointerdown", function (e) { downX = e.clientX; downY = e.clientY; });
+        renderer.domElement.addEventListener("pointerup", function (e) {
+          if (Math.hypot(e.clientX - downX, e.clientY - downY) > 6 || !piece) return;
+          var r = renderer.domElement.getBoundingClientRect();
+          ptr.x = ((e.clientX - r.left) / r.width) * 2 - 1;
+          ptr.y = -((e.clientY - r.top) / r.height) * 2 + 1;
+          ray.setFromCamera(ptr, camera);
+          var hits = ray.intersectObjects(piece.children, false);
+          if (!hits.length) return;
+          var part = hits[0].object.userData.part;
+          if (part === "body" && window.RD_cycleColor) {
+            statusEl.textContent = "Body repainted: " + window.RD_cycleColor() + " — the studio controls moved with it. Tap the trim to change the accent.";
+          } else if (part === "trim" && window.RD_cycleAccent) {
+            statusEl.textContent = "Trim repainted: " + window.RD_cycleAccent() + " accent. Tap the body to change the main colorway.";
+          }
+        });
+        document.getElementById("bench-paint-body").addEventListener("click", function () {
+          if (window.RD_cycleColor) statusEl.textContent = "Body repainted: " + window.RD_cycleColor() + ".";
+        });
+        document.getElementById("bench-paint-trim").addEventListener("click", function () {
+          if (window.RD_cycleAccent) statusEl.textContent = "Trim repainted: " + window.RD_cycleAccent() + " accent.";
+        });
+        document.getElementById("bench-spin").addEventListener("click", function () {
+          spinning = !spinning;
+          controls.autoRotate = spinning;
+          this.textContent = "Spin: " + (spinning ? "On" : "Off");
+        });
+        document.getElementById("bench-reset").addEventListener("click", function () { controls.reset(); });
+      } catch (err) {
+        setMode(false);
+        mode3d.disabled = true;
+        mode3d.title = "3D needs WebGL and an internet connection";
+        statusEl.textContent = "The 3D bench could not start here — the flat sketch is showing instead.";
+      }
+    </script>
+  </body>
+</html>

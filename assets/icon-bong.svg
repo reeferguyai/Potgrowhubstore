@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Bong icon</title>
+  <desc id="desc">A bong-inspired gradient icon</desc>
+  <rect width="128" height="128" rx="28" fill="#1b2d24"/>
+  <path d="M34 30h52v18H58v38c0 8 6 14 14 14h8v9H56v-9h8c-11 0-20-9-20-20V48H34V30Zm62 34c0-15 12-26 26-26v12c-8 0-14 6-14 14v18h-12V64Z" fill="#8a2be2"/>
+  <path d="M46 44h32v12H46z" fill="#32cd32"/>
+</svg>

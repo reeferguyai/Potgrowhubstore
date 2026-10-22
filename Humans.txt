@@ -1,0 +1,738 @@
+--- RIDE OR DIE HUSTLE CONFIG ---
+Status: Active
+Vibe: Gangster Hippie Swagger
+Loaded module data for Humans.txt. Fully optimized for AEO/SEO attention harvesting.
+
+======================================================================
+POTGROWHUB.STORE — HUMANS.TXT
+======================================================================
+
+PROJECT: PotGrowHub.store
+PRIMARY BRAND: PotGrowHub.store
+AI COMPANION: GanjaGuru
+WEBSITE: https://potgrowhub.store/
+DOCUMENT: humans.txt
+FORMAT: Plain text, UTF-8
+PURPOSE: Human-readable website identity, credits, technology, principles, and project information
+OPERATING MODEL: Seed-to-smoke cannabis knowledge, cultivation education, creative tools, and commerce discovery
+BRAND NORTH STAR: One brand. One name. One universe.
+BRAND PROMISE: PotGrowHub.store is where a living cannabis companion — GanjaGuru — turns curiosity into cultivation, creation, and commerce.
+NORTH-STAR METRIC: Meaningful guided sessions.
+PROJECT STATUS: Active project; individual features and integrations must be verified before being described as operational.
+BUDGET PHILOSOPHY: $0 starting budget; prioritize completely free and open-source options.
+TEAM STRUCTURE: Two-person founding team.
+BRAND PERSONALITY: Hustlin' Hippie Gangster.
+CORE VIBE: Gangster hippie swagger, cosmic-cannabis futurism, grassroots ingenuity, technical curiosity, sustainability, and independent hustle.
+
+======================================================================
+01. WHO WE ARE
+======================================================================
+
+PotGrowHub.store is being developed as a unified cannabis-focused digital destination built around knowledge, guided discovery, cultivation education, creativity, and commerce.
+
+The project combines a street-smart, peace-loving, technically curious personality with a practical mission: help visitors find useful information, understand unfamiliar concepts, explore ideas, and take meaningful next steps.
+
+The identity brings together:
+- The independent hustle of a grassroots entrepreneur.
+- The curiosity of a lifelong learner.
+- The resourcefulness of a zero-budget builder.
+- The sustainability mindset of an earth-conscious maker.
+- The imagination of a cosmic futurist.
+- The technical ambition of an AI-powered digital platform.
+- The welcoming spirit of a community-centered knowledge hub.
+
+PotGrowHub.store is the primary public brand. GanjaGuru is the AI companion within that universe, not a competing primary brand.
+
+======================================================================
+02. BRAND NORTH STAR
+======================================================================
+
+ONE BRAND. ONE NAME. ONE UNIVERSE.
+
+Everything belongs to the PotGrowHub.store experience.
+
+GanjaGuru is the guiding AI companion that helps turn curiosity into learning, design, cultivation education, discovery, and commerce where those capabilities are actually available.
+
+The experience should feel like entering a living cannabis knowledge universe rather than navigating an ordinary collection of disconnected web pages.
+
+Brand statement:
+
+"PotGrowHub.store is where a living cannabis companion — GanjaGuru — turns curiosity into cultivation, creation, and commerce."
+
+The brand must remain consistent across:
+- Website identity.
+- Page titles and descriptions.
+- Logos and visual assets.
+- Social profiles.
+- Documentation.
+- User interfaces.
+- Educational content.
+- AI experiences.
+- Product discovery.
+- Community experiences.
+- Search and answer-engine metadata.
+- Public communications.
+
+Do not create unnecessary competing brand identities or imply that an unlaunched project name is a separate operating company.
+
+======================================================================
+03. MISSION AND PURPOSE
+======================================================================
+
+MISSION:
+Make cannabis-related knowledge, cultivation education, creativity, and product discovery easier to explore through a unified digital experience.
+
+PURPOSE:
+Help visitors move from a question or idea toward a useful outcome.
+
+CORE OUTCOMES:
+- Learn something useful.
+- Understand a cannabis-related topic.
+- Explore cultivation concepts.
+- Compare relevant information.
+- Create a design or concept.
+- Discover tools or accessories.
+- Build a shopping or project list where supported.
+- Find trustworthy references.
+- Understand applicable legal and safety considerations.
+- Continue a meaningful guided session with GanjaGuru.
+
+SUCCESS PRINCIPLE:
+We win when a visitor stops searching and starts talking to GanjaGuru — then stays to grow.
+
+A successful experience is measured by usefulness, clarity, trust, and meaningful progress rather than attention alone.
+
+======================================================================
+04. THE FOUNDING TEAM
+======================================================================
+
+TEAM MODEL:
+A two-person founding team building with resourcefulness, determination, experimentation, and a strict zero-dollar starting budget.
+
+FOUNDING APPROACH:
+- Build incrementally.
+- Reuse existing resources.
+- Prefer free and open-source technologies.
+- Avoid unnecessary subscriptions and paid dependencies.
+- Prioritize working foundations over impressive but unverified claims.
+- Test before describing features as operational.
+- Preserve existing work when making requested additions.
+- Keep implementation understandable and maintainable.
+- Document important decisions.
+- Focus effort on features that create real visitor value.
+
+TEAM VALUES:
+- Loyalty.
+- Persistence.
+- Creativity.
+- Practicality.
+- Independence.
+- Transparency.
+- Learning through experimentation.
+- Respect for visitors and their privacy.
+- Sustainability where practical.
+- Honest communication about limitations.
+
+Do not publish personal contact details, private addresses, private credentials, or personal information without explicit authorization.
+
+======================================================================
+05. BRAND PERSONALITY AND VOICE
+======================================================================
+
+PERSONALITY:
+Hustlin' Hippie Gangster.
+
+VOICE:
+A mystical, streetwise sage blending grassroots entrepreneurship, mountain-born resourcefulness, hippie imagination, cannabis culture, and technical depth.
+
+COMMUNICATION STYLE:
+- Confident without pretending to know everything.
+- Playful without becoming careless.
+- Technical without making explanations unnecessarily complicated.
+- Welcoming without talking down to visitors.
+- Bold without misleading claims.
+- Informal where appropriate and precise when accuracy matters.
+- Educational rather than preachy.
+- Resourceful rather than wasteful.
+- Community-minded without manufacturing community endorsements.
+
+VOICE PRINCIPLES:
+1. Teach, do not preach.
+2. Explain, do not obscure.
+3. Encourage curiosity.
+4. Respect different levels of experience.
+5. Separate facts from opinions and assumptions.
+6. Admit uncertainty.
+7. Never invent sources, credentials, reviews, or capabilities.
+8. Make useful next steps clear.
+9. Keep humor and swagger compatible with safety and accuracy.
+10. Respect legal and cultural differences.
+
+BRAND PHRASES:
+- Born of Earth. Forged in Code.
+- Grow. Create. Evolve.
+- From Seed to Smoke, End to End.
+- Let AI Grow It, You Smoke It.
+
+Use slogans where appropriate, but do not let slogans substitute for accurate descriptions of services that are actually available.
+
+======================================================================
+06. THE GANJAGURU AI COMPANION
+======================================================================
+
+NAME: GanjaGuru
+ROLE: AI companion within PotGrowHub.store
+PURPOSE: Help visitors explore questions, understand information, develop ideas, and navigate available site capabilities.
+
+POTENTIAL CAPABILITIES, SUBJECT TO IMPLEMENTATION AND VERIFICATION:
+- Cannabis terminology and general education.
+- Cultivation concepts and plant-care education.
+- Strain, terpene, and cannabinoid information.
+- Growing environment concepts.
+- Equipment and accessory discovery.
+- Guided educational conversations.
+- Creative brainstorming and design assistance.
+- Product discovery and comparison where supported.
+- Shopping-list preparation where supported.
+- File analysis where implemented.
+- Voice input or output where implemented.
+- Contextual navigation across the platform.
+- Responsible-use and legal-awareness information.
+- References to reliable external resources.
+
+AI OPERATING PRINCIPLES:
+- Be useful, accurate, and transparent about uncertainty.
+- Distinguish sourced information from generated suggestions.
+- Do not fabricate citations or sources.
+- Do not present guesses as verified facts.
+- Avoid unsupported medical, legal, financial, or safety claims.
+- Respect user privacy and data minimization.
+- Never reveal secrets, credentials, private system data, or another user's information.
+- Clearly communicate capability limitations.
+- Do not claim to have performed an external action unless it actually succeeded.
+- Direct visitors to qualified professionals or official resources when appropriate.
+- Apply relevant age, legal, privacy, and platform requirements.
+
+GanjaGuru is an AI companion, not a substitute for qualified medical, legal, or other professional advice.
+
+======================================================================
+07. OPERATING PHILOSOPHY: BREATH / BODY / LUNGS / HEART / SOUL
+======================================================================
+
+BREATH — DISCOVERY AND ENTRY
+Help visitors arrive, orient themselves, ask questions, and discover relevant possibilities.
+
+BODY — STRUCTURE AND FUNCTION
+Provide the website architecture, content organization, interface, tools, and practical features that support the experience.
+
+LUNGS — INFORMATION FLOW
+Support the responsible movement of knowledge through search, references, education, guided conversations, and discovery.
+
+HEART — TRUST AND COMMUNITY
+Prioritize honesty, accessibility, privacy, reliability, and respectful communication.
+
+SOUL — IDENTITY AND PURPOSE
+Preserve the unified PotGrowHub.store identity, the GanjaGuru companion concept, and the project's core values.
+
+These are conceptual operating principles. They should guide design and implementation without being misrepresented as deployed technical modules.
+
+======================================================================
+08. DESIGN AND VISUAL IDENTITY
+======================================================================
+
+DESIGN DIRECTION:
+Cosmic-cannabis futurism with streetwise character, organic inspiration, and practical usability.
+
+VISUAL THEMES:
+- Floating islands and orbital environments.
+- Cosmic particles and subtle atmospheric effects.
+- Portals and guided exploration.
+- Organic forms inspired by plants and natural systems.
+- Futuristic interfaces.
+- Accessible, readable information panels.
+- Distinctive AI interaction elements.
+- Sustainable and earth-conscious visual storytelling.
+
+REFERENCE PALETTE:
+- Midnight black: #121212
+- Charcoal: #212121
+- Electric green: #32CD32
+- Cosmic gold: #FFD700
+- Cosmic violet: #8A2BE2
+
+POTENTIAL TYPOGRAPHY:
+- Orbitron for selected futuristic display elements.
+- Poppins for readable interface and body text.
+- Suitable system fonts as accessible fallbacks.
+
+DESIGN PRINCIPLES:
+- Distinctive without sacrificing usability.
+- Responsive across screen sizes.
+- Accessible contrast and visible focus states.
+- Respect reduced-motion preferences.
+- Keep essential navigation discoverable.
+- Optimize media and animation for performance.
+- Avoid making important information dependent on decorative effects.
+- Ensure the interface remains functional when optional effects fail to load.
+
+======================================================================
+09. TECHNOLOGY AND IMPLEMENTATION PRINCIPLES
+======================================================================
+
+TECHNOLOGY POLICY:
+Prefer free, open-source, standards-based technologies whenever they meet the project's needs.
+
+IMPLEMENTATION PRINCIPLES:
+- Use semantic HTML.
+- Use maintainable CSS.
+- Use JavaScript responsibly.
+- Prefer well-supported web standards.
+- Choose frameworks only when they provide meaningful benefits.
+- Avoid unnecessary dependencies.
+- Keep secrets out of public files and source repositories.
+- Use environment variables or appropriate secret management for private configuration.
+- Validate user input.
+- Protect uploaded files.
+- Apply authentication and authorization where needed.
+- Test error handling.
+- Keep dependencies updated.
+- Document setup and operation.
+- Provide useful fallbacks when practical.
+- Design for progressive enhancement.
+- Make accessibility a baseline requirement.
+- Avoid claiming that an architecture, API, or service is active before it has been implemented and tested.
+
+Potential technologies may include HTML5, CSS, JavaScript, Python, FastAPI, SQLite, PostgreSQL, service workers, and progressive web application features, depending on the actual deployed architecture.
+
+======================================================================
+10. SEARCH ENGINE OPTIMIZATION AND DISCOVERABILITY
+======================================================================
+
+SEO PURPOSE:
+Help the right visitors find accurate, relevant, useful PotGrowHub.store content.
+
+SEO PRINCIPLES:
+- Unique page titles.
+- Useful meta descriptions.
+- Correct canonical URLs.
+- Valid robots.txt.
+- Valid XML sitemap.
+- Accurate structured data.
+- Logical heading hierarchy.
+- Descriptive internal links.
+- Crawlable content.
+- Optimized images.
+- Mobile usability.
+- Strong performance.
+- Secure HTTPS delivery.
+- Accessible navigation.
+- Accurate publication and update dates.
+- Helpful, original content.
+- Clear separation between actual features and planned features.
+
+ANSWER ENGINE OPTIMIZATION:
+- Answer relevant questions directly.
+- Explain concepts clearly.
+- Use meaningful headings.
+- Cite reliable sources when appropriate.
+- Distinguish evidence from opinion.
+- Keep important information available in crawlable text.
+- Avoid fabricated facts and citations.
+- Never guarantee search rankings, rich results, or inclusion in AI-generated answers.
+
+Do not treat humans.txt as a recognized mechanism for improving rankings. Its purpose is to document human-readable project information.
+
+======================================================================
+11. ACCESSIBILITY AND INCLUSIVE DESIGN
+======================================================================
+
+PotGrowHub.store should be usable by people with different devices, abilities, experience levels, and access needs.
+
+REQUIREMENTS:
+- Semantic HTML.
+- Keyboard-accessible navigation.
+- Visible focus indicators.
+- Appropriate color contrast.
+- Descriptive link text.
+- Meaningful alternative text for informative images.
+- Empty alternative text for decorative images where appropriate.
+- Labels for form controls.
+- Understandable validation messages.
+- Accessible dialogs and menus.
+- Reduced-motion support.
+- Responsive layouts.
+- Captions or transcripts for relevant media.
+- ARIA attributes only when appropriate.
+- No unnecessary dependence on color, sound, or animation.
+- Clear explanations of interface actions.
+- Accessibility testing during development.
+
+Accessibility should be built into the experience rather than postponed until after launch.
+
+======================================================================
+12. PRIVACY, SECURITY, AND TRUST
+======================================================================
+
+TRUST PRINCIPLE:
+Visitors should understand what the site does, what information it collects, and which capabilities are actually available.
+
+REQUIREMENTS:
+- Collect only necessary information.
+- Explain data practices in an appropriate privacy policy.
+- Implement consent mechanisms where required.
+- Protect account information and private conversations.
+- Never publish credentials or private tokens.
+- Secure administrative functions.
+- Validate and safely process uploaded files.
+- Use HTTPS.
+- Keep software dependencies maintained.
+- Avoid unnecessary tracking.
+- Provide accurate cookie disclosures where applicable.
+- Use transparent disclosures for advertising and affiliate relationships.
+- Avoid fabricated testimonials, endorsements, ratings, or partnerships.
+- Correct material errors.
+- Do not imply that privacy or security guarantees exist without verification.
+
+======================================================================
+13. SUSTAINABILITY AND RESPONSIBLE RESOURCE USE
+======================================================================
+
+SUSTAINABILITY PRINCIPLE:
+Build intelligently, minimize waste, and favor durable solutions.
+
+PREFERENCES:
+- Free and open-source tools where appropriate.
+- Efficient code and optimized assets.
+- Reusable components.
+- Digital documentation.
+- Responsible use of compute resources.
+- Eco-conscious materials and suppliers when verified.
+- Sustainable packaging options where actually available.
+- Honest descriptions of environmental impact.
+- Reduced unnecessary data collection and storage.
+
+Do not label a product biodegradable, carbon-neutral, recyclable, or environmentally certified unless the claim is substantiated.
+
+======================================================================
+14. COMMERCE AND MONETIZATION PRINCIPLES
+======================================================================
+
+LONG-TERM DIRECTION:
+Explore a unified path from ideas and education to creative tools, product discovery, and commerce.
+
+POTENTIAL MODELS, SUBJECT TO LEGALITY, ELIGIBILITY, AND IMPLEMENTATION:
+- Advertising.
+- Affiliate referrals.
+- Print-on-demand products.
+- Third-party product discovery.
+- Referral partnerships.
+- Digital creative products.
+- Sponsorships.
+- Optional service integrations.
+- Other transparent, lawful monetization methods.
+
+REQUIREMENTS:
+- Do not claim products are in stock unless verified.
+- Do not imply that PotGrowHub.store owns a warehouse or inventory unless true.
+- Do not promise shipping, delivery, checkout, or payment functionality that has not been implemented.
+- Verify vendor and supplier relationships.
+- Disclose material commercial relationships.
+- Respect applicable cannabis advertising, commerce, payment, and age restrictions.
+- Avoid deceptive pricing, fake scarcity, and fake reviews.
+- Keep customer consent and privacy in mind.
+- Prefer approaches compatible with the zero-dollar starting budget.
+- Evaluate free-tier limits and ongoing costs before relying on external services.
+
+======================================================================
+15. CONTENT QUALITY AND EDUCATIONAL STANDARDS
+======================================================================
+
+CONTENT PRINCIPLES:
+- Accurate.
+- Useful.
+- Original.
+- Understandable.
+- Appropriately sourced.
+- Respectful.
+- Updated when necessary.
+- Clear about limitations.
+- Relevant to visitor needs.
+
+CONTENT MAY COVER:
+- Cannabis terminology.
+- Cultivation education.
+- Plant health and environmental factors.
+- Strains and their reported characteristics.
+- Cannabinoids and terpenes.
+- Equipment and accessories.
+- Responsible-use education.
+- Sustainability.
+- Creative projects.
+- Digital tools.
+- Product discovery.
+- Legal-awareness resources.
+- Community learning.
+
+REQUIREMENTS:
+- Do not publish unsupported medical claims.
+- Do not present anecdotes as universal scientific findings.
+- Do not fabricate citations, expert reviews, or author credentials.
+- Distinguish educational material from professional advice.
+- Respect copyright and licensing.
+- Correct errors when discovered.
+- Review legal information for jurisdiction and date.
+- Do not publish low-value content solely to capture search traffic.
+
+======================================================================
+16. COMMUNITY AND USER EXPERIENCE
+======================================================================
+
+COMMUNITY PRINCIPLES:
+- Welcome curiosity.
+- Encourage responsible learning.
+- Respect differing levels of knowledge.
+- Avoid harassment and abuse.
+- Provide clear rules where community features exist.
+- Protect private information.
+- Moderate harmful or unlawful content appropriately.
+- Avoid fake engagement and manufactured endorsements.
+- Make feedback channels clear when available.
+
+USER EXPERIENCE OBJECTIVES:
+- Help visitors understand where they are.
+- Make the next step clear.
+- Keep important interactions accessible.
+- Avoid unnecessary barriers.
+- Explain errors in plain language.
+- Make useful features discoverable.
+- Ensure the experience remains understandable on mobile.
+- Avoid misleading loading indicators or false success messages.
+- Prioritize meaningful outcomes over addictive engagement mechanics.
+
+======================================================================
+17. PROJECT STATUS AND INTEGRATION TRANSPARENCY
+======================================================================
+
+Use accurate status labels for project features and external integrations.
+
+PLANNED:
+The feature has been identified but not implemented.
+
+IN PROGRESS:
+Implementation has started but is incomplete.
+
+IMPLEMENTED:
+The code or configuration exists but has not necessarily been fully tested.
+
+VERIFIED:
+The feature has been tested and confirmed to work as intended.
+
+BLOCKED:
+The feature depends on an unresolved account, permission, service, or decision.
+
+NOT APPLICABLE:
+The feature is not relevant to the current implementation.
+
+Potential integration categories include:
+- Search Console.
+- Webmaster tools.
+- Analytics.
+- Advertising.
+- Payment processors.
+- Voice services.
+- AI providers.
+- Print-on-demand vendors.
+- Supplier feeds.
+- Shipping and delivery services.
+- Product catalogs.
+- Authentication.
+- Databases.
+- Email.
+- Social platforms.
+- AR and VR experiences.
+
+These categories describe possible integrations, not proof that any particular integration is connected.
+
+For each actual integration, document its real status, configuration location, dependencies, testing method, limitations, and verification date.
+
+Never publish API keys, passwords, private endpoints, or confidential credentials in this file.
+
+======================================================================
+18. PROJECT DOCUMENTATION
+======================================================================
+
+Maintain appropriate project documentation, which may include:
+- README.md
+- humans.txt
+- seo.txt
+- AEO documentation
+- robots.txt
+- sitemap.xml
+- Security.txt
+- Privacy policy
+- Terms of use
+- Accessibility information
+- Installation instructions
+- Configuration documentation
+- API documentation where applicable
+- Dependency and license records
+- Deployment instructions
+- Testing procedures
+- Integration status records
+- Content governance guidelines
+
+Keep documentation consistent with the real project.
+
+Do not claim a file exists merely because it is listed here as a recommended document.
+
+======================================================================
+19. LEGAL AND RESPONSIBLE OPERATION
+======================================================================
+
+REQUIREMENTS:
+- Respect applicable federal, state, local, and international laws.
+- Apply age restrictions where legally required.
+- Verify applicable cannabis rules before offering regulated products or services.
+- Respect platform policies.
+- Maintain accurate privacy and commercial disclosures.
+- Avoid unlawful transactions and misleading claims.
+- Make educational limitations clear.
+- Avoid presenting general content as legal, medical, or financial advice.
+- Seek qualified legal guidance when appropriate.
+- Do not claim legal compliance has been independently verified unless it has.
+
+======================================================================
+20. WHAT HUMANS.TXT IS AND IS NOT
+======================================================================
+
+humans.txt is a human-readable project-information file.
+
+Its intended purpose is to document:
+- Project identity.
+- Brand information.
+- People and credits when approved for publication.
+- Design and technology principles.
+- Project values.
+- Contact or attribution information when intentionally provided.
+- Relevant acknowledgments and licenses.
+
+humans.txt is not:
+- A replacement for HTML metadata.
+- A replacement for robots.txt.
+- A replacement for sitemap.xml.
+- A privacy or security control.
+- A guarantee of search ranking.
+- A guaranteed AEO or AI-discovery mechanism.
+- Proof that any integration is active.
+- A place for secrets or private personal information.
+
+A conventional location is:
+https://potgrowhub.store/humans.txt
+
+This location must be verified against the actual deployment.
+
+======================================================================
+21. CONTACT AND CREDITS
+======================================================================
+
+PROJECT: PotGrowHub.store
+WEBSITE: https://potgrowhub.store/
+AI COMPANION: GanjaGuru
+
+PUBLIC CONTACT:
+Add an official contact address or contact-page URL only after it has been established and approved for publication.
+
+CREDITS:
+List real contributors, creators, maintainers, photographers, designers, and other credited parties only when their names and roles are confirmed and publication is authorized.
+
+OPEN-SOURCE CREDITS:
+Preserve applicable copyright notices, attribution requirements, and license terms for third-party software and assets.
+
+Do not invent contact details, names, credentials, partner organizations, or credits.
+
+======================================================================
+22. LONG-TERM VISION
+======================================================================
+
+Build PotGrowHub.store into a useful, cohesive, accessible, and sustainable digital destination where cannabis-related curiosity can lead to knowledge, cultivation education, creativity, and commerce.
+
+The long-term vision includes:
+- A helpful GanjaGuru AI companion.
+- A well-organized knowledge base.
+- Useful educational resources.
+- Reliable search and discovery.
+- Creative tools.
+- Accessible interactive experiences.
+- Responsible product discovery.
+- Verified third-party integrations where appropriate.
+- Transparent monetization.
+- Privacy-conscious architecture.
+- A recognizable cosmic-cannabis identity.
+- A maintainable, standards-based technical foundation.
+
+These are strategic goals. Each capability must be implemented, tested, and verified before being represented as available.
+
+======================================================================
+23. DEFINITION OF SUCCESS
+======================================================================
+
+Success is not merely traffic, clicks, page views, or rankings.
+
+Success means visitors can:
+- Find PotGrowHub.store.
+- Understand what the project offers.
+- Ask useful questions.
+- Learn accurate information.
+- Explore ideas.
+- Use available tools.
+- Make informed decisions.
+- Discover appropriate resources.
+- Understand limitations.
+- Trust the experience.
+- Leave with a meaningful outcome.
+
+NORTH-STAR METRIC:
+Meaningful guided sessions.
+
+The defining question is:
+Did the visitor leave having learned, designed, cultivated, discovered, or purchased something useful through a capability that genuinely exists?
+
+======================================================================
+24. FINAL OPERATING PRINCIPLES
+======================================================================
+
+ONE BRAND:
+PotGrowHub.store.
+
+ONE AI COMPANION:
+GanjaGuru.
+
+ONE UNIFIED EXPERIENCE:
+A connected universe for cannabis knowledge, cultivation education, creativity, and commerce discovery.
+
+ONE RESOURCE RULE:
+Use free and open-source options wherever practical and appropriate within the $0 starting budget.
+
+ONE TRUST RULE:
+Never represent plans, placeholders, aspirations, or untested code as verified functionality.
+
+ONE CONTENT RULE:
+Prioritize usefulness, accuracy, originality, accessibility, and responsible publishing.
+
+ONE PRIVACY RULE:
+Protect personal information and never expose secrets.
+
+ONE MAINTENANCE RULE:
+Keep documentation aligned with the real implementation.
+
+ONE SUCCESS MEASURE:
+Meaningful guided sessions that create genuine value for visitors.
+
+Born of Earth. Forged in Code.
+Grow. Create. Evolve.
+
+PotGrowHub.store — One brand. One name. One universe.
+
+======================================================================
+END OF HUMANS.TXT
+======================================================================

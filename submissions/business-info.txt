@@ -1,0 +1,20 @@
+﻿BUSINESS INFO â€” copy/paste this into every directory and profile
+================================================================
+Business name:  PotGrowHub.store (home of Reefer Dude)
+Website:        https://potgrowhub.store
+Also:           https://reeferdude.com (forwards to the store)
+
+Short description (one line):
+Seed-to-smoke hemp and head shop hub â€” grow gear, an AI budtender, digital grow guides, and 1:1 grow consultations.
+
+Long description:
+PotGrowHub.store is a seed-to-smoke hub for growers and smokers: shop grow gear vouched for by Reefer Dude, learn with instant-download grow guides and VPD charts, book a 1:1 grow consultation, and get matched with trusted local shops. Home of the GanjaGoddess AI budtender. Open 24/7 online.
+
+Categories:  Hemp Shop / Head Shop / Grow Supplies / E-commerce / Gardening
+Keywords:    grow tent, LED grow light, hemp, CBD, head shop, grow guide, hydroponics, VPD chart, AI budtender
+Hours:       Open 24/7 online
+
+FILL THESE IN ONCE, USE EVERYWHERE:
+Email:       _______reeferguyai@gmail.com_______________
+Phone:       ________5136508445______________
+City/State:  _______ohio_______________ (or "Online only")

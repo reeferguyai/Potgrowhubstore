@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Virtual Budtender | ReeferDude · PotGrowHub</title>
+    <meta name="description" content="Chat with the GanjaGoddess AI budtender — strain picks, grow help, and straight answers. Voice in, voice out, right in your browser." />
+    <meta name="theme-color" content="#12261b" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://potgrowhub.store/budtender/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/script.js" defer></script>
+      <meta name="google-adsense-account" content="ca-pub-4750157756501290" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4750157756501290" crossorigin="anonymous"></script>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5JXBTPJR');</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KKBPGV74KK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KKBPGV74KK');
+  gtag('config', 'GT-M397NHT5');
+</script>
+<!-- Ahrefs Analytics -->
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="q+qtldqFNRy0lCECcj9JCw" async></script>
+<script>
+  var ahrefs_analytics_script = document.createElement('script');
+  ahrefs_analytics_script.async = true;
+  ahrefs_analytics_script.src = 'https://analytics.ahrefs.com/analytics.js';
+  ahrefs_analytics_script.setAttribute('data-key', 'q+qtldqFNRy0lCECcj9JCw');
+  document.getElementsByTagName('head')[0].appendChild(ahrefs_analytics_script);
+</script>
+
+</head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JXBTPJR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="/" aria-label="ReeferDude home">
+          <img src="/assets/icon-bud.svg" alt="ReeferDude leaf icon" width="32" height="32" />
+          <span>REEFERDUDE</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="/#studio">Studio</a>
+          <a href="/#lab">Strain Lab</a>
+          <a href="/#budtender">AI Budtender</a>
+          <a href="/#shop">Shop</a>
+          <a href="/#about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">AI Virtual Budtender</p>
+          <h1>Ask the GanjaGoddess.</h1>
+          <p class="lead">Strain picks, grow-room help, and straight answers — right here in your browser. She runs on an on-device expert system: fast, private, and your chat never leaves your machine. Education only, adults 21+.</p>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="chat-wrap">
+          <div class="chat-chips" id="chips">
+            <button class="chip" type="button">Recommend something for sleep</button>
+            <button class="chip" type="button">Best strain for energy</button>
+            <button class="chip" type="button">Beginner grow tips</button>
+            <button class="chip" type="button">What is VPD?</button>
+            <button class="chip" type="button">Help me plan a grow room</button>
+            <button class="chip" type="button">Book a consultation</button>
+          </div>
+          <div class="chat-log" id="log" aria-live="polite" aria-label="Chat history"></div>
+          <form class="chat-input" id="chat-form">
+            <input type="text" id="chat-text" placeholder="Ask about strains, growing, gear…" autocomplete="off" aria-label="Your message" />
+            <button class="button secondary" type="button" id="mic-btn" aria-label="Speak your message">🎤</button>
+            <button class="button secondary" type="button" id="voice-btn" aria-pressed="false">🔊 Off</button>
+            <button class="button primary" type="submit">Send</button>
+          </form>
+          <p style="padding:0 1.2rem 1rem;color:var(--muted);margin:0">
+            History is stored only in this browser. <button class="chip" type="button" id="clear-btn">Clear history</button>
+          </p>
+        </div>
+        <p style="color:var(--muted)">Want to build your own cultivar instead? Hit the <a href="/strain-builder/">Strain Creation Lab</a>. Planning a room? The <a href="/blueprinting/">Blueprinting Studio</a> runs the numbers.</p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>&copy; <span id="year">2026</span> ReeferDude.com &amp; PotGrowHub.store</p>
+        <div class="footer-links">
+          <a href="/privacy/">Privacy</a>
+          <a href="/terms/">Terms</a>
+          <a href="/accessibility/">Accessibility</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        "use strict";
+        var KEY = "pgh-budtender-chat";
+        var log = document.getElementById("log");
+        var form = document.getElementById("chat-form");
+        var input = document.getElementById("chat-text");
+        var voiceOn = false;
+        var history = [];
+        try { history = JSON.parse(localStorage.getItem(KEY) || "[]"); } catch (e) { history = []; }
+
+        var STRAINS = [
+          { name: "Granddaddy Purple", type: "Indica", thc: 20, effects: ["sleep", "relax", "calm", "pain"], note: "heavy grape calm, a classic nightcap" },
+          { name: "Northern Lights", type: "Indica", thc: 18, effects: ["sleep", "relax", "stress"], note: "soft, resinous, beginner-friendly to grow" },
+          { name: "Harlequin", type: "Sativa-leaning CBD", thc: 6, effects: ["calm", "focus", "pain", "anxiety"], note: "high-CBD, clear-headed, barely a buzz" },
+          { name: "Durban Poison", type: "Sativa", thc: 19, effects: ["energy", "focus", "creative", "uplift"], note: "pure get-up-and-go, spicy-sweet" },
+          { name: "Jack Herer", type: "Sativa", thc: 18, effects: ["energy", "creative", "focus", "mood"], note: "bright and clear, a daytime favorite" },
+          { name: "Blue Dream", type: "Hybrid", thc: 21, effects: ["creative", "mood", "relax", "energy"], note: "balanced berry all-rounder" },
+          { name: "Gelato", type: "Hybrid", thc: 22, effects: ["relax", "mood", "euphoric"], note: "dessert flavors, smooth euphoria" },
+          { name: "Sour Diesel", type: "Sativa", thc: 22, effects: ["energy", "mood", "euphoric"], note: "pungent gas, fast-hitting lift" },
+          { name: "OG Kush", type: "Hybrid", thc: 23, effects: ["relax", "stress", "euphoric"], note: "earthy pine backbone of the West Coast" },
+          { name: "GG4", type: "Hybrid", thc: 26, effects: ["relax", "sleep", "euphoric"], note: "heavy hitter — respect the dose" }
+        ];
+
+        function save() { localStorage.setItem(KEY, JSON.stringify(history.slice(-40))); }
+
+        function addMsg(who, text) {
+          history.push({ who: who, text: text });
+          save();
+          render();
+        }
+
+        function render() {
+          log.innerHTML = "";
+          history.forEach(function (m) {
+            var div = document.createElement("div");
+            div.className = "msg " + m.who;
+            div.textContent = m.text;
+            log.appendChild(div);
+          });
+          log.scrollTop = log.scrollHeight;
+        }
+
+        function speak(text) {
+          if (!voiceOn || !("speechSynthesis" in window)) return;
+          try {
+            var u = new SpeechSynthesisUtterance(text);
+            u.rate = 1.02;
+            window.speechSynthesis.cancel();
+            window.speechSynthesis.speak(u);
+          } catch (e) { /* voice is optional */ }
+        }
+
+        function pickFor(effect) {
+          var hits = STRAINS.filter(function (s) { return s.effects.indexOf(effect) !== -1; });
+          return hits.slice(0, 2);
+        }
+
+        function answer(raw) {
+          var q = " " + raw.toLowerCase() + " ";
+          function has() {
+            return Array.prototype.some.call(arguments, function (w) { return q.indexOf(w) !== -1; });
+          }
+          if (has("hello", "hey", "hi ", "yo ")) return "Hey hey. GanjaGoddess at your service. Tell me the vibe you're chasing — sleep, energy, focus, pain relief — or ask me anything about growing.";
+
+          var effectMap = [
+            ["sleep", ["sleep", "insomnia", "night", "knock out"]],
+            ["energy", ["energy", "energetic", "wake", "daytime", "motivation"]],
+            ["focus", ["focus", "concentrat", "work", "study"]],
+            ["creative", ["creative", "creativity", "art", "music"]],
+            ["pain", ["pain", "ache", "sore", "arthritis"]],
+            ["relax", ["relax", "chill", "unwind", "stress", "anxiety", "calm"]]
+          ];
+          for (var i = 0; i < effectMap.length; i++) {
+            var eff = effectMap[i][0];
+            var words = effectMap[i][1];
+            for (var j = 0; j < words.length; j++) {
+              if (q.indexOf(words[j]) !== -1) {
+                var picks = pickFor(eff === "relax" ? "relax" : eff);
+                if (!picks.length) picks = pickFor("relax");
+                var lines = picks.map(function (s) {
+                  return "• " + s.name + " (" + s.type + ", ~" + s.thc + "% THC) — " + s.note + ".";
+                });
+                return "For " + eff + ", here's what I'd reach for:\n" + lines.join("\n") +
+                  "\nStart low, go slow, and keep it legal where you are. Want a grow plan for one of these? Ask me how to grow it.";
+              }
+            }
+          }
+
+          var named = STRAINS.filter(function (s) { return q.indexOf(s.name.toLowerCase()) !== -1; });
+          if (named.length) {
+            var s = named[0];
+            return s.name + ": " + s.type + ", around " + s.thc + "% THC. Known for " + s.effects.join(", ") +
+              " — " + s.note + ". Flowering runs about " + (s.type === "Sativa" ? "10–12" : s.type === "Indica" ? "7–9" : "8–10") +
+              " weeks indoors. Want the full grow recipe? The Blueprinting Studio (/blueprinting/) runs the room math.";
+          }
+
+          if (has("vpd")) return "VPD — vapor pressure deficit — is how thirsty the air makes your plants. It combines temperature and humidity into one number. Rough targets: seedlings 0.4–0.8 kPa, veg 0.8–1.2, flower 1.2–1.6. Hit the band and plants drink, eat, and grow at full speed. The Blueprinting Studio calculates yours live.";
+          if (has("ph")) return "pH cheat sheet: soil likes 6.0–7.0 (aim 6.5), coco and hydro like 5.5–6.5 (aim 5.9). Most 'deficiency' problems are really pH lockout — check pH before you ever add more food.";
+          if (has("light", "led", "watt")) return "LED rule of thumb per square foot of canopy: seedlings 15W, veg 25W, early flower 30W, late flower 35–40W of real draw. Hang height matters too — follow your light's PPFD map, and keep tops 12–18 inches under modern bar LEDs in flower.";
+          if (has("water", "overwater")) return "Watering: lift the pot. Light pot = thirsty, heavy pot = wait. Overwatering is the #1 beginner killer — roots need oxygen as much as water. Water to slight runoff, then let the top inch dry before the next round.";
+          if (has("nutrient", "feed", "fertilizer", "npk")) return "Feeding basics: veg wants nitrogen-forward food, flower wants more phosphorus and potassium. Start at half the bottle's dose — you can always add, you can't un-burn. Watch leaf tips: burnt tips mean ease off, pale leaves mean step up.";
+          if (has("yellow", "spots", "curl", "droop", "mold", "mildew", "bugs", "pests")) return "Triage order, always: 1) pH in range? 2) Watering right (lift the pot)? 3) Temps 68–82°F and airflow moving? 4) THEN nutrients. Nine out of ten sad plants are steps 1–3. Powdery mildew or bud rot = remove affected material, drop humidity, increase airflow — and never spray anything on flowers you'll consume.";
+          if (has("beginner", "start growing", "first grow", "how to grow")) return "First run recipe: a 2×4 tent, a 200–300W LED, fabric pots, good soil, one forgiving strain (Northern Lights is famous for patience). Keep pH right, don't overwater, and write everything down. The Blueprinting Studio sizes the gear for your exact space.";
+          if (has("tent", "room", "setup", "gear", "equipment")) return "For a full setup plan I need three numbers: your space (length × width), your plant count, and your budget. Give me those, or run the Blueprinting Studio (/blueprinting/) — it computes canopy size, LED watts, and exhaust CFM instantly. Gear shopping lives in the Ghost Marketplace (/marketplace/).";
+          if (has("consult", "book", "appointment", "talk to a human", "session")) return "Real-human time lives on the Consultation page (/consultation/): Grow Room Blueprint (45 min), Strain Strategy (30 min), or a Brand & Business session. Pick one, send the request, and you'll lock a time by email.";
+          if (has("shop", "buy", "price", "marketplace", "store")) return "The Ghost Marketplace (/marketplace/) is our zero-inventory storefront — products get made and shipped per order by vetted partners. Checkout opens at launch; right now you can browse the showcase and design your own pieces in the Design Studio (/design-studio/).";
+          if (has("create", "cross", "breed", "my own strain")) return "Breeding on paper is exactly what the Strain Creation Lab (/strain-builder/) does: pick two parents, set effects and flavors, and it generates your cultivar concept with a name and grow notes — and saves your creations.";
+          if (has("legal", "illegal", "law")) return "I can't give legal advice, and the rules are different everywhere — state, sometimes city. Check your local laws before you grow, buy, or carry anything. This site is education-only and 21+.";
+          if (has("who are you", "your name", "ganjagoddess", "ganja goddess")) return "I'm the GanjaGoddess — the AI budtender of PotGrowHub. Part hippie, part hustler, all homework done. I run right in your browser: no account, no tracking, your chat stays on your device.";
+          if (has("thank", "ty", "thx")) return "Anytime. Stay lifted, stay legal, and write your grows down — future you says thanks too.";
+          return "I want to nail that one. Try me on: a strain for a mood (sleep, energy, focus, pain, chill), grow topics (VPD, pH, lights, watering, feeding, plant problems), or site stuff (shop, consultations, creating a strain). What are we working on?";
+        }
+
+        form.addEventListener("submit", function (ev) {
+          ev.preventDefault();
+          var text = input.value.trim();
+          if (!text) return;
+          input.value = "";
+          addMsg("user", text);
+          var reply = answer(text);
+          setTimeout(function () {
+            addMsg("bot", reply);
+            speak(reply);
+          }, 250);
+        });
+
+        document.getElementById("chips").addEventListener("click", function (ev) {
+          if (ev.target.classList.contains("chip")) {
+            input.value = ev.target.textContent;
+            form.dispatchEvent(new Event("submit"));
+          }
+        });
+
+        document.getElementById("clear-btn").addEventListener("click", function () {
+          history = [];
+          localStorage.removeItem(KEY);
+          render();
+          greet();
+        });
+
+        var voiceBtn = document.getElementById("voice-btn");
+        voiceBtn.addEventListener("click", function () {
+          voiceOn = !voiceOn;
+          voiceBtn.textContent = voiceOn ? "🔊 On" : "🔊 Off";
+          voiceBtn.setAttribute("aria-pressed", String(voiceOn));
+          if (!voiceOn && "speechSynthesis" in window) window.speechSynthesis.cancel();
+        });
+
+        var micBtn = document.getElementById("mic-btn");
+        var Rec = window.SpeechRecognition || window.webkitSpeechRecognition;
+        if (!Rec) {
+          micBtn.disabled = true;
+          micBtn.title = "Voice input is not supported in this browser";
+        } else {
+          micBtn.addEventListener("click", function () {
+            var rec = new Rec();
+            rec.lang = "en-US";
+            rec.interimResults = false;
+            rec.onresult = function (e) {
+              input.value = e.results[0][0].transcript;
+              form.dispatchEvent(new Event("submit"));
+            };
+            try { rec.start(); } catch (e) { /* already running */ }
+          });
+        }
+
+        function greet() {
+          addMsg("bot", "Peace. I'm the GanjaGoddess, your virtual budtender. Ask me for a strain for any mood, grow help, or where anything lives on this site. Adults 21+, education only — let's get you sorted.");
+        }
+
+        if (history.length) { render(); } else { greet(); }
+      })();
+    </script>
+  </body>
+</html>

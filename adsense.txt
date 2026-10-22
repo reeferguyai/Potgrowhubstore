@@ -1,0 +1,130 @@
+# PotGrowHub Store | Google AdSense / Authorized Seller Record
+# Compatibility copy for ad verification and publisher transparency.
+#
+# --- PUBLISHER IDENTITY ---
+# Publisher Domain: potgrowhubstore.com
+# Marketplace: Google AdSense
+# Required standard: ads.txt (Google uses ads.txt at the root domain)
+# Brand: PotGrowHub Store
+# Business Type: Digital commerce, education, content publishing, review publishing
+# Primary Revenue Model: AdSense, direct sponsorship, affiliate commerce, branded content
+# Compliance Focus: Authorized sellers only, verified publisher relationships, fraud prevention
+# File Purpose: Publisher disclosure, ad inventory verification, brand protection
+# File Type: Enhanced ads.txt / adsense.txt compatibility record
+# Version: 2.0
+# Last Updated: 2026-10-21
+#
+# --- DIRECT SELLERS ---
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+#
+# --- RESELLER / NETWORK PARTNERS ---
+# example.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+#
+# --- PROGRAMMATIC / DEMAND PARTNERS ---
+# appnexus.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+# indexexchange.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+# openx.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+# pubmatic.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+# rubiconproject.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+# sonobi.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+# triplelift.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+# sharethrough.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+#
+# --- IN-HOUSE / DIRECT SALES ---
+# potgrowhubstore.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+#
+# --- SPONSORED CONTENT / BRAND DEALS ---
+# sponsor-brand-name.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# native-ad-partner.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+#
+# --- AFFILIATE / COMMERCE PARTNERS ---
+# affiliate-network.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+# commerce-platform.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+#
+# --- AD EXCHANGES / MARKETPLACE CHANNELS ---
+# adexchange.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+# marketplace.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+#
+# --- MEDIA BUYING / AGENCY PARTNERS ---
+# agency-partner.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+# media-buying.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+#
+# --- BRAND SAFETY / VERIFICATION PARTNERS ---
+# verifiedadvertising.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+# brand-verify.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+#
+# --- CONTENT / EDITORIAL / NATIVE NETWORKS ---
+# editorial-network.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+# content-syndication.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+#
+# --- PREMIUM / STRATEGIC SALES CHANNELS ---
+# premium-brand.example, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# strategic-media.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+#
+# --- REGIONAL / MARKET CHANNELS ---
+# region-partner.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+# international-network.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+#
+# --- DATA / MEASUREMENT / AD OPS ---
+# measurement-partner.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+# adops-platform.example, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+#
+# --- DOMAIN / PROPERTY OWNERSHIP NOTES ---
+# Only list authorized domains that have a verified commercial relationship with the publisher.
+# Do not include unverified partners, stale exchanges, or duplicate entries for the same seller.
+# Any seller listed must have clear permission to represent the publisher or sell inventory.
+#
+# --- COMPLIANCE RULES ---
+# 1. Use accurate and verified publisher IDs.
+# 2. Do not include placeholder or test IDs in production.
+# 3. Remove sellers that are no longer authorized.
+# 4. Keep seller relationships current and documented.
+# 5. Maintain consistent formatting: domain, pub-id, relationship, certification-id.
+# 6. Only list domains with a legitimate role in selling, reselling, or representing ad inventory.
+# 7. Ensure the file is hosted at the root of the domain and publicly accessible.
+#
+# --- AD FRAUD & BRAND SAFETY GUIDANCE ---
+# - Validate every seller before adding them.
+# - Monitor for fraud, spoofing, or unauthorized resellers.
+# - Maintain separation between direct sales, reseller channels, and affiliate inventory.
+# - Avoid duplicate publisher IDs across conflicting categories.
+# - Ensure each seller is a recognizable and legitimate advertising entity.
+#
+# --- PUBLISHER BEST PRACTICES ---
+# - Review this file monthly.
+# - Keep a legal and financial record of all commercial ad relationships.
+# - Update entries immediately when accounts change.
+# - Use precise domain names and valid publisher IDs.
+# - Maintain transparency with ad buyers and ad platforms.
+# - Treat this record as a trust and compliance asset.
+#
+# --- LEGAL / STRATEGIC DOCUMENTATION ---
+# This file supports publisher transparency, buyer trust, and ad inventory verification.
+# It is intended for use alongside publisher contracts, ad platform account records,
+# and seller relationship documentation. The file should remain accurate and up-to-date.
+#
+# --- MAINTENANCE CHECKLIST ---
+# [ ] Verify Google AdSense publisher ID is real and active.
+# [ ] Confirm every reseller entry has a signed agreement.
+# [ ] Remove any stale or inactive network partner.
+# [ ] Check that the domain is live and publicly accessible.
+# [ ] Confirm the file matches the current publisher brand and domain.
+# [ ] Keep a copy of changes in deployment and maintenance logs.
+# [ ] Revalidate after any publisher or website ownership changes.
+#
+# --- SAMPLE FORMAT ---
+# domain.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# domain.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+#
+# --- IMPLEMENTATION NOTES ---
+# Google and many ad buying ecosystems rely on this file for verification.
+# When used correctly, it helps reduce fraud, improve transparency, and support brand safety.
+# It should be treated as a live compliance asset rather than a static placeholder.
+#
+# --- IMPORTANT DISCLAIMER ---
+# Replace the placeholder publisher ID with your real Google AdSense publisher ID.
+# Keep entries accurate, verified, and current to avoid compliance issues.
+# This file is intended to support ads.txt standards and digital advertising transparency.
+#
+# --- END OF FILE ---
+# End of adsense.txt

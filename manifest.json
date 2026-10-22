@@ -1,10 +1,604 @@
-{
-  "short_name": "PotGrowHub",
-  "name": "PotGrowHub Platform",
+<escape>﻿{
+  "name": "ReeferDude & PotGrowHub Empire",
+  "short_name": "ReeferDude",
   "start_url": "/",
-  "background_color": "#0f172a",
-  "theme_color": "#38bdf8",
   "display": "standalone",
-  "orientation": "portrait-primary",
-  "scope": "/"
-}
+  "background_color": "#12261b",
+  "theme_color": "#2d6a4f",
+  "description": "Zero-budget AI budtender, head shop, and ghost-agentic e-commerce platform.",
+  "icons": [
+    {
+      "src": "/assets/icon-bud-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icon-bong-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "id": "/",
+  "scope": "/",
+  "lang": "en-US",
+  "dir": "ltr",
+  "orientation": "any",
+  "categories": [
+    "education",
+    "lifestyle",
+    "shopping",
+    "utilities",
+    "productivity",
+    "books",
+    "health"
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "display_override": [
+    "standalone",
+    "minimal-ui",
+    "browser"
+  ],
+  "shortcuts": [
+    {
+      "name": "Ask GanjaGuru",
+      "short_name": "GanjaGuru",
+      "description": "Explore cannabis knowledge and get guided assistance from the PotGrowHub AI companion.",
+      "url": "/?action=ask-ganjaguru",
+      "icons": [
+        {
+          "src": "/assets/icon-bud-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Cultivation Knowledge",
+      "short_name": "Grow Guides",
+      "description": "Explore cultivation education, growing environments, plant care, and troubleshooting resources.",
+      "url": "/?section=cultivation",
+      "icons": [
+        {
+          "src": "/assets/icon-bud-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Explore Products",
+      "short_name": "Shop",
+      "description": "Discover product categories and shopping resources when available.",
+      "url": "/?section=shop",
+      "icons": [
+        {
+          "src": "/assets/icon-bong-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "handle_links": "preferred",
+  "protocol_handlers": [],
+  "file_handlers": [],
+  "share_target": {
+    "action": "/share",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "shortcuts_menu": {
+    "description": "Quick access to the core PotGrowHub experience."
+  },
+  "features": {
+    "brand": {
+      "primary_name": "PotGrowHub.store",
+      "ai_companion": "GanjaGuru",
+      "legacy_name": "ReeferDude",
+      "brand_strategy": "One brand. One name. One universe.",
+      "north_star": "PotGrowHub.store is where a living cannabis companion — GanjaGuru — turns curiosity into cultivation, creation, and commerce.",
+      "primary_domain": "https://potgrowhub.store/",
+      "brand_personality": [
+        "Hustlin' Hippie Gangster",
+        "Cosmic-cannabis futurism",
+        "Streetwise technical education",
+        "Grassroots entrepreneurship",
+        "Sustainability-conscious innovation"
+      ]
+    },
+    "application": {
+      "application_type": "Progressive Web Application",
+      "delivery_model": "Web-first, installable where supported",
+      "architecture_goals": [
+        "Responsive interface",
+        "Progressive enhancement",
+        "Accessible navigation",
+        "Fast loading",
+        "Secure connections",
+        "Modular implementation",
+        "Graceful degradation",
+        "Low-bandwidth compatibility",
+        "Offline support where implemented",
+        "Cross-browser compatibility"
+      ],
+      "budget_policy": "Prefer free and open-source technologies and services.",
+      "operating_status": "Manifest configuration does not itself implement or verify these capabilities."
+    },
+    "visual_identity": {
+      "design_direction": "Cosmic-cannabis futurism with an accessible, streetwise interface.",
+      "colors": {
+        "midnight_green": "#12261b",
+        "forest_green": "#2d6a4f",
+        "electric_green": "#32CD32",
+        "cosmic_gold": "#FFD700",
+        "cosmic_violet": "#8A2BE2",
+        "charcoal": "#212121",
+        "near_black": "#121212"
+      },
+      "design_concepts": [
+        "Floating environments",
+        "Orbital navigation",
+        "Organic shapes",
+        "Subtle cosmic particles",
+        "Accessible interface panels",
+        "Responsive layouts",
+        "Reduced-motion support",
+        "High-contrast text",
+        "Visible keyboard focus",
+        "Optimized visual assets"
+      ],
+      "typography_preferences": [
+        "Orbitron for selected display text",
+        "Poppins for interface text",
+        "System font fallbacks"
+      ]
+    },
+    "ganjaguru_ai": {
+      "name": "GanjaGuru",
+      "role": "AI companion within PotGrowHub.store",
+      "purpose": "Help visitors turn questions into useful learning, exploration, and creative outcomes.",
+      "potential_capabilities": [
+        "Cannabis terminology education",
+        "Cultivation education",
+        "Plant-care information",
+        "Growing-environment concepts",
+        "Strain information",
+        "Cannabinoid education",
+        "Terpene education",
+        "Equipment discovery",
+        "Product comparisons",
+        "Creative brainstorming",
+        "Educational question answering",
+        "Guided learning",
+        "Shopping-list preparation where supported",
+        "File analysis where implemented",
+        "Voice interaction where implemented",
+        "Relevant reference discovery",
+        "Responsible-use education",
+        "Legal-awareness resources"
+      ],
+      "quality_requirements": [
+        "Accurate responses",
+        "Transparent uncertainty",
+        "No fabricated citations",
+        "No unsupported medical claims",
+        "Privacy-conscious processing",
+        "Clear capability limitations",
+        "Accessible interaction controls",
+        "Appropriate legal and safety disclaimers",
+        "No claim of professional licensure",
+        "No claims of completed external actions without confirmation"
+      ],
+      "integration_status": "Capabilities must be implemented and tested independently."
+    },
+    "knowledge_system": {
+      "categories": [
+        "Cannabis fundamentals",
+        "Cultivation terminology",
+        "Plant anatomy",
+        "Growing environments",
+        "Lighting concepts",
+        "Temperature and humidity",
+        "Ventilation and airflow",
+        "Growing media",
+        "Water and irrigation",
+        "Nutrient education",
+        "Plant health",
+        "Pest identification education",
+        "Harvesting education",
+        "Drying and curing education",
+        "Storage education",
+        "Cannabinoids",
+        "Terpenes",
+        "Strain references",
+        "Equipment and accessories",
+        "Responsible-use information",
+        "Cannabis culture and terminology",
+        "Sustainability",
+        "Creative projects",
+        "Product discovery",
+        "Legal-awareness resources"
+      ],
+      "content_requirements": [
+        "Use credible sources where appropriate",
+        "Record relevant publication and review dates",
+        "Distinguish evidence from anecdote",
+        "Identify uncertainty",
+        "Avoid fabricated references",
+        "Respect copyright and licensing",
+        "Review legal and safety-sensitive content",
+        "Correct known factual errors",
+        "Avoid thin and duplicate content",
+        "Protect private datasets and user information"
+      ]
+    },
+    "cultivation_education": {
+      "topics": [
+        "Plant life-cycle concepts",
+        "Growing-space planning",
+        "Environmental monitoring",
+        "Light terminology",
+        "Temperature management concepts",
+        "Humidity concepts",
+        "Vapor pressure deficit education",
+        "Airflow and ventilation",
+        "Water-quality fundamentals",
+        "Growing-media comparisons",
+        "Nutrient terminology",
+        "Plant observation",
+        "Common symptom identification",
+        "Pest and disease awareness",
+        "Harvest readiness education",
+        "Drying and curing concepts",
+        "Equipment safety",
+        "Sustainable growing practices",
+        "Troubleshooting references",
+        "Cultivation glossary"
+      ],
+      "tools_that_may_be_added": [
+        "Unit converters",
+        "Environmental calculators",
+        "Grow-room planning worksheets",
+        "Observation logs",
+        "Equipment comparison tables",
+        "Reference checklists",
+        "Educational glossaries"
+      ],
+      "implementation_note": "These are planned content and tool categories, not a claim that every tool exists."
+    },
+    "commerce": {
+      "business_model": "Explore lawful, transparent, inventory-light product discovery and commerce.",
+      "potential_features": [
+        "Product catalog",
+        "Category browsing",
+        "Search and filtering",
+        "Product detail pages",
+        "Comparison tools",
+        "Shopping lists",
+        "Cart",
+        "Checkout",
+        "Payment processing",
+        "Order tracking",
+        "Supplier feeds",
+        "Affiliate referrals",
+        "Print-on-demand products",
+        "Third-party fulfillment",
+        "Customer support",
+        "Product availability checks",
+        "Shipping information"
+      ],
+      "requirements": [
+        "Implement only features that have real supporting services",
+        "Verify supplier and fulfillment relationships",
+        "Use accurate product information",
+        "Show prices and availability only when verified",
+        "Disclose affiliate relationships where required",
+        "Protect payment and customer data",
+        "Comply with applicable laws and platform policies",
+        "Avoid fake reviews and deceptive scarcity",
+        "Verify cannabis-related commerce eligibility",
+        "Keep secrets out of public client-side files"
+      ],
+      "status": "Potential capabilities; individual services require implementation and verification."
+    },
+    "creative_tools": {
+      "potential_features": [
+        "Design brainstorming",
+        "Logo concept development",
+        "Sticker design planning",
+        "Print-on-demand design previews",
+        "Product mockups",
+        "Image upload and analysis",
+        "Creative prompt assistance",
+        "Brand asset organization",
+        "Digital product concepts",
+        "Accessibility checks for creative assets"
+      ],
+      "requirements": [
+        "Respect intellectual property",
+        "Document asset licensing",
+        "Protect uploaded files",
+        "Avoid misleading product mockups",
+        "Clearly distinguish previews from purchasable products",
+        "Verify print and fulfillment availability before making promises"
+      ]
+    },
+    "search_and_discovery": {
+      "potential_features": [
+        "Site-wide search",
+        "Knowledge-base search",
+        "Product search",
+        "Topic navigation",
+        "Related content",
+        "Search suggestions",
+        "Filters",
+        "Helpful internal links",
+        "Question-led discovery",
+        "Contextual GanjaGuru assistance"
+      ],
+      "requirements": [
+        "Use descriptive page titles",
+        "Use accurate meta descriptions",
+        "Maintain canonical URLs",
+        "Maintain a valid XML sitemap",
+        "Maintain an appropriate robots.txt",
+        "Use structured data where applicable",
+        "Avoid indexable low-value search-result URLs",
+        "Track meaningful outcomes where consent permits",
+        "Do not guarantee search-engine rankings"
+      ]
+    },
+    "accessibility": {
+      "requirements": [
+        "Semantic HTML",
+        "Keyboard navigation",
+        "Visible focus indicators",
+        "Readable typography",
+        "Sufficient color contrast",
+        "Meaningful image alternative text",
+        "Accessible forms",
+        "Accessible dialogs",
+        "Reduced-motion support",
+        "Responsive layouts",
+        "Captions or transcripts where appropriate",
+        "Accessible status messages",
+        "Clear validation feedback",
+        "Screen-reader compatibility testing"
+      ],
+      "standard": "Follow current applicable WCAG guidance and legal requirements."
+    },
+    "privacy_and_security": {
+      "requirements": [
+        "HTTPS",
+        "Data minimization",
+        "Appropriate consent",
+        "Secure authentication",
+        "Authorization checks",
+        "Input validation",
+        "Safe file processing",
+        "Protected administrative functions",
+        "Dependency maintenance",
+        "Secret management",
+        "Private conversation protection",
+        "Accurate privacy disclosures",
+        "Appropriate retention policies",
+        "No secrets in the manifest",
+        "No sensitive data in public URLs",
+        "No reliance on robots.txt for access control"
+      ]
+    },
+    "performance": {
+      "objectives": [
+        "Fast initial loading",
+        "Responsive interactions",
+        "Stable layouts",
+        "Optimized images",
+        "Efficient font loading",
+        "Minimal unnecessary JavaScript",
+        "Efficient caching",
+        "Reduced third-party script overhead",
+        "Mobile-friendly rendering",
+        "Graceful behavior on slower connections"
+      ],
+      "monitoring": [
+        "Largest Contentful Paint",
+        "Interaction to Next Paint",
+        "Cumulative Layout Shift",
+        "Real-user performance where available",
+        "Laboratory performance tests",
+        "Mobile and desktop behavior"
+      ]
+    },
+    "offline_and_pwa": {
+      "goals": [
+        "Installable experience where supported",
+        "Application icons",
+        "Consistent application identity",
+        "Offline fallback where implemented",
+        "Caching of suitable public resources",
+        "Safe update behavior",
+        "Network recovery",
+        "Clear offline status",
+        "Graceful handling of unavailable services"
+      ],
+      "requirements": [
+        "Use a valid web app manifest",
+        "Use a service worker only when implemented",
+        "Cache only appropriate resources",
+        "Do not cache sensitive responses indiscriminately",
+        "Avoid stale private data",
+        "Test installation on supported browsers",
+        "Test offline and reconnect behavior",
+        "Do not assume manifest declarations create offline functionality"
+      ]
+    },
+    "seo_and_aeo": {
+      "requirements": [
+        "Unique page titles",
+        "Useful meta descriptions",
+        "Canonical links",
+        "Logical heading hierarchy",
+        "Crawlable primary content",
+        "Descriptive internal links",
+        "Valid structured data",
+        "Open Graph metadata",
+        "Optimized images",
+        "Accessible page structure",
+        "Accurate content dates",
+        "Reliable source references",
+        "Valid robots.txt",
+        "Valid XML sitemap",
+        "Appropriate indexing controls",
+        "Useful question-and-answer content",
+        "Accurate brand identity",
+        "No fabricated author credentials",
+        "No keyword stuffing",
+        "No guaranteed ranking claims"
+      ]
+    },
+    "analytics_and_measurement": {
+      "primary_metric": "Meaningful guided sessions",
+      "potential_metrics": [
+        "Organic search clicks",
+        "Search impressions",
+        "Useful guided conversations",
+        "Completed educational tasks",
+        "Successful tool usage",
+        "Relevant product discovery",
+        "Qualified referrals",
+        "Accessibility defects",
+        "Performance metrics",
+        "Broken-link counts",
+        "Content accuracy reports"
+      ],
+      "requirements": [
+        "Use privacy-conscious measurement",
+        "Respect applicable consent requirements",
+        "Verify account ownership",
+        "Never invent tracking identifiers",
+        "Do not claim analytics are connected without confirmation",
+        "Minimize collection of personal information",
+        "Distinguish measured results from estimates"
+      ]
+    },
+    "sustainability": {
+      "principles": [
+        "Prefer efficient digital assets",
+        "Avoid unnecessary data processing",
+        "Reuse existing resources",
+        "Favor free and open-source tools where practical",
+        "Evaluate sustainable materials when sourcing products",
+        "Verify environmental claims",
+        "Avoid unsupported biodegradable or carbon-neutral claims",
+        "Document relevant supplier information"
+      ]
+    },
+    "legal_and_responsible_use": {
+      "requirements": [
+        "Respect applicable laws and regulations",
+        "Apply age restrictions where required",
+        "Review cannabis-related commerce eligibility",
+        "Avoid unsupported medical claims",
+        "Provide appropriate educational disclaimers",
+        "Distinguish general information from professional advice",
+        "Use accurate jurisdiction-specific legal references",
+        "Protect minors where required",
+        "Respect advertising and payment-provider policies",
+        "Verify legal requirements before launching regulated features"
+      ]
+    },
+    "community_and_support": {
+      "potential_features": [
+        "Feedback forms",
+        "Contact information",
+        "Educational discussions",
+        "Community resources",
+        "Frequently asked questions",
+        "Error reporting",
+        "Content correction requests",
+        "User support documentation"
+      ],
+      "requirements": [
+        "Publish only real contact methods",
+        "Protect personal information",
+        "Moderate community features where implemented",
+        "Avoid fabricated user activity",
+        "Make support limitations clear",
+        "Provide accessible reporting pathways where available"
+      ]
+    },
+    "zero_budget_policy": {
+      "budget": 0,
+      "preferred_approach": "Free and open-source first",
+      "requirements": [
+        "Prioritize no-cost tools",
+        "Avoid unnecessary subscriptions",
+        "Check free-tier limits",
+        "Document third-party dependencies",
+        "Review software licenses",
+        "Avoid paid integrations without explicit approval",
+        "Do not promise external services will remain free",
+        "Build incrementally",
+        "Keep the core experience functional without optional integrations"
+      ]
+    },
+    "project_status": {
+      "status_values": [
+        "planned",
+        "in_progress",
+        "implemented",
+        "verified",
+        "blocked",
+        "not_applicable"
+      ],
+      "requirements": [
+        "Record actual implementation status",
+        "Record test results",
+        "Record verification dates",
+        "Document dependencies",
+        "Document limitations",
+        "Keep planned capabilities distinct from working features",
+        "Do not claim a service is connected merely because configuration exists"
+      ]
+    },
+    "maintenance": {
+      "tasks": [
+        "Review dependencies",
+        "Validate manifest syntax",
+        "Verify icon paths and image dimensions",
+        "Test installation behavior",
+        "Test application shortcuts",
+        "Check URL destinations",
+        "Review privacy and security implications",
+        "Audit accessibility",
+        "Measure performance",
+        "Validate structured data",
+        "Review content accuracy",
+        "Verify integration status",
+        "Document material changes",
+        "Remove obsolete configuration"
+      ],
+      "release_requirements": [
+        "Validate JSON syntax",
+        "Confirm all referenced assets exist",
+        "Confirm shortcut destinations work",
+        "Confirm scope and start URL are correct",
+        "Test supported browsers",
+        "Test responsive behavior",
+        "Check for console errors",
+        "Confirm no private credentials are included",
+        "Confirm legal and privacy requirements are considered"
+      ]
+    }
+  }
+}</escape>

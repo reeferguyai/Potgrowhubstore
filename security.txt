@@ -1,4 +1,5 @@
-Contact: mailto:techwhisperer420@gmail.com
-Contact: mailto:reeferguyai@gmail.com
-Expires: 2027-10-22T00:00:00.000Z
-Canonical: https://potgrowhub.store/.well-known/security.txt
+Contact: holler@reeferdude.com
+
+This project follows a public disclosure model. If you discover a security issue, please reach out privately before publishing details.
+
+Please avoid creating a public security report until the issue has been reviewed and a remediation plan is confirmed.
