@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>ReeferDude</ShortName>
+  <Description>Search ReeferDude and PotGrowHub — AI budtender, strain guides, grow blueprints and the ghost marketplace.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Url type="text/html" template="https://potgrowhub.store/?q={searchTerms}" />
+  <moz:SearchForm>https://potgrowhub.store/</moz:SearchForm>
+</OpenSearchDescription>

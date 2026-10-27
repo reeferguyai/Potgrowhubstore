@@ -520,27 +520,4 @@ Allow: /
 User-agent: archive.org_bot
 Allow: /
 
-Sitemap: https://reeferdude.com/sitemap.xml
 Sitemap: https://potgrowhub.store/sitemap.xml
-Sitemap: https://reeferdude.com/sitemap_index.xml
-Sitemap: https://potgrowhub.store/sitemap_index.xml
-Sitemap: https://reeferdude.com/wp-sitemap.xml
-Sitemap: https://potgrowhub.store/wp-sitemap.xml
-Sitemap: https://reeferdude.com/image-sitemap.xml
-Sitemap: https://potgrowhub.store/image-sitemap.xml
-Sitemap: https://reeferdude.com/video-sitemap.xml
-Sitemap: https://potgrowhub.store/video-sitemap.xml
-Sitemap: https://reeferdude.com/news-sitemap.xml
-Sitemap: https://potgrowhub.store/news-sitemap.xml
-Sitemap: https://reeferdude.com/page-sitemap.xml
-Sitemap: https://potgrowhub.store/page-sitemap.xml
-Sitemap: https://reeferdude.com/post-sitemap.xml
-Sitemap: https://potgrowhub.store/post-sitemap.xml
-Sitemap: https://reeferdude.com/product-sitemap.xml
-Sitemap: https://potgrowhub.store/product-sitemap.xml
-Sitemap: https://reeferdude.com/category-sitemap.xml
-Sitemap: https://potgrowhub.store/category-sitemap.xml
-Sitemap: https://reeferdude.com/author-sitemap.xml
-Sitemap: https://potgrowhub.store/author-sitemap.xml
-Sitemap: https://reeferdude.com/sitemap.xml.gz
-Sitemap: https://potgrowhub.store/sitemap.xml.gz

@@ -1,4 +1,4 @@
-<escape>﻿{
+{
   "name": "ReeferDude & PotGrowHub Empire",
   "short_name": "ReeferDude",
   "start_url": "/",
@@ -8,14 +8,14 @@
   "description": "Zero-budget AI budtender, head shop, and ghost-agentic e-commerce platform.",
   "icons": [
     {
-      "src": "/assets/icon-bud-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "/assets/icon-bud.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
     },
     {
-      "src": "/assets/icon-bong-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "/assets/icon-bong.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ],
   "id": "/",
@@ -47,9 +47,9 @@
       "url": "/?action=ask-ganjaguru",
       "icons": [
         {
-          "src": "/assets/icon-bud-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
+          "src": "/assets/icon-bud.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
         }
       ]
     },
@@ -60,9 +60,9 @@
       "url": "/?section=cultivation",
       "icons": [
         {
-          "src": "/assets/icon-bud-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
+          "src": "/assets/icon-bud.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
         }
       ]
     },
@@ -73,9 +73,9 @@
       "url": "/?section=shop",
       "icons": [
         {
-          "src": "/assets/icon-bong-512.png",
-          "sizes": "512x512",
-          "type": "image/png"
+          "src": "/assets/icon-bong.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
         }
       ]
     }
@@ -601,4 +601,4 @@
       ]
     }
   }
-}</escape>
+}

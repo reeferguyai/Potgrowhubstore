@@ -1,6 +1,65 @@
-FULL UNCACHED LLM CONTEXT DUMP: PotGrowHub
-Domain: potgrowhub.store
-Co-Owners: Raymond Meadows, Jessica Mullins
-Primary Emails: reeferguyai@gmail.com, techwhisperer420@gmail.com, TekWhisperer2018@gmail.com, raymeadows2014@outlook.com
-GitHub: @techwhisperer420, @potpimp
-Google Local Guides: Level 7 Contributor
+# ReeferDude / PotGrowHub — full context
+
+Website: https://potgrowhub.store/
+Co-founders: Ray Meadows and Jessica Mullins.
+What this site is: an education-first hub for cannabis culture, cultivation knowledge, AI-assisted discovery (the GanjaGoddess AI budtender), design tools, and a zero-inventory ghost marketplace. The flagship experience is ReeferDude; PotGrowHub is the store and commerce engine.
+
+Membership tiers displayed on the site: Seed Starter $19/mo, Master Grower $49/mo, Ganjapreneur $99/mo. Checkout is not live; no page on this site takes payment.
+Hemp-derived products only. No actual cannabis is sold. 18+ only. This content is general education, not medical advice.
+
+## All pages
+
+- [ReeferDude — Let AI Grow It, You Smoke It | AI Budtender, Strain Lab, Grow Blueprints](https://potgrowhub.store/) — ReeferDude is the AI budtender flagship at reeferdude.com: a cannabis-infused chat where a floating avatar's smoke forms the menu — strain matching, a 3D print-on-demand Design Studio, grow-room blueprinting, a ghost marketplace, delivery and consultations. The store engine lives at potgrowhub.store. Let AI Grow It, You Smoke It.
+- [About Us | ReeferDude · PotGrowHub](https://potgrowhub.store/about/) — Who's behind ReeferDude and PotGrowHub: a technician, a builder, and one hustle — cannabis culture, education, and AI-powered discovery.
+- [Accessibility | ReeferDude · PotGrowHub](https://potgrowhub.store/accessibility/) — Our commitment to an accessible experience for every visitor.
+- [AI Budtender | ReeferDude](https://potgrowhub.store/ai-budtender/) — The ReeferDude AI budtender, explained: how it answers hemp questions, what it can help with, and where its limits are.
+- [AR and VR Experiences | ReeferDude](https://potgrowhub.store/ar-vr-experiences/) — Augmented and virtual reality experiences in the ReeferDude world: virtual grow rooms, relaxation spaces, and how to join them.
+- [Blog | ReeferDude](https://potgrowhub.store/blog/) — The ReeferDude blog: articles on hemp growing, strains, products, and platform news, written for learning first.
+- [Blueprinting Studio | ReeferDude · PotGrowHub](https://potgrowhub.store/blueprinting/) — Run the grow-room math: canopy size, LED wattage, exhaust CFM, and live VPD for your exact space and stage.
+- [AI Virtual Budtender | ReeferDude · PotGrowHub](https://potgrowhub.store/budtender/) — Chat with the GanjaGoddess AI budtender — strain picks, grow help, and straight answers. Voice in, voice out, right in your browser.
+- [Cannabinoids | ReeferDude](https://potgrowhub.store/cannabinoids/) — Cannabinoids explained: CBD, THC, and the other compounds in hemp, how they differ, and what the law limits.
+- [Cannabis Basics | ReeferDude](https://potgrowhub.store/cannabis-basics/) — Cannabis basics: the plant, its parts, its main compounds, and the vocabulary every beginner needs.
+- [Cannabis Education | ReeferDude](https://potgrowhub.store/cannabis-education/) — Cannabis education for beginners: the plant, its compounds, its history, and how to learn more without hype or misinformation.
+- [Cannabis FAQ | ReeferDude](https://potgrowhub.store/cannabis-faq/) — Answers to common questions about cannabis and hemp: what the plant is, how hemp differs from marijuana, and what the law allows.
+- [Cannabis Glossary | ReeferDude](https://potgrowhub.store/cannabis-glossary/) — Cannabis glossary: plain definitions for cannabis, hemp, cannabinoid, terpene, and cultivation terms.
+- [Consultations | ReeferDude · PotGrowHub](https://potgrowhub.store/consultation/) — Book a one-on-one consultation: grow room blueprints, strain strategy, and brand and business guidance from the ReeferDude bench.
+- [Contact | ReeferDude · PotGrowHub](https://potgrowhub.store/contact/) — How to reach ReeferDude and PotGrowHub — business, partnerships, support, and accessibility.
+- [Creative Tools | ReeferDude](https://potgrowhub.store/creative-tools/) — ReeferDude creative tools: the design studio, logo maker, sticker designer, and print-on-demand tools for makers.
+- [Cultivation | ReeferDude](https://potgrowhub.store/cultivation/) — An overview of hemp cultivation: the plant life cycle, what the plant needs at each stage, and how growers manage a crop from seed to harvest.
+- [Cultivation FAQ | ReeferDude](https://potgrowhub.store/cultivation-faq/) — Frequently asked questions about growing hemp: seeds, soil, light, water, nutrients, pests, harvest, and curing.
+- [Cultivation Supplies | ReeferDude](https://potgrowhub.store/cultivation-supplies/) — Cultivation supplies: the equipment and consumables a hemp grow needs, from lights and tents to medium, nutrients, and meters.
+- [Design Studio | ReeferDude · PotGrowHub](https://potgrowhub.store/design-studio/) — Design custom glass, apparel, and gear in the studio — pick your piece, your colors, your add-ons, and watch the price build live.
+- [Disclaimer | ReeferDude](https://potgrowhub.store/disclaimer/) — ReeferDude disclaimer: the limits of general educational content, product information, and third-party links on this site.
+- [Eco-Friendly Products | ReeferDude](https://potgrowhub.store/eco-friendly-products/) — Eco-friendly hemp products: what makes a product genuinely lower impact, from materials and packaging to shipping and end of life.
+- [FAQs | ReeferDude · PotGrowHub](https://potgrowhub.store/faq/) — Straight answers: what PotGrowHub is, how the Ghost Marketplace works, the AI budtender, consultations, privacy, and more.
+- [GanjaGuru | ReeferDude](https://potgrowhub.store/ganjaguru/) — GanjaGuru: the ReeferDude platform blueprint, its islands, and how the flagship experience fits together.
+- [Grow Lights | ReeferDude](https://potgrowhub.store/grow-lights/) — Grow lights for hemp: light types, how much light plants need, hanging height, and schedules for each growth stage.
+- [Grow Room Design | ReeferDude](https://potgrowhub.store/grow-room-design/) — How to design a hemp grow room: space, light layout, airflow, and workflow, from a small tent to a dedicated room.
+- [Grow Room Planner | ReeferDude](https://potgrowhub.store/grow-room-planner/) — Plan your hemp grow room: size, layout, light count, airflow, and a checklist before you buy equipment.
+- [Growing Cannabis | ReeferDude](https://potgrowhub.store/growing-cannabis/) — Growing cannabis and hemp: the full process from seed to cured flower, with the legal and safety notes that come first.
+- [Growing Mediums | ReeferDude](https://potgrowhub.store/growing-mediums/) — Growing mediums for hemp: soil, coco coir, hydroponics, and other options compared, with watering and feeding notes for each.
+- [Guides | ReeferDude](https://potgrowhub.store/guides/) — All ReeferDude guides in one place: growing, strains, products, design, and business, organized for quick browsing.
+- [Harvesting and Curing | ReeferDude](https://potgrowhub.store/harvesting-and-curing/) — Harvesting and curing hemp: when to harvest, how to dry, and how to cure for flavor, smoothness, and storage.
+- [Head Shop | ReeferDude](https://potgrowhub.store/head-shop/) — The ReeferDude head shop: pipes, papers, grinders, storage, and accessories for adults, with honest buying guidance.
+- [How To | ReeferDude](https://potgrowhub.store/how-to/) — How-to guides for hemp: quick, practical walkthroughs for the tasks growers and buyers do most.
+- [Logo Maker | ReeferDude](https://potgrowhub.store/logo-maker/) — The ReeferDude logo maker: build a brand mark for your hemp project with templates, type, color, and export options.
+- [Ghost Agentic E-Commerce | ReeferDude · PotGrowHub](https://potgrowhub.store/marketplace/) — The Ghost Marketplace: a zero-inventory, agent-run storefront. Products are sourced, made, and shipped per order — no warehouse, no waste.
+- [News | ReeferDude](https://potgrowhub.store/news/) — ReeferDude news: platform updates, hemp industry news, and regulatory explainers, all in one feed.
+- [Nutrients and Feeding | ReeferDude](https://potgrowhub.store/nutrients-and-feeding/) — Feeding hemp: the nutrients plants need, how feeding changes by stage, and how to spot and fix deficiencies and excesses.
+- [Pest Management | ReeferDude](https://potgrowhub.store/pest-management/) — Pest management for hemp: prevention first, identifying common pests, and safe, legal control options for home growers.
+- [Plant Health | ReeferDude](https://potgrowhub.store/plant-health/) — Plant health for hemp: reading leaves, diagnosing common problems, and deciding whether to treat, wait, or remove a plant.
+- [Print on Demand | ReeferDude](https://potgrowhub.store/print-on-demand/) — Print on demand at ReeferDude: how custom apparel, accessories, and 3D pieces are made only after you order them.
+- [Privacy Policy | ReeferDude · PotGrowHub](https://potgrowhub.store/privacy/) — How ReeferDude and PotGrowHub handle your information.
+- [Product Discovery | ReeferDude](https://potgrowhub.store/product-discovery/) — How to discover hemp products that fit your goals: product types, what labels mean, and how to compare options before buying.
+- [Products | ReeferDude](https://potgrowhub.store/products/) — Hemp product categories on ReeferDude: what each category is, how to judge quality, and how ordering works through the store engine.
+- [Resources | ReeferDude](https://potgrowhub.store/resources/) — ReeferDude resources: the guides, tools, downloads, and reference pages in one place, organized by what you are trying to do.
+- [Responsible Use | ReeferDude](https://potgrowhub.store/responsible-use/) — Responsible use of hemp: age rules, safe storage, driving, work, and how to keep hemp use from causing problems.
+- [Smoking Accessories | ReeferDude](https://potgrowhub.store/smoking-accessories/) — Smoking accessories: pipes, papers, grinders, and storage, what each is for, and how to choose quality pieces.
+- [Sticker Designer | ReeferDude](https://potgrowhub.store/sticker-designer/) — The ReeferDude sticker designer: turn artwork into stickers with shapes, sizes, finishes, and print-on-demand production.
+- [Strain Creation Lab | ReeferDude · PotGrowHub](https://potgrowhub.store/strain-builder/) — Design your own cannabis cultivar concept: pick the lineage, effects, and flavors, and the Lab builds your strain profile.
+- [Strain Library | ReeferDude](https://potgrowhub.store/strain-library/) — The ReeferDude strain library: an organized collection of hemp strain profiles by family, aroma, and growing traits.
+- [Terms of Service | ReeferDude · PotGrowHub](https://potgrowhub.store/terms/) — The terms that govern your use of ReeferDude and PotGrowHub.
+- [Terpenes | ReeferDude](https://potgrowhub.store/terpenes/) — Terpenes explained: the aromatic compounds behind hemp aroma, the main terpenes, and how they help you compare strains.
+- [Tutorials | ReeferDude](https://potgrowhub.store/tutorials/) — ReeferDude tutorials: step-by-step lessons for growing, using the site tools, and building with hemp.
+- [VPD and Environment | ReeferDude](https://potgrowhub.store/vpd-and-environment/) — Vapor pressure deficit and grow environment: temperature, humidity, and airflow explained, with target ranges for each stage.
+- [Watering and Irrigation | ReeferDude](https://potgrowhub.store/watering-and-irrigation/) — Watering hemp and irrigation options: how much, how often, signs of trouble, and simple systems from hand watering to drip lines.
